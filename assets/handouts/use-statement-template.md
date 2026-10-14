@@ -68,8 +68,13 @@ headings.
 
 ## 7. Defensible final decision
 
-- What do you decide, and why? Under which conditions would you change
-  the decision?
+- **Constraints:** Which conditions must hold before you consider any
+  use? Think of consent, data protection, and the rules that apply.
+- **Comparison:** How do benefits, burdens, and uncertainty compare with
+  the alternative, for the same task and the same quality?
+- **Accountability:** Who decides, who can object, and when do you
+  review the decision?
+- What do you decide, and why? Which result would change the decision?
 
 ## Follow-up action
 

@@ -36,7 +36,7 @@ The afternoon applies the vocabulary to the institutions in which participants w
 
 5. [Panarchy](panarchy.qmd): a facilitated discussion of 130 minutes. Output: a shared chart, three priorities, action owners, and a review point.
 6. [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation): a 30-minute adaptation. Output: a diagnosis of the priority initiatives.
-7. Research-use clinic: each participant applies the worksheet to their own research use, and a peer reviews it.
+7. Research-use clinic: each participant applies the worksheet to their own research use. Each participant then decides with three questions: constraints, comparison, and accountability. A peer reviews the result.
 
 Your contributions on the day are four lens worksheets, a group Panarchy chart, an Ecocycle diagnosis, and one practical action.
 
