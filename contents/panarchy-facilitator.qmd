@@ -133,6 +133,8 @@ Form new groups of four. Mix people from different groups. Say:
 
 > "Where could a change at one level unlock change at another level? Where does one level block another? Write opportunities on one color, barriers on the other color. Name the levels for each note."
 
+Ask the groups to label each link with its kind: funding, rules, data, procurement, or technical dependence. A level higher on the chart does not always hold more power.
+
 ### 10. Share possibilities · minutes 90–100
 
 Say:
@@ -140,6 +142,8 @@ Say:
 > "Three or four people: add your group's opportunities and barriers to the chart. Put each note between the levels that it connects."
 
 ### 11. Prioritize · minutes 100–110
+
+Before the vote, ask: "Does any option raise an objection about consent, rights, or a burden on one group?" Write each objection on the chart next to the option. The vote does not settle an objection.
 
 Give each participant three dot stickers. Say:
 
@@ -159,7 +163,7 @@ Use **1-2-4-All** for the three priorities. Say:
 >
 > "Then all: each group shares its strongest action."
 
-Each participant notes one action on the [action plan](handouts/action-plan.qmd), with an owner. The remaining minutes go to the plenary round.
+Each participant notes one action on the [action plan](handouts/action-plan.qmd), with an owner. Ask who decides at that level, not only who volunteers. The remaining minutes go to the plenary round.
 
 ### 13. Arrange follow-up · minutes 125–130
 
@@ -172,7 +176,7 @@ Record a review date for each trio. The product of the session is a shared chart
 ## Ecocycle: a 30-minute adaptation
 
 ::: {.callout-important title="Not the full method"}
-The full Ecocycle Planning takes about 90 minutes [@ls-ecocycle]. This is a shortened course adaptation. The Panarchy page of Liberating Structures suggests adding 30 to 50 minutes for a focused Ecocycle diagnosis [@ls-panarchy]. Do not call this segment a full Ecocycle workshop.
+The full Ecocycle Planning takes about 90 minutes [@ls-ecocycle]. This is a shortened course adaptation. The Panarchy page of Liberating Structures suggests adding 30 to 50 minutes for a focused Ecocycle diagnosis [@ls-panarchy]. Do not call this segment a full Ecocycle workshop. The phases are a heuristic: a stable rule is not always a rigidity trap, and an ending is not always renewal.
 :::
 
 | Minute | Clock       | Duration | Step                                                   | Product                            |
@@ -224,7 +228,7 @@ Say:
 
 - **Fewer than eight participants.** Use pairs instead of quartets in steps 4, 6, and 9. Keep the durations.
 - **Sixteen participants.** Use four quartets. In step 5, invite one person per quartet to the wall.
-- **Mixed levels in the room.** If participants come from one department only, ask them to speak for levels that are not in the room, and mark these notes.
+- **Mixed levels in the room.** If participants come from one department only, ask them to speak for levels that are not in the room, and mark these notes. Treat these notes as questions to check with these people, not as their answers.
 - **Online.** The structure works online with breakout rooms, but this course needs no online whiteboard. Each participant can draw their own chart on paper and hold it up to the camera.
 - **Accessibility.** Read every note aloud when you place it. Offer large-print charts. Let participants dictate notes to a partner.
 
