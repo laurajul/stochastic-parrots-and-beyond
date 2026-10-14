@@ -1,0 +1,39 @@
+---
+title: Spring semester 2027 (FS 2027)
+subtitle: 'Planned edition · details to be confirmed'
+description: >-
+  The planned FS 2027 edition of Stochastic Parrots and Beyond. Date, venue,
+  and rules are not confirmed yet.
+---
+
+{{< edition fs2027 banner >}}
+
+A second edition is planned for the spring semester 2027. The same teaching materials serve this edition. The practical facts are not confirmed yet. This page shows them as soon as a public source confirms them.
+
+::: {.callout-important title="Do not use the rules of HS 2026"}
+The date, the venue, the eligibility, the credits, and the attendance rules of the HS 2026 edition do not automatically apply to FS 2027. Wait for the confirmed listing.
+:::
+
+## Practical information
+
+{{< edition fs2027 facts >}}
+
+## What is already known
+
+{{< edition fs2027 notes >}}
+
+## Prepare in advance
+
+You can prepare with the shared materials now. They do not depend on the edition.
+
+- Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
+- Look at the [syllabus](../syllabus.qmd) and the four lens pages.
+- Read the [assignments](../assignments.qmd) page. Its rules are proposals until each edition confirms them.
+
+## Follow-up task and deadline
+
+The deadline for the follow-up task is {{< edition fs2027 assessment_deadline >}}. The [assignments](../assignments.qmd) page describes the proposed task.
+
+## Contact
+
+Ask the Graduate Center (GRACE) of the University of Basel about the next edition. Report errors on this site through [GitHub Issues](https://github.com/maehr/stochastic-parrots-and-beyond/issues).

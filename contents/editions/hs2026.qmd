@@ -1,0 +1,71 @@
+---
+title: Autumn semester 2026 (HS 2026)
+subtitle: 'University of Basel · Graduate Center (GRACE), Transferable Skills'
+description: >-
+  Date, venue, directions, rules, preparation, and schedule for the HS 2026
+  edition of Stochastic Parrots and Beyond.
+---
+
+{{< edition hs2026 banner >}}
+
+This page is the single reference for participants of the HS 2026 edition. The {{< edition hs2026 official_url link="official course listing of the University of Basel" >}} overrides this page if the two differ.
+
+## Practical information
+
+{{< edition hs2026 facts >}}
+
+## Getting there
+
+The course takes place at {{< edition hs2026 venue >}}, {{< edition hs2026 address >}}. Use the {{< edition hs2026 map_url link="directions to the building" >}}.
+
+## Attendance and registration
+
+- Full attendance is mandatory.
+- Registration: {{< edition hs2026 registration >}}. This site takes no registrations.
+- A late withdrawal after the registration deadline, or an unannounced absence, incurs a fee of {{< edition hs2026 no_show_fee >}} under the published course regulations.
+- Further consequences for later registrations follow the {{< edition hs2026 regulations_url link="regulations of the Transferable Skills programme" >}}. This site does not repeat them.
+
+Write to {{< edition hs2026 contact link="the course administration" >}} about registration, attendance, or a withdrawal. Do not use GitHub for these questions.
+
+## Prepare for the course day
+
+1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
+2. Choose two recommended readings or cases from the [literature](../literature.qmd) page.
+3. Write a short description of one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it.
+4. Bring a laptop.
+
+The [assignments](../assignments.qmd) page gives a proposed plan for the eight hours of preparation.
+
+::: {.callout-important title="Protect your data"}
+Do not bring confidential or personal research data to the exercises. No exercise needs a commercial AI account.
+:::
+
+## Schedule for the course day
+
+Detailed program: {{< edition hs2026 detailed_program >}}.
+
+{{< include ../_timetable.qmd >}}
+
+## Credits
+
+- Credits: {{< edition hs2026 credits >}}
+- Workload: {{< edition hs2026 workload >}}.
+- The credit depends on full attendance and on the completion of the applicable tasks.
+- The Graduate Center (GRACE) confirms the credit. It normally becomes visible {{< edition hs2026 credits_visible >}}, not directly after the submission.
+
+## Follow-up task
+
+The proposed follow-up task is a Responsible GenAI Use Statement. The [assignments](../assignments.qmd) page describes it.
+
+::: {.callout-warning title="Not yet binding"}
+The exact task, the assessment rules, the submission channel, and the deadline need confirmation by the instructors and the Graduate Center. Deadline: {{< edition hs2026 assessment_deadline >}}. This page will show the confirmed rules.
+:::
+
+## Course evaluation
+
+The last ten minutes of the course day are for the course evaluation. Use this link on the course day: {{< edition hs2026 evaluation >}}.
+
+## Contact
+
+- Registration, attendance, and credits: {{< edition hs2026 contact link="course administration (GRACE)" >}}.
+- Errors on this site: [GitHub Issues](https://github.com/maehr/stochastic-parrots-and-beyond/issues). Do not post personal data.

@@ -1,0 +1,131 @@
+---
+title: 'Lens 3: Lifecycle and Labor — Materiality and Extraction'
+subtitle: 'Who does the work, carries the risk, or has no recourse?'
+description: >-
+  The model lifecycle and the people it affects: data labeling, content
+  moderation, feedback work, and the labor that "automation" hides.
+---
+
+::: {.callout-note title="At a glance"}
+- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Output:** a lifecycle risk matrix.
+- **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
+- **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).
+- **Anchor sources:** Crawford [-@crawford2021], chapters 2 and 3; Bender et al. [-@bender2021].
+:::
+
+::: {.callout-caution title="Content note"}
+The case describes workers who read texts about violence and sexual abuse. The page describes their working conditions. It quotes none of the texts.
+:::
+
+## Question
+
+_Who does the work, carries the risk, or has no recourse?_
+
+A generative AI system looks automatic. Behind it, people collect and label data, rate answers, moderate content, maintain hardware, and write the texts and images that the system learned from. This lens follows the lifecycle of a model and asks who works at each stage, who carries the risk, and who can object.
+
+## Core concepts
+
+### 1. The lifecycle has six stages
+
+The course uses six stages: **design → data → training → deployment → evaluation → governance**. Each stage involves different people and different risks. Suresh and Guttag show that harm can enter at many points of the machine learning lifecycle, from the collection of data to the deployment of a model [-@suresh2021]. Weidinger et al. sort the risks of language models into six areas, from discrimination and misinformation to environmental and socioeconomic harms [-@weidinger2022].
+
+![The six stages of the lifecycle, with the people who work, the people who carry risk, and the questions to ask at each stage. Original diagram.](../../assets/cases/03-lifecycle.svg){fig-alt="Six boxes in a row, connected by arrows: design, data, training, deployment, evaluation, governance. Under each box, two lines name the people who work at this stage and the people who carry the risk. A return arrow from governance back to design shows that the cycle repeats."}
+
+### 2. Labor is hidden behind "automation"
+
+- **Ghost work.** Gray and Suri describe task-based, on-demand work that keeps automated services running but stays invisible to their users [-@gray2019].
+- **Fauxtomation.** Taylor uses this term for systems that are presented as automated but depend on hidden human work. In her words, it "aims to disguise the real character of the work in question" [-@taylor2018].
+- **Feedback work.** Instruction-following models learn from human judgement. For InstructGPT, OpenAI hired about 40 contractors through Upwork and Scale AI to write example answers and to rank model outputs [@ouyang2022].
+- **Instructions shape data.** Miceli and Posada studied outsourced data work in Venezuela and Argentina. Instructions, interfaces, and performance metrics reproduce the worldview of the requesters, and precarious conditions make workers obedient to them [@miceli2022].
+
+### 3. Extraction concerns people who never agreed
+
+Training data come from the work of writers, artists, photographers, and translators. Their consent was rarely asked. Crawford describes the collection of data at this scale as a form of extraction, next to the extraction of minerals and labor [-@crawford2021, chs. 2–3]. Copyright, consent, and provenance are therefore questions of labor too.
+
+### 4. Recourse is unevenly distributed
+
+A person who is harmed by an output can often not find out which data, which worker, or which decision caused it. Bender et al. warn that undocumented training data "perpetuates harm without recourse" [@bender2021, 615].
+
+## Evidence and limits
+
+::: {.callout-note title="What the evidence shows"}
+- Investigative journalism and interview studies document the conditions of outsourced data work [@perrigo2023; @miceli2022; @gray2019].
+- Developers' own papers document that human feedback is part of the training [@ouyang2022].
+:::
+
+::: {.callout-caution title="Limits of the evidence"}
+- Most contracts between AI companies and suppliers are confidential. Single cases come from leaks, investigations, or interviews.
+- Working conditions differ across suppliers, countries, and years. One case does not describe the whole industry.
+- The companies dispute some details of the reported cases. The case below states where they do.
+:::
+
+## Case: safety labeling for ChatGPT in Kenya {#case-sama}
+
+::: {.callout-note title="Documented case"}
+This case comes from an investigation by _TIME_, based on interviews and documents [@perrigo2023].
+:::
+
+To make ChatGPT less toxic, OpenAI needed a detector for violent, hateful, and sexual content. The detector needed labeled examples. From late 2021, OpenAI contracted Sama, a San Francisco-based outsourcing firm, to label tens of thousands of text passages in Nairobi, Kenya [@perrigo2023].
+
+| Item                     | Reported fact                                                                                          |
+| ------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Task                     | Label text passages that describe violence, hate speech, and sexual abuse                              |
+| Take-home wage           | About USD 1.32 to 2 per hour, by seniority and performance                                             |
+| Workload                 | Workers reported 150 to 250 passages per nine-hour shift. Sama said 70.                                |
+| Contracts                | Three contracts worth about USD 200,000. OpenAI said it paid about USD 150,000, because the work ended early. |
+| End of the work          | Sama ended the work in February 2022, eight months early                                               |
+
+: Reported facts. Source: Perrigo [-@perrigo2023]. {.striped}
+
+_TIME_ interviewed four Sama employees who worked on the project. All four "described being mentally scarred by the work". They had access to "wellness" counselling, but all four said that the sessions did not help [@perrigo2023]. OpenAI said that it works "hard to build safe and useful AI systems that limit bias and harmful content" [@perrigo2023].
+
+**Why this case.** The safety of a product for its users depended on work that exposed other people to harm. The users never saw this work. The case asks where the responsibility of a researcher who uses the product begins.
+
+## Activity
+
+**Build a lifecycle risk matrix.** Work in groups of three or four, for 12 minutes, with pen and paper.
+
+1. Choose a system: ChatGPT as in the case, or the system from one research-use description in your group. (1 minute)
+2. On the [worksheet](../handouts/lens-3-lifecycle-matrix.qmd), fill one column for each of the six stages. For each stage, write who does the work, who carries the risk, and who has recourse. (6 minutes)
+3. Mark the stage where the risk is highest, and the stage where you as a researcher have the most influence. (2 minutes)
+4. Write one intervention for the stage where you have influence. (3 minutes)
+
+::: {.callout-tip title="Hypothetical example"}
+A sociology team plans to code 2,000 open survey answers with a hosted model. The matrix shows: at the data stage, the respondents never agreed to this use. At the evaluation stage, student assistants check the codes but get no credit in the publication. Intervention: ask the ethics board, keep a sample coded by hand, and acknowledge the assistants. This example is invented for teaching.
+:::
+
+## Output
+
+A **lifecycle risk matrix** on one sheet for each group. For each of the six stages, it names who works, who carries the risk, and who has recourse. It marks the stage of highest risk, the stage of most influence, and one intervention.
+
+## Reading
+
+- **Required:** Bender et al. [-@bender2021], section 4.
+- **Recommended:** Crawford [-@crawford2021], chapter 2, "Labor", and chapter 3, "Data"; O'Neil [-@oneil2016], introduction and chapter 1.
+- **For the case:** Perrigo [-@perrigo2023]; Gray and Suri [-@gray2019]; Taylor [-@taylor2018].
+
+## Slides
+
+Open the [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd). Press `S` for the presenter notes.
+
+::: {.callout-note title="For teachers" collapse="true"}
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+
+**Prompts.**
+
+- "Which work in your own research is invisible in the final publication?"
+- "If an output of this system harms someone, whom can that person contact?"
+- "Which stage of the lifecycle does your institution control through procurement or rules?"
+
+**Link to the afternoon.** The column "who has recourse" often stays empty. Keep the empty cells visible. Panarchy asks at which level someone could fill them.
+
+**Difficult moments.** Some participants work with outsourced labor themselves, for example through crowdsourcing platforms. Invite them to share practice, not to defend it. Point to fair-pay guidelines of their discipline where they exist.
+
+**Fallback.** If the group has no own system, use the case. Groups that finish early can add a seventh column for "after deployment": who maintains the system, and who deals with complaints.
+:::
+
+## References
+
+::: {#refs}
+:::

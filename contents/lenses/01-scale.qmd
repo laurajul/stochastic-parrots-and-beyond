@@ -1,0 +1,150 @@
+---
+title: 'Lens 1: Stochastic Parrots — Scale and Environment'
+subtitle: 'Which environmental and data choices are hidden by a model''s apparent performance?'
+description: >-
+  Why scale is not a sufficient criterion for quality or social benefit, and
+  how to trace a model from its data sources to its daily use.
+---
+
+::: {.callout-note title="At a glance"}
+- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Output:** a material-and-provenance map.
+- **Worksheet:** [Lens 1 worksheet: material-and-provenance map](../handouts/lens-1-provenance-map.qmd).
+- **Slides:** [Lens 1 slide deck](../slides/01-scale.qmd).
+- **Anchor sources:** Bender et al. [-@bender2021]; Crawford [-@crawford2021], chapter 1.
+:::
+
+## Question
+
+_Which environmental and data choices are hidden by a model's apparent performance?_
+
+A benchmark score or a fluent answer shows what a model can do. It does not show what the model costs, where its data come from, or who decided what to leave out. This lens makes these hidden choices visible.
+
+## Core concepts
+
+### 1. Scale is not a sufficient criterion
+
+Bender et al. ask of language models: "How big is too big?" [@bender2021, 610]. They argue that larger models trained on larger web datasets bring rising environmental and financial costs. In their words, increasing these costs "doubly punishes marginalized communities": these communities are the least likely to benefit and the most likely to suffer the environmental consequences [@bender2021, 610]. A larger model can score higher on a benchmark and still be the worse choice for a given task.
+
+The authors define a language model as "a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data, according to probabilistic information about how they combine, but without any reference to meaning: a stochastic parrot" [@bender2021, 617].
+
+### 2. Models have a material footprint
+
+Training and use need electricity, cooling water, hardware, and buildings. Crawford traces this material base back to mines, energy grids, and supply chains [-@crawford2021, ch. 1].
+
+- **Energy.** The International Energy Agency estimates that data centres used about 415 TWh of electricity in 2024, about 1.5% of global electricity use. It projects about 945 TWh by 2030, with AI as the most important driver [@iea2025].
+- **Water.** Data centres use water for cooling, and power plants use water to make electricity. Li et al. estimate that training GPT-3 in Microsoft's US data centres could directly evaporate about 700,000 litres of fresh water [@li2025].
+- **Hardware.** Servers and GPUs have an "embodied" footprint from their manufacture. It counts even when they stand idle [@luccioni2023].
+
+### 3. Where and how a model runs matters
+
+The same computation causes different emissions on different energy grids. Use is not a one-off cost: every request needs energy again. Luccioni, Jernite, and Strubell compared the energy of 1,000 inferences across task types. They found that multi-purpose generative models are "orders of magnitude more expensive" than task-specific systems for several tasks, also when the number of parameters is the same [@luccioni2024].
+
+### 4. Data choices are value choices
+
+Bender et al. show that a large web dataset is not a diverse dataset [@bender2021, 613]. Filtering decisions also exclude people. One widely used corpus discarded every web page that contained a word from a list of about 400 "bad words". The authors note that this also suppresses online spaces "built by and for LGBTQ people" [@bender2021, 614].
+
+Scraping raises questions of consent and copyright. Large undocumented datasets create "documentation debt": they become "too large to document post hoc" [@bender2021, 615]. Loukissas reminds us that data always come from a place and an infrastructure that collected them [-@loukissas2019, ch. 3].
+
+## Evidence and limits
+
+::: {.callout-note title="What the evidence shows"}
+- Peer-reviewed measurements exist for some open models. The [case](#case-bloom) below uses one of them.
+- The IEA figures [@iea2025] are estimates and projections for all data centres. They are not measurements of one model.
+- The water figure of Li et al. [@li2025] is an estimate from a published method and stated assumptions.
+:::
+
+::: {.callout-caution title="Limits of the evidence"}
+- Each estimate depends on assumptions: the power draw of the hardware, the efficiency of the data centre, the carbon intensity of the grid. Two methods can give different results for the same model.
+- Most providers of commercial models publish no comparable figures. A missing number is not a zero.
+- Figures for one model or one data centre do not transfer to another system. Use them as orders of magnitude, not as exact values.
+- A footprint alone does not decide whether a use is justified. Weigh it against the purpose, the alternatives, and the people who carry the costs.
+:::
+
+## Case: BLOOM {#case-bloom}
+
+::: {.callout-note title="Documented case"}
+This case uses figures that the developers of the model measured and published in a peer-reviewed journal [@luccioni2023].
+:::
+
+BLOOM is a multilingual language model with 176 billion parameters. More than a thousand researchers built it in the BigScience workshop, an open-science project that ran from May 2021 to May 2022. BLOOM was trained on the Jean Zay supercomputer in France, on the 1.6 TB ROOTS corpus. The corpus covers 46 natural languages and 13 programming languages [@laurencon2022; @luccioni2023].
+
+The BigScience project published unusual detail about the footprint of the model:
+
+| Item                                              | Published figure                    |
+| ------------------------------------------------- | ----------------------------------- |
+| Training time                                     | 118 days, 1,082,990 GPU hours       |
+| Electricity for training                          | 433,196 kWh                         |
+| Carbon intensity of the French grid               | 57 g CO₂eq per kWh                  |
+| Emissions from the power that training used       | 24.69 t CO₂eq                       |
+| Emissions from idle infrastructure                | 14.6 t CO₂eq                        |
+| Emissions from the manufacture of the hardware    | 11.2 t CO₂eq                        |
+| **Total for the final training**                  | **50.5 t CO₂eq**                    |
+| Intermediate models and experiments               | 35.8 t CO₂eq from dynamic power use |
+
+: The published footprint of BLOOM. Source: Luccioni, Viguier, and Ligozat [-@luccioni2023]. {.striped}
+
+![The life cycle footprint of BLOOM's final training: 50.5 tonnes of CO₂ equivalent. Dynamic power use accounts for 24.69 t, idle infrastructure for 14.6 t, and the manufacture of the hardware for 11.2 t. Original chart. Data: Luccioni, Viguier, and Ligozat (2023).](../../assets/cases/01-bloom-footprint.svg){fig-alt="Horizontal stacked bar chart of the 50.5 tonnes of CO2 equivalent for BLOOM's final training. Dynamic power use: 24.69 tonnes, 48.9 percent. Idle infrastructure: 14.6 tonnes, 28.9 percent. Manufacture of the hardware: 11.2 tonnes, 22.2 percent."}
+
+The figures also show what usually stays hidden:
+
+- **The grid.** The authors explain the low training emissions largely with the low carbon intensity of the French grid. The same energy on a coal-heavy grid would cause several times the emissions [@luccioni2023].
+- **Experiments.** The intermediate models emitted more than the final training [@luccioni2023].
+- **Use.** The authors ran BLOOM as an API on 16 GPUs for about 18 days. The instance answered 230,768 requests and used 914 kWh. They estimate about 19 kg CO₂eq per day, and note that roughly 75% of the energy went into keeping the model in memory, ready for requests [@luccioni2023].
+- **Data governance.** The ROOTS corpus came with a data governance effort. Its authors propose a multi-party international structure to manage language data across stakeholders, values, and rights [@jernite2022].
+
+**Why this case.** BLOOM is not a typical commercial model. Its makers chose to measure and publish. The case shows what a material-and-provenance map can contain when data exist. For most systems that researchers use, many cells of the same map stay empty. The empty cells are a finding.
+
+## Activity
+
+**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 12 minutes, with pen and paper.
+
+1. Choose a system: BLOOM, or the system from one research-use description in your group. (2 minutes)
+2. Fill in the [worksheet](../handouts/lens-1-provenance-map.qmd). For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. (6 minutes)
+3. Mark the largest unknown and one avoidable cost. (2 minutes)
+4. Prepare one sentence for the plenary: "The choice that the performance of this system hides most is …" (2 minutes)
+
+The stages on the worksheet are: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use.
+
+::: {.callout-tip title="Hypothetical example"}
+A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The map shows: the training data are unknown, the location of the data centre is unknown, and the transcripts would leave the university. An avoidable cost: the candidate could test a smaller local model on synthetic text first. This example is invented for teaching.
+:::
+
+## Output
+
+A **material-and-provenance map** on one sheet for each group. It lists known, unknown, and avoidable costs for each stage, with a source for each entry. It names the largest unknown and one avoidable cost.
+
+## Reading
+
+- **Required:** Bender et al. [-@bender2021], sections 3 and 4: environmental and financial cost, and training data.
+- **Recommended:** Crawford [-@crawford2021], chapter 1, "Earth"; Loukissas [-@loukissas2019], chapter 3; Buschek and Thorp [-@buschek2024] on how a large dataset is sourced and filtered.
+- **For the case:** Luccioni, Viguier, and Ligozat [-@luccioni2023].
+
+## Slides
+
+Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presenter notes.
+
+::: {.callout-note title="For teachers" collapse="true"}
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The BLOOM case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+
+**Prompts.**
+
+- "What would this map look like for the system you used last week?"
+- "Which cell of the map could you fill in if you asked the provider?"
+- "Which cost would you accept for your research, and which not?"
+
+**Common misconceptions.**
+
+- "The cloud is immaterial." Point to hardware, water, and grids.
+- "A smaller footprint makes a use responsible." The footprint is one dimension among four lenses.
+- "No published figure means a small footprint." A missing figure is an unknown, not a zero.
+
+**Difficult moments.** Some participants feel guilt about their own use. Keep the focus on decisions and alternatives, not on individual blame. Panarchy in the afternoon takes up the institutional levels.
+
+**Fallback.** If no group member has a research-use description, use BLOOM. If the group finishes early, ask it to fill in the map for a commercial chatbot and to count the empty cells.
+:::
+
+## References
+
+::: {#refs}
+:::

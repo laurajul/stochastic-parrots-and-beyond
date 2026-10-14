@@ -1,0 +1,64 @@
+---
+title: About
+subtitle: 'Instructors, organization, attribution, and licenses'
+---
+
+## Instructors
+
+**Laura Wagner**, PhD candidate in Art History at the University of Zurich, researches how open-source image- and video-generation models are adopted, personalized, and circulated in online communities, including how dataset and platform norms appear in outputs. She works in the SNSF-funded project _The Canon of Latent Spaces: How Large AI Models Encode Art and Culture_. [Profile](https://laurajul.github.io/).
+
+**Dr. Moritz Mähr** works in digital history/digital humanities at the University of Bern and in Research Analytics Services at ETH Zurich. His research connects digital source criticism, science and technology studies, open research infrastructures, and responsible data/AI practices. [Profile](https://moritzmaehr.ch/).
+
+## Organization
+
+The Graduate Center (GRACE) of the University of Basel offers the workshop in its Transferable Skills programme. GRACE handles registration, attendance, evaluation, and credits. The [edition pages](editions/hs2026.qmd) give the contact for each edition.
+
+## About this site
+
+This site is a course companion that the instructors maintain. It is not an official page of the University of Basel.
+
+- It takes no registrations and awards no credits.
+- It collects no data about visitors. It sets no cookies and uses no analytics.
+- The official course listing overrides this site if the two differ.
+
+The site loads its fonts (IBM Plex) from Google Fonts. Your browser therefore contacts Google when it opens a page.
+
+## Teachers and students
+
+The materials serve two groups.
+
+- **Participants and students** use the edition pages, the lens pages, the handouts, and the slides.
+- **Teachers** can reuse every part. The [facilitator guide](panarchy-facilitator.qmd) gives the Panarchy session minute by minute. Each slide deck holds presenter notes. Each lens page has a collapsed section "For teachers". The [reuse guide](../documentation/reuse.qmd) explains how to adapt the site and roll it over to a new semester.
+
+## Attribution
+
+[Liberating Structures](https://www.liberatingstructures.com/) were created by Henri Lipmanowicz and Keith McCandless. Keith McCandless and Nancy White wrote the _Liberating Structures Fieldbook_ (2026). The Panarchy and Ecocycle materials on this site adapt their methods:
+
+> The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at www.liberatingstructures.com and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+The diagrams on this site are original drawings. The site uses no Liberating Structures icons.
+
+The repository started from the [open-research-data-template](https://github.com/maehr/open-research-data-template). The [All Data Are Local](https://maehr.github.io/all-data-are-local/) course site is the model for its structure and design.
+
+## Licenses
+
+Each part of the site has its own license. Each page shows its license at the bottom.
+
+| Content                                                                    | License                                       |
+| -------------------------------------------------------------------------- | --------------------------------------------- |
+| Original course text, figures, slides, and handouts                        | [CC BY 4.0](../LICENSE-CCBY.md)               |
+| Panarchy and Ecocycle pages, the facilitator guide, their slides, charts, and handouts | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
+| Code, configuration, and build scripts                                     | [AGPL 3.0](../LICENSE-AGPL.md)                |
+| Quoted or linked third-party material                                      | The terms of the owner                        |
+
+: License boundaries {.striped}
+
+Material adapted from Liberating Structures must keep CC BY-SA 4.0. Do not relicense it as CC BY alone.
+
+## Cite this site
+
+Cite these materials as described in [CITATION.cff](https://github.com/maehr/stochastic-parrots-and-beyond/blob/main/CITATION.cff).
+
+## Corrections
+
+Report a wrong fact, a broken link, or an unsupported claim through [GitHub Issues](https://github.com/maehr/stochastic-parrots-and-beyond/issues). Do not post personal data.

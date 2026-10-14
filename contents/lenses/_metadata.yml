@@ -1,0 +1,3 @@
+# Lesson pages print their own reference list, so citations link to it.
+suppress-bibliography: false
+link-citations: true

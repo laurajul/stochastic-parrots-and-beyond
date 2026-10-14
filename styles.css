@@ -1,0 +1,96 @@
+/* Site styles. Colours come from _brand.yml; callout colours from theme.scss. */
+
+/* Keyboard focus must stay visible on every element (WCAG 2.4.7, 2.4.11). */
+:focus-visible {
+  outline: 3px solid #268bd2;
+  outline-offset: 2px;
+}
+
+.navbar :focus-visible {
+  outline-color: #ffffff;
+}
+
+/* Respect a request for reduced motion (WCAG 2.3.3). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Editorial tables: rules, no fills, no cards. */
+main table {
+  border-top: 2px solid #0b0b0b;
+  border-bottom: 2px solid #0b0b0b;
+}
+
+main table thead th {
+  border-bottom: 1px solid #0b0b0b;
+  font-weight: 600;
+}
+
+main table td,
+main table th {
+  vertical-align: top;
+}
+
+/* The practical-information table of an edition. */
+table.edition-facts td:first-child {
+  width: 30%;
+  white-space: nowrap;
+}
+
+/* Blank lines in a worksheet table give room to write by hand. */
+.worksheet table td {
+  height: 2.6rem;
+}
+
+.worksheet.tall table td {
+  height: 5rem;
+}
+
+/* Figures from assets/: keep them inside the text column. */
+figure img[src$='.svg'],
+.quarto-figure img[src$='.svg'] {
+  width: 100%;
+  height: auto;
+  max-width: 46rem;
+}
+
+/* A visible label for the state of a piece of information. */
+.status-label {
+  display: inline-block;
+  padding: 0 0.4em;
+  border: 1px solid currentColor;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Print: drop navigation, keep the content and the links readable. */
+@media print {
+  #quarto-header,
+  #quarto-sidebar,
+  #quarto-margin-sidebar,
+  .nav-footer,
+  .quarto-title-meta,
+  #quarto-back-to-top,
+  .toc-actions {
+    display: none !important;
+  }
+
+  main a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    word-break: break-all;
+  }
+
+  .worksheet table td {
+    height: 2.2cm;
+  }
+}

@@ -1,0 +1,158 @@
+project:
+  type: website
+  render:
+    - '*.qmd'
+    - '*.md'
+    - 'contents/**/*.qmd'
+    - 'documentation/**/*.qmd'
+    - '!AGENTS.md'
+    - '!CLAUDE.md'
+    - '!TODO.md'
+    - '!README.md'
+    - '!SPECS.md'
+  resources:
+    - 'assets/**'
+
+# Edition facts come from one file. The `edition` shortcode reads them.
+metadata-files:
+  - data/editions.yml
+
+lang: en-US
+license: 'CC BY'
+date-modified: last-modified
+date-format: 'D MMMM YYYY'
+
+website:
+  title: Stochastic Parrots and Beyond
+  description: >-
+    Open educational resources for a workshop on the normative dimensions of
+    generative AI in research: four analytical lenses, Panarchy, and Ecocycle.
+  favicon: favicon.svg
+  open-graph: true
+  site-url: https://maehr.github.io/stochastic-parrots-and-beyond/
+  repo-url: https://github.com/maehr/stochastic-parrots-and-beyond/
+  issue-url: https://github.com/maehr/stochastic-parrots-and-beyond/issues/new/choose
+  repo-actions: [edit, issue]
+  page-navigation: true
+  bread-crumbs: true
+  back-to-top-navigation: true
+  search:
+    show-item-context: true
+    type: overlay
+  navbar:
+    title: Stochastic Parrots and Beyond
+    tools:
+      - icon: github
+        url: https://github.com/maehr/stochastic-parrots-and-beyond/
+        aria-label: Source code on GitHub
+    left:
+      - text: Overview
+        href: index.qmd
+      - text: Editions
+        menu:
+          - text: Autumn semester 2026 (HS 2026)
+            href: contents/editions/hs2026.qmd
+          - text: Spring semester 2027 (FS 2027)
+            href: contents/editions/fs2027.qmd
+      - text: Course
+        href: contents/course-description.qmd
+      - text: Materials
+        menu:
+          - text: Handouts
+            href: contents/resources.qmd
+          - text: Slides
+            href: contents/resources.qmd#slide-decks
+          - text: Facilitator guide
+            href: contents/panarchy-facilitator.qmd
+          - text: Reuse this course
+            href: documentation/reuse.qmd
+      - text: About
+        href: contents/about.qmd
+
+  sidebar:
+    style: floating
+    collapse-level: 1
+    contents:
+      - href: contents/course-description.qmd
+      - href: contents/syllabus.qmd
+      - section: Four lenses
+        contents:
+          - contents/lenses/01-scale.qmd
+          - contents/lenses/02-representation.qmd
+          - contents/lenses/03-lifecycle-labor.qmd
+          - contents/lenses/04-political-economy.qmd
+      - section: Panarchy
+        href: contents/panarchy.qmd
+        contents:
+          - href: contents/panarchy-facilitator.qmd
+      - href: contents/assignments.qmd
+      - href: contents/literature.qmd
+      - section: Handouts
+        href: contents/resources.qmd
+        contents: contents/handouts/*
+      - section: Slides
+        contents:
+          - contents/slides/00-intro.qmd
+          - contents/slides/01-scale.qmd
+          - contents/slides/02-representation.qmd
+          - contents/slides/03-lifecycle-labor.qmd
+          - contents/slides/04-political-economy.qmd
+          - contents/slides/05-panarchy.qmd
+      - section: Editions
+        contents:
+          - contents/editions/hs2026.qmd
+          - contents/editions/fs2027.qmd
+      - section: Project
+        contents:
+          - text: Reuse this course
+            href: documentation/reuse.qmd
+          - text: Changelog
+            href: CHANGELOG.md
+          - text: Code of Conduct
+            href: CODE_OF_CONDUCT.md
+          - text: Contributing
+            href: CONTRIBUTING.md
+          - text: License (content)
+            href: LICENSE-CCBY.md
+          - text: License (Liberating Structures adaptations)
+            href: LICENSE-CCBYSA.md
+          - text: License (code)
+            href: LICENSE-AGPL.md
+          - text: Security
+            href: SECURITY.md
+
+  page-footer:
+    left:
+      - text: Content CC BY 4.0
+        href: LICENSE-CCBY.md
+      - text: Liberating Structures adaptations CC BY-SA 4.0
+        href: LICENSE-CCBYSA.md
+      - text: Code AGPL 3.0
+        href: LICENSE-AGPL.md
+    right:
+      - text: Not an official University of Basel page
+        href: contents/about.qmd#about-this-site
+      - text: Built with Quarto
+        href: https://quarto.org/
+
+format:
+  html:
+    toc: true
+    theme:
+      - cosmo
+      - brand
+      - theme.scss
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    canonical-url: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: false
+
+bibliography: references.bib
+suppress-bibliography: true
+link-citations: false
+
+editor: visual

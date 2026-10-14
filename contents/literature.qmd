@@ -1,0 +1,71 @@
+---
+title: Literature
+subtitle: 'Required and recommended readings, with lawful links'
+suppress-bibliography: false
+link-citations: true
+nocite: |
+  @*
+---
+
+This page lists every work that the course cites. The [reference list](#references) at the end gives the full details. The repository contains no copy of a copyrighted book. Each link leads to the publisher, to an open-access copy, or to a library record.
+
+## Required reading
+
+Read this text before the course day.
+
+- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, _On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?_ [-@bender2021], pp. 610–623. [DOI and publisher page](https://doi.org/10.1145/3442188.3445922).
+
+Lens 1 builds on this text. Its arguments about scale, environmental cost, and documentation of training data also return in Lenses 2 and 3.
+
+## Recommended readings
+
+Choose two of these readings or cases. They are not all mandatory. The table names the selected chapters and the lens that each reading supports.
+
+| Reading                                                                                                                          | Selected part                                                          | Lens   | Access                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------- |
+| Buolamwini, _Unmasking AI_ [-@buolamwini2023]                                                                                    | Chapter 1, "Daughter of Art and Science"; chapter 11, "Gender Shades"   | 2      | Library or bookshop                                                                     |
+| Crawford, _Atlas of AI_ [-@crawford2021]                                                                                         | Chapters 1–3: "Earth", "Labor", "Data"                                  | 1, 3   | [Publisher](https://yalebooks.yale.edu/book/9780300252392/atlas-of-ai/), library        |
+| Loukissas, _All Data Are Local_ [-@loukissas2019]                                                                                | Chapter 3, "Collecting Infrastructures"                                 | 1      | [Open access](https://doi.org/10.7551/mitpress/11543.001.0001)                          |
+| O'Neil, _Weapons of Math Destruction_ [-@oneil2016]                                                                              | Introduction; chapter 1, "Bomb Parts: What Is a Model?"                 | 3, 4   | Library or bookshop                                                                     |
+| Erscoi, Kleinherenbrink, and Guest, _Pygmalion Displacement_ [-@erscoi2023]                                                      | Whole paper                                                             | 2      | [Open preprint](https://doi.org/10.31235/osf.io/jqxb6)                                  |
+| Buschek and Thorp, _Models All the Way Down_ [-@buschek2024]                                                                     | Whole investigation                                                     | 1, 2   | [Open web publication](https://knowingmachines.org/models-all-the-way)                  |
+| Birhane, Prabhu, and Kahembwe, _Multimodal Datasets_ [-@birhane2021]                                                             | Sections on the audit of LAION-400M                                     | 2      | [Open preprint](https://arxiv.org/abs/2110.01963)                                       |
+| Widder, West, and Whittaker, _Open (For Business)_ [-@widder2023]                                                                | Whole paper                                                             | 4      | [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807)            |
+
+: Recommended readings {.striped}
+
+::: {.callout-note title="Full publication versions"}
+Widder, Whittaker, and West published a revised version of _Open (For Business)_ in _Nature_ as _Why 'Open' AI Systems Are Actually Closed, and Why This Matters_ [-@widder2024]. Either version works for Lens 4. The author order differs between the two versions.
+:::
+
+::: {.callout-caution title="Content note"}
+Birhane, Prabhu, and Kahembwe [-@birhane2021] and the Stanford Internet Observatory report [-@thiel2023] describe sexual violence, pornography, and child sexual abuse material in training datasets. The course discusses how such material enters datasets. It never shows the material. You can choose other readings for Lens 2.
+:::
+
+## Sources of the cases
+
+Each lens uses one documented case. These sources support the case and the evidence on the lens page.
+
+| Lens                            | Case                                                       | Main sources                                                                                   |
+| ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [1](lenses/01-scale.qmd)         | The documented footprint and data governance of BLOOM      | @luccioni2023; @laurencon2022; @jernite2022                                                    |
+| [2](lenses/02-representation.qmd) | The LAION-5B pathway, from web links to generated images  | @buschek2024; @birhane2021; @thiel2023; @laion2024; @bianchi2023                               |
+| [3](lenses/03-lifecycle-labor.qmd) | Outsourced safety labeling for ChatGPT in Kenya          | @perrigo2023; @ouyang2022; @gray2019                                                           |
+| [4](lenses/04-political-economy.qmd) | "Open" model licences and the EU AI Act                 | @meta2023; @osi2024; @liesenfeld2024; @euaiact2024                                             |
+
+: Case sources {.striped}
+
+## Methods and frameworks
+
+- Documentation and disclosure: _Datasheets for Datasets_ [@gebru2021] and _Model Cards for Model Reporting_ [@mitchell2019].
+- Risks across the lifecycle: Suresh and Guttag [-@suresh2021] and Weidinger et al. [-@weidinger2022].
+- Panarchy and Ecocycle: the Liberating Structures pages for [Panarchy](https://www.liberatingstructures.com/panarchy) and [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning), Lipmanowicz and McCandless [-@lipmanowicz2014], McCandless and White [-@mccandless2026], and Holling [-@holling2001] on the adaptive cycle.
+
+## Preparation time
+
+The [assignments](assignments.qmd) page proposes how to use the eight hours of preparation.
+
+## References
+
+::: {#refs}
+:::

@@ -1,0 +1,143 @@
+---
+title: 'Lens 4: Political Economy — Power and Markets'
+subtitle: 'Which incentives preserve an unsafe or inequitable practice?'
+description: >-
+  Concentrated infrastructure, open and proprietary claims, institutional
+  procurement, and the EU AI Act as one example of governance.
+---
+
+::: {.callout-note title="At a glance"}
+- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Output:** a stakeholder and incentive map.
+- **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
+- **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
+- **Anchor sources:** Widder, West, and Whittaker [-@widder2023]; Regulation (EU) 2024/1689, the AI Act [@euaiact2024].
+:::
+
+## Question
+
+_Which incentives preserve an unsafe or inequitable practice?_
+
+The first three lenses show costs, harms, and hidden labor. This lens asks why these patterns persist. It follows money, infrastructure, and rules. It also asks where a university or a research group has leverage of its own.
+
+## Core concepts
+
+### 1. Generative AI depends on concentrated resources
+
+Widder, Whittaker, and West analyze what AI is made of: models, data, labor, development frameworks, and computational power [-@widder2024]. A few companies control most of these resources. The authors find that "openness alone does not perturb the concentration of power in AI" [@widder2024]. Claims about "open" AI can even "exacerbate rather than reduce concentration of power in the AI sector" [@widder2024].
+
+### 2. "Open" is a claim to check, not a property to assume
+
+Liesenfeld and Dingemanse assess more than 45 generative AI systems along 14 dimensions of openness, from training data to documentation and licensing. Many systems that are called open are "open weight" at best. Many providers withhold information about training and fine-tuning data [@liesenfeld2024]. Openness is therefore composite and comes in degrees. One feature, such as downloadable weights, does not make a system open [@liesenfeld2024].
+
+### 3. Models encode the goals of their makers
+
+O'Neil shows how models simplify the world according to the priorities of the people who build them, and how these priorities stay hidden behind numbers [-@oneil2016, ch. 1]. A system that is optimized for engagement, for market share, or for a fast release can be at odds with the goals of research.
+
+### 4. Institutions set defaults through procurement and policy
+
+Universities choose which tools to license, which to recommend, and which data may leave the institution. These choices shape what individual researchers do, often more than individual intentions. Procurement and policy are therefore places of leverage, not only of compliance.
+
+### 5. Regulation is one lever among several
+
+The EU AI Act is one example of governance. Since 2 August 2025, providers of general-purpose AI models in the EU must meet the duties of its Article 53 [@euaiact2024]:
+
+- keep technical documentation of the model,
+- give information to providers who build systems on the model,
+- put in place a policy to comply with EU copyright law,
+- publish "a sufficiently detailed summary about the content used for training".
+
+Models under a free and open-source licence with public weights are exempt from the first two duties, but not from the copyright policy or the training summary. The exemption does not apply to models with systemic risk [@euaiact2024, art. 53(2)].
+
+::: {.callout-caution title="Not legal advice"}
+This page summarizes the regulation for teaching. It does not say whether the AI Act applies to a specific project in Switzerland or elsewhere. Ask the legal service of your institution.
+:::
+
+## Evidence and limits
+
+::: {.callout-note title="What the evidence shows"}
+- The concentration of resources and the uses of the word "open" are documented in peer-reviewed analyses [@widder2024; @liesenfeld2024].
+- The licence terms in the case are public documents [@meta2023; @osi2024].
+- The duties of the AI Act are law. Their enforcement and interpretation are still developing.
+:::
+
+::: {.callout-caution title="Limits of the evidence"}
+- Market shares and investment figures change fast. Check the date of any figure.
+- Incentives are inferred from structures and statements. A company rarely states them.
+- The AI Act is subject to amendments and implementing guidance. Check the current consolidated text before you rely on a date or an article.
+:::
+
+## Case: an "open" licence {#case-licence}
+
+::: {.callout-note title="Documented case"}
+This case compares two public documents: the licence of Llama 2 and the Open Source AI Definition.
+:::
+
+In July 2023, Meta released Llama 2 and described it as open. Its licence permits download and many uses, with conditions [@meta2023]:
+
+- A company whose products had "greater than 700 million monthly active users" at the release date needs a separate licence from Meta.
+- Users must not use the model or its outputs "to improve any other large language model", except Llama 2 and its derivatives.
+- Every use must follow Meta's Acceptable Use Policy.
+
+The Open Source Initiative stated that the licence is not open source. It restricts commercial use for some users and restricts fields of use [@maffulli2023]. In October 2024, the OSI published the Open Source AI Definition 1.0 [@osi2024]. It requires the freedom to use a system "for any purpose and without having to ask for permission", and the freedoms to study, modify, and share it. It also requires access to the code, the parameters, and "sufficiently detailed information about the data used to train the system" [@osi2024].
+
+| Question                                        | Llama 2 licence                         | Open Source AI Definition 1.0      |
+| ----------------------------------------------- | --------------------------------------- | ---------------------------------- |
+| Can anyone use it for any purpose?              | No: user threshold and use policy       | Required                           |
+| Can its outputs improve other models?           | Not other large language models         | No such restriction                |
+| Are the weights available?                      | Yes, under the licence                  | Required                           |
+| Is detailed information about training data required? | Not by the licence                | Required                           |
+
+: Two meanings of "open". Sources: Meta [-@meta2023]; Open Source Initiative [-@osi2024]. {.striped}
+
+**Why this case.** The word "open" carries reputation, and in the EU it can reduce regulatory duties. Liesenfeld and Dingemanse call the use of the word without the substance "open-washing" [-@liesenfeld2024]. For a researcher, the question is practical: can I inspect, document, and cite what I use?
+
+![A stakeholder and incentive map for an "open-weight" model. Original diagram.](../../assets/cases/04-stakeholder-map.svg){fig-alt="Map with the model provider in the centre. Around it: cloud and hardware suppliers, data creators, data workers, universities as licensees, individual researchers, research participants, regulators, and the public. Arrows show money, data, and rules. A legend explains the three kinds of arrows."}
+
+## Activity
+
+**Map stakeholders and incentives.** Work in groups of three or four, for 12 minutes, with pen and paper.
+
+1. Choose a system: Llama 2 as in the case, or the system from one research-use description in your group. (1 minute)
+2. On the [worksheet](../handouts/lens-4-stakeholder-map.qmd), place the stakeholders. For each, note what it gains, what it pays or risks, and which leverage it has. (6 minutes)
+3. Circle one incentive that keeps an unsafe or inequitable practice in place. (2 minutes)
+4. Write one feasible governance change: who must act, at which level, and by when. (3 minutes)
+
+::: {.callout-tip title="Hypothetical example"}
+A faculty licenses one chatbot for all staff because the vendor offers a discount. The map shows: the vendor gains data and lock-in. The faculty gains convenience, and researchers lose the choice of a documented model. A feasible change: the faculty adds a documentation requirement to the next procurement, and the research data office maintains a list of documented alternatives. This example is invented for teaching.
+:::
+
+## Output
+
+A **stakeholder and incentive map** on one sheet for each group. It shows the stakeholders with their gains, costs, and leverage. It circles one incentive that preserves an unsafe or inequitable practice, and it names one feasible governance change.
+
+## Reading
+
+- **Required:** Bender et al. [-@bender2021], section 7, "Paths Forward".
+- **Recommended:** Widder, West, and Whittaker [-@widder2023], or its published version in _Nature_ [@widder2024]; O'Neil [-@oneil2016], introduction and chapter 1.
+- **For the case:** Liesenfeld and Dingemanse [-@liesenfeld2024]; the Open Source AI Definition [@osi2024]; Article 53 of the AI Act [@euaiact2024].
+
+## Slides
+
+Open the [Lens 4 slide deck](../slides/04-political-economy.qmd). Press `S` for the presenter notes.
+
+::: {.callout-note title="For teachers" collapse="true"}
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+
+**Prompts.**
+
+- "Who pays for the tool that your institution provides, and with what?"
+- "What would change if your university bought only documented models?"
+- "Which incentive would you need to change to make your own practice more responsible?"
+
+**Link to the afternoon.** The governance changes from this activity are the first material for Panarchy. Collect them on the wall. Ask the group to agree on the Panarchy challenge in the next block.
+
+**Difficult moments.** Discussions of regulation can turn into legal questions about a specific project. Note the question for the legal service of the institution, and return to incentives and levers.
+
+**Fallback.** If the group has no own system, use the case. Groups that finish early can add a second map for the same system ten years ago, and compare the stakeholders.
+:::
+
+## References
+
+::: {#refs}
+:::

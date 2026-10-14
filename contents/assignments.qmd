@@ -1,0 +1,120 @@
+---
+title: Assignments
+subtitle: 'Preparation, work on the course day, and the follow-up task'
+---
+
+## What is confirmed and what is proposed
+
+| Item                                                    | Status                                                        |
+| ------------------------------------------------------- | ------------------------------------------------------------- |
+| Required reading: Bender et al. (2021)                   | Confirmed                                                     |
+| Workload and credits                                    | Confirmed per edition. See the [edition pages](editions/hs2026.qmd). |
+| Full attendance on the course day                       | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd). |
+| The plan for the eight hours of preparation             | <span class="status-label">Proposed</span>                    |
+| The Responsible GenAI Use Statement and its rubric      | <span class="status-label">Proposed</span>                    |
+| Submission channel and deadline                         | <span class="status-label">To be confirmed</span>             |
+
+: Status of each rule {.striped}
+
+::: {.callout-warning title="Proposed — awaiting instructor approval"}
+The instructors and the Graduate Center (GRACE) must confirm the follow-up task, the assessment rules, the submission channel, and the deadline. Until then, treat this page as a description of the planned task, not as a binding instruction. The edition page shows the confirmed rules.
+:::
+
+## Before the course day
+
+### Tasks
+
+1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
+2. Choose two recommended readings or cases from the [literature](literature.qmd) page.
+3. Write a research-use description of one page or less.
+4. Bring a laptop and your research-use description.
+
+### The research-use description
+
+Describe one actual or planned use of generative AI in your research. Answer these questions:
+
+- What is the task, and which system or vendor do you use or plan to use?
+- Why might you use generative AI for this task?
+- What do you not know about the system: its training data, its costs, its terms of use?
+- Who else is affected by this use: colleagues, research participants, the public?
+
+::: {.callout-important title="Do not include protected data"}
+Describe the use, not the data. Do not include confidential, personal, or unpublished research data. A synthetic example is acceptable.
+:::
+
+### A proposed plan for eight hours
+
+::: {.callout-warning title="Proposed — awaiting instructor approval"}
+The allocation below is a suggestion. It is not a new university requirement.
+:::
+
+| Activity                                                                                      | Time      |
+| --------------------------------------------------------------------------------------------- | --------- |
+| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field.    | 3 hours   |
+| Read two recommended excerpts or cases from the [literature](literature.qmd) page.            | 3 hours   |
+| Write the research-use description.                                                           | 1.5 hours |
+| Look at the [syllabus](syllabus.qmd) and the [shared risk worksheet](handouts/risk-worksheet.qmd). | 0.5 hours |
+| **Total**                                                                                     | **8 hours** |
+
+: Proposed preparation plan {.striped}
+
+## On the course day
+
+You contribute four outputs. The group keeps them on paper or on a shared wall.
+
+| Output                     | Where                                                         |
+| -------------------------- | ------------------------------------------------------------- |
+| A risk map for one lens    | The worksheet of the lens. See the four lens pages.           |
+| A group Panarchy chart     | [Panarchy](panarchy.qmd)                                      |
+| An Ecocycle diagnosis      | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation)      |
+| One practical action       | The [action plan](handouts/action-plan.qmd)                   |
+
+: Outputs on the course day {.striped}
+
+The instructors collect no personal data from these outputs. Take a photo of the group charts if you want to keep them. Do not post photos of other participants.
+
+## After the course day: the Responsible GenAI Use Statement
+
+::: {.callout-warning title="Proposed — awaiting instructor approval"}
+This task is the planned follow-up assignment. The edition page confirms the binding rules.
+:::
+
+### The task
+
+Write a Responsible GenAI Use Statement of **1,200 to 1,500 words**. Write it alone, about your own research context. The statement can justify a use or a non-use of generative AI.
+
+Use these headings:
+
+1. Intended use or justified non-use.
+2. System and data provenance.
+3. Lifecycle risks and people affected.
+4. Mitigations and less harmful alternatives.
+5. Evaluation and limitations.
+6. Disclosure, citation, and governance.
+7. Defensible final decision.
+
+Add a bibliography. End with one specific follow-up action: what you will do, by when, and who must agree.
+
+The [Use Statement template](handouts/use-statement-template.qmd) contains the headings and guiding questions. It is available as Markdown, Word, and PDF.
+
+### Rubric: pass or fail
+
+The statement passes when it meets all five criteria.
+
+| Criterion                  | The statement passes when it ...                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Adequately scoped use      | describes one concrete use or non-use in the author's research, with the system and the task.                      |
+| At least two supported risks | names at least two risks, each with a source or with evidence from the course materials.                        |
+| Feasible mitigation        | proposes at least one mitigation or less harmful alternative that the author can carry out.                        |
+| Transparent practice       | states how the author will disclose, cite, and document the use, and which rules apply.                            |
+| Reasoned conclusion        | reaches a decision that follows from the analysis, and states its limits.                                          |
+
+: Proposed pass or fail rubric {.striped}
+
+### Submission
+
+The submission channel and the deadline are not confirmed yet. Do not submit through GitHub, and do not post your statement in a public repository. The edition page will give the confirmed channel.
+
+## Credits
+
+The workload and the credit of each edition are on its edition page. The Graduate Center (GRACE) confirms the credit. It depends on attendance and on the completion of the applicable tasks. Credits normally become visible late in the administration cycle of the semester, not directly after the submission.

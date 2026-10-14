@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+// Callout colours. Quarto takes these from $blue, $green, $yellow, $orange,
+// and $red, so the brand palette in _brand.yml does not reach them.
+// The page body stays greyscale, so colour only ever marks meaning here.
+// The values are Solarized accents. Each one clears the WCAG 1.4.11 non-text
+// threshold of 3:1 against white.
+$callout-color-note: #268bd2 !default; // blue, 3.68:1
+$callout-color-tip: #859900 !default; // green, 3.20:1
+$callout-color-caution: #cb4b16 !default; // orange, 4.61:1
+$callout-color-warning: #b58900 !default; // yellow, 3.21:1
+$callout-color-important: #dc322f !default; // red, 4.63:1
+
+// The navbar sits on the near-black brand primary. Cosmo puts grey text on it,
+// which reaches 7.08:1. White reaches 19.68:1. $navbar-hl drives the current
+// page, which cosmo leaves grey, so set both. The sidebar and the breadcrumb
+// already show which page the reader is on.
+$navbar-fg: #ffffff !default;
+$navbar-hl: #ffffff !default;

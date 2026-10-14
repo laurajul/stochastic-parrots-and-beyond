@@ -1,32 +1,14 @@
+# prek runs these hooks. `npm run check` is the whole gate: Prettier, ruff,
+# ty, and pytest. pytest also runs the privacy guard in test/test_privacy.py.
 repos:
   - repo: local
     hooks:
-      - id: prettier-check
-        name: Prettier check
+      - id: check
+        name: Gate (npm run check)
         entry: npm run check
         language: system
-        types_or: [yaml, json, markdown, html, css, scss, javascript, ts]
-        stages: [pre-commit]
-
-      - id: ruff-format
-        name: Ruff Format
-        entry: bash -c 'if command -v uv >/dev/null 2>&1 && uv run ruff --version >/dev/null 2>&1; then uv run ruff format "$@"; else exit 0; fi' --
-        language: system
-        types: [python]
-        stages: [pre-commit]
-
-      - id: ruff-lint
-        name: Ruff Lint
-        entry: bash -c 'if command -v uv >/dev/null 2>&1 && uv run ruff --version >/dev/null 2>&1; then uv run ruff check "$@"; else exit 0; fi' --
-        language: system
-        types: [python]
-        stages: [pre-commit]
-
-      - id: ty-check
-        name: Ty Check
-        entry: bash -c 'if command -v uv >/dev/null 2>&1 && uv run ty --version >/dev/null 2>&1; then uv run ty check "$@"; else exit 0; fi' --
-        language: system
-        types: [python]
+        pass_filenames: false
+        always_run: true
         stages: [pre-commit]
 
       - id: commitlint

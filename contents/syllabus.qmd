@@ -1,0 +1,55 @@
+---
+title: Syllabus
+subtitle: 'The common learning path and a proposed timetable'
+---
+
+## The learning path
+
+The course has three phases: preparation, one course day, and a follow-up task. The phases are the same in every edition. The [edition pages](editions/hs2026.qmd) give the dates.
+
+```{mermaid}
+%%| fig-alt: "Flow chart with three phases. Before the course day: read Bender et al. and describe one generative AI use in your research. On the course day: four analytical lenses in the morning, Panarchy and Ecocycle in the afternoon, then a research-use clinic. After the course day: write a Responsible GenAI Use Statement."
+flowchart LR
+    A["<b>Before</b><br/>Read Bender et al.<br/>Describe one GenAI use<br/>in your research"] --> B["<b>Course day: morning</b><br/>Four analytical lenses"]
+    B --> C["<b>Course day: afternoon</b><br/>Panarchy and Ecocycle<br/>Research-use clinic"]
+    C --> D["<b>After</b><br/>Responsible GenAI<br/>Use Statement"]
+```
+
+### Before the course day
+
+- Read the required text: Bender et al., _On the Dangers of Stochastic Parrots_ [-@bender2021].
+- Choose two recommended readings or cases from the [literature](literature.qmd) page.
+- Write a short description of one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it.
+
+The [assignments](assignments.qmd) page gives a proposed plan for the eight hours of preparation.
+
+### On the course day
+
+The morning builds a shared vocabulary. Each lens takes about 35 minutes: a short input, a documented case, and a group activity of 10 to 15 minutes.
+
+1. [Lens 1: Stochastic Parrots — Scale and Environment](lenses/01-scale.qmd). Output: a material-and-provenance map.
+2. [Lens 2: Representation and Pygmalion](lenses/02-representation.qmd). Output: a representation and harm pathway.
+3. [Lens 3: Lifecycle and Labor](lenses/03-lifecycle-labor.qmd). Output: a lifecycle risk matrix.
+4. [Lens 4: Political Economy](lenses/04-political-economy.qmd). Output: a stakeholder and incentive map.
+
+The afternoon applies the vocabulary to the institutions in which participants work.
+
+5. [Panarchy](panarchy.qmd): a facilitated discussion of 130 minutes. Output: a shared chart, three priorities, action owners, and a review point.
+6. [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation): a 30-minute adaptation. Output: a diagnosis of the priority initiatives.
+7. Research-use clinic: each participant applies the worksheet to their own research use, and a peer reviews it.
+
+Your contributions on the day are a risk map, a group Panarchy chart, an Ecocycle diagnosis, and one practical action.
+
+### After the course day
+
+Write a Responsible GenAI Use Statement for your own research. The [assignments](assignments.qmd) page describes the task, the rubric, and the template. The task is a proposal. The instructors and the Graduate Center confirm the binding rules for each edition.
+
+## Proposed timetable
+
+{{< include _timetable.qmd >}}
+
+## Materials
+
+- The [handouts](resources.qmd) page lists every worksheet, chart, and template.
+- Each lens page links its slide deck. The decks are Reveal.js presentations. Press `S` for the presenter notes and `?` for the keyboard shortcuts.
+- The [literature](literature.qmd) page lists every reading with a lawful link.

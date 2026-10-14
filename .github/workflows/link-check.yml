@@ -1,0 +1,44 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly, because external links break without a commit.
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Restore lychee cache
+        id: restore-cache
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.ref }}-${{ hashFiles('.lycheerc.toml') }}
+          restore-keys: cache-lychee-${{ github.ref }}-
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --config .lycheerc.toml --root-dir ${{ github.workspace }} './*.md' './*.qmd' './contents/**/*.qmd' './documentation/**/*.qmd' 'data/editions.yml'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save lychee cache
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        if: always()
+        with:
+          path: .lycheecache
+          key: ${{ steps.restore-cache.outputs.cache-primary-key }}

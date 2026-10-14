@@ -1,0 +1,23 @@
+{
+  "name": "Stochastic Parrots and Beyond",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "remoteUser": "codespace",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "version": "1.10.19",
+      "installTinyTex": "false",
+      "installChromium": "false"
+    },
+    "ghcr.io/va-h/devcontainers-features/uv:1": {
+      "version": "latest",
+      "shellautocompletion": "true"
+    }
+  },
+  "postCreateCommand": "npm install && uv sync",
+  "customizations": {
+    "vscode": {
+      "extensions": ["quarto.quarto", "astral-sh.uv", "astral-sh.ty"],
+      "openFiles": ["README.md", "documentation/reuse.qmd"]
+    }
+  }
+}
