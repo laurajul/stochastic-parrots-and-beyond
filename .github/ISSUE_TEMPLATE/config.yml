@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Course website
+    url: https://maehr.github.io/stochastic-parrots-and-beyond/
+    about: Read the course pages, the handouts, and the slides.
+  - name: Registration, attendance, and credits (University of Basel)
+    url: https://www.unibas.ch/en/University/Administration-Services/Vice-President-s-Office-for-Education/Academic-Programs/Graduate-Center/Transferable-Skills.html
+    about: The Graduate Center (GRACE) handles registration, attendance, and ECTS credits. Do not use GitHub for these questions.

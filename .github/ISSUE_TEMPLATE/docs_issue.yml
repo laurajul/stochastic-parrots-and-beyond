@@ -1,0 +1,27 @@
+name: 📗 Report a content issue
+description: Report a typo, a wrong fact, a broken link, or a source that does not support a claim.
+title: '<title>'
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This repository is public.** Do not post personal data: no participant names, no attendance details, no grades, no evaluation answers, and no research data. Write to the Graduate Center (GRACE) about registration, attendance, or credits.
+  - type: markdown
+    attributes:
+      value: Tell us which page is wrong and why. If a source does not support a claim, give the source.
+  - type: input
+    id: link
+    attributes:
+      label: Link to the Page
+  - type: textarea
+    id: quote
+    attributes:
+      label: Describe the Issue
+  - type: dropdown
+    id: participate
+    attributes:
+      label: Are you able to create a Pull Request with the fix?
+      options:
+        - 'Yes'
+        - 'No'

@@ -1,0 +1,33 @@
+{
+  "name": "stochastic-parrots-and-beyond",
+  "description": "Open educational resources for the workshop Stochastic Parrots and Beyond: Normative Dimensions of Generative AI",
+  "author": "Moritz Mähr <moritz.maehr@gmail.com>",
+  "contributors": [
+    "Laura Wagner"
+  ],
+  "url": "https://github.com/maehr/stochastic-parrots-and-beyond/issues",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "prek install --hook-type pre-commit --hook-type commit-msg",
+    "changelog": "npm exec git-cliff -- --config cliff.toml",
+    "changelog:unreleased": "npm exec git-cliff -- --config cliff.toml --unreleased --strip all"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@j178/prek": "^0.5.5",
+    "git-cliff": "^2.14.2",
+    "prettier": "^3.9.10"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: 'Stochastic Parrots and Beyond: Normative Dimensions of Generative AI'
+message: >-
+  If you use these course materials, cite them with the
+  metadata from this file.
+# CFF 1.2.0 allows only `software` or `dataset`. `dataset` is the closest
+# match for teaching material.
+type: dataset
+authors:
+  - given-names: Laura
+    family-names: Wagner
+    orcid: 'https://orcid.org/0009-0003-4244-6342'
+    affiliation: University of Zurich
+    website: 'https://laurajul.github.io/'
+  - given-names: Moritz
+    family-names: Mähr
+    email: 'moritz.maehr@gmail.com'
+    orcid: 'https://orcid.org/0000-0002-1367-1618'
+    affiliation: University of Bern
+    website: 'https://moritzmaehr.ch/'
+repository-code: 'https://github.com/maehr/stochastic-parrots-and-beyond'
+url: 'https://maehr.github.io/stochastic-parrots-and-beyond/'
+abstract: >-
+  Open educational resources for a one-day workshop for doctoral
+  candidates and postdocs. The workshop examines generative AI through
+  four lenses: scale and environment, representation, lifecycle and
+  labour, and political economy. Participants then use the Liberating
+  Structures Panarchy and an adapted Ecocycle Planning to find feasible
+  changes in their own research. The materials include lesson pages,
+  Reveal.js slide decks, printable worksheets, a facilitator guide, and
+  a template for a responsible generative AI use statement.
+keywords:
+  - generative AI
+  - AI ethics
+  - research integrity
+  - open educational resources
+  - Liberating Structures
+  - Panarchy
+  - doctoral education
+license:
+  - CC-BY-4.0
+  - CC-BY-SA-4.0
+  - AGPL-3.0-only
