@@ -90,14 +90,15 @@ The statement passes when it meets all five criteria:
 
 1.  **Adequately scoped use:** one concrete use or non-use, with the
     system and the task.
-2.  **At least two supported risks:** each risk has a source or evidence
-    from the course.
+2.  **Relevant evidence:** at least two risks, each with a source or
+    evidence from the course that applies to this system and task.
 3.  **Feasible mitigation:** at least one mitigation or alternative that
-    the author can carry out.
+    the author can carry out, and that addresses the cause of a named
+    risk.
 4.  **Transparent practice:** disclosure, citation, documentation, and
     the applicable rules.
-5.  **Reasoned conclusion:** a decision that follows from the analysis
-    and states its limits.
+5.  **Reasoned conclusion:** a decision that follows from the analysis,
+    names a check whose result would change it, and states its limits.
 
 ------------------------------------------------------------------------
 

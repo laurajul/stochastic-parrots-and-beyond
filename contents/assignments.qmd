@@ -101,13 +101,13 @@ The [Use Statement template](handouts/use-statement-template.qmd) contains the h
 
 The statement passes when it meets all five criteria.
 
-| Criterion                    | The statement passes when it ...                                                              |
-| ---------------------------- | --------------------------------------------------------------------------------------------- |
-| Adequately scoped use        | describes one concrete use or non-use in the author's research, with the system and the task. |
-| At least two supported risks | names at least two risks, each with a source or with evidence from the course materials.      |
-| Feasible mitigation          | proposes at least one mitigation or less harmful alternative that the author can carry out.   |
-| Transparent practice         | states how the author will disclose, cite, and document the use, and which rules apply.       |
-| Reasoned conclusion          | reaches a decision that follows from the analysis, and states its limits.                     |
+| Criterion             | The statement passes when it ...                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adequately scoped use | describes one concrete use or non-use in the author's research, with the system and the task.                                                           |
+| Relevant evidence     | names at least two risks, each with a source or with evidence from the course materials, and explains why the evidence applies to this system and task. |
+| Feasible mitigation   | proposes at least one mitigation or less harmful alternative that the author can carry out, and that addresses the cause of a named risk.               |
+| Transparent practice  | states how the author will disclose, cite, and document the use, and which rules apply.                                                                 |
+| Reasoned conclusion   | reaches a decision that follows from the analysis, names a check whose result would change the decision, and states its limits.                         |
 
 : Proposed pass or fail rubric {.striped}
 
