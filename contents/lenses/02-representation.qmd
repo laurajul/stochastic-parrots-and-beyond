@@ -97,7 +97,7 @@ Every step in this case comes from published investigations and from LAION's own
 1. Choose a pathway: the LAION-5B case above, or the image generator that a group member uses or plans to use. (2 minutes)
 2. On the [worksheet](../handouts/lens-2-harm-pathway.qmd), mark for each step: who decides, what is selected, what is excluded, and which harm can enter. (6 minutes)
 3. Mark the step where you see the largest risk for your research context, and the people it affects. (2 minutes)
-4. Name one mitigation that a researcher can control. (2 minutes)
+4. Name one mitigation that a researcher can control. It must fit the harm: a consent problem needs a consent remedy, not a fix for bias. (2 minutes)
 
 ::: {.callout-tip title="Hypothetical example"}
 An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favors a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.

@@ -14,6 +14,7 @@ exclude = [
   "https://www.jstor.org/",
   "https://dl.acm.org/",
   "https://doi.org/10.1145/",
+  "https://doi.org/10.1073/",
   "https://www.google.com/maps/",
   "https://time.com/",
   "https://direct.mit.edu/",

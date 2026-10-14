@@ -32,7 +32,7 @@ Ask: "Which work in your own research does not appear in the publication?" Use t
 [Original diagram. CC BY 4.0. Harm can enter at every stage (Suresh and Guttag 2021).]{.source}
 
 ::: notes
-Read the stages. Ask for one person who works at each stage. Most groups find the data and evaluation stages hardest to fill.
+Read the stages. Say that the order is a convention: evaluation happens before and after deployment, and governance applies at every stage. Ask for one person who works at each stage. Most groups find the data and evaluation stages hardest to fill.
 :::
 
 ## 2. Labor behind "automation" {.smaller}

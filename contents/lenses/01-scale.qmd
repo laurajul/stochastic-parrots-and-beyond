@@ -64,6 +64,7 @@ Scraping raises questions of consent and copyright. Large undocumented datasets 
 - Most providers of commercial models publish no comparable figures. A missing number is not a zero.
 - Figures for one model or one data center do not transfer to another system. Use them as orders of magnitude, not as exact values.
 - A footprint alone does not decide whether a use is justified. Weigh it against the purpose, the alternatives, and the people who carry the costs.
+- Compare alternatives for the same task, at the same boundary and quality: manual work, a search tool, a small model, or a general model with checks. A smaller or local model is a hypothesis to test, not a result.
 
 :::
 

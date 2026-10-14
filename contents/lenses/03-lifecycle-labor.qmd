@@ -30,7 +30,7 @@ A generative AI system looks automatic. Behind it, people collect and label data
 
 ### 1. The lifecycle has six stages
 
-The course uses six stages: **design → data → training → deployment → evaluation → governance**. Each stage involves different people and different risks. Suresh and Guttag show that harm can enter at many points of the machine learning lifecycle, from the collection of data to the deployment of a model [-@suresh2021]. Weidinger et al. sort the risks of language models into six areas, from discrimination and misinformation to environmental and socioeconomic harms [-@weidinger2022].
+The course uses six stages: **design → data → training → deployment → evaluation → governance**. The order is a convention for the worksheet. Evaluation happens before and after deployment, and governance applies at every stage. Each stage involves different people and different risks. Suresh and Guttag show that harm can enter at many points of the machine learning lifecycle, from the collection of data to the deployment of a model [-@suresh2021]. Weidinger et al. sort the risks of language models into six areas, from discrimination and misinformation to environmental and socioeconomic harms [-@weidinger2022].
 
 ![The six stages of the lifecycle, with the people who work, the people who carry risk, and the questions to ask at each stage. Original diagram.](../../assets/cases/03-lifecycle.svg){fig-alt="Six boxes in a row, connected by arrows: design, data, training, deployment, evaluation, governance. Under each box, two lines name the people who work at this stage and the people who carry the risk. A return arrow from governance back to design shows that the cycle repeats."}
 

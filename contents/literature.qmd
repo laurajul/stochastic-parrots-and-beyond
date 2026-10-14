@@ -31,6 +31,7 @@ Choose two of these readings or cases. They are not all mandatory. The table nam
 | Buschek and Thorp, _Models All the Way Down_ [-@buschek2024]                | Whole investigation                                                   | 1, 2 | [Open web publication](https://knowingmachines.org/models-all-the-way)           |
 | Birhane, Prabhu, and Kahembwe, _Multimodal Datasets_ [-@birhane2021]        | Sections on the audit of LAION-400M                                   | 2    | [Open preprint](https://arxiv.org/abs/2110.01963)                                |
 | Widder, West, and Whittaker, _Open (For Business)_ [-@widder2023]           | Whole paper                                                           | 4    | [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807)     |
+| Mitchell and Krakauer, _The Debate over Understanding_ [-@mitchell2023]     | Whole paper                                                           | 1    | [Open access](https://doi.org/10.1073/pnas.2215907120)                           |
 
 : Recommended readings {.striped}
 
