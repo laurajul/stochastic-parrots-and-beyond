@@ -62,12 +62,12 @@ The allocation below is a suggestion. It is not a new university requirement.
 
 You contribute four outputs. The group keeps them on paper or on a shared wall.
 
-| Output                  | Where                                                    |
-| ----------------------- | -------------------------------------------------------- |
-| A risk map for one lens | The worksheet of the lens. See the four lens pages.      |
-| A group Panarchy chart  | [Panarchy](panarchy.qmd)                                 |
-| An Ecocycle diagnosis   | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation) |
-| One practical action    | The [action plan](handouts/action-plan.qmd)              |
+| Output                             | Where                                                    |
+| ---------------------------------- | -------------------------------------------------------- |
+| Four lens worksheets, one per lens | The worksheet of each lens. See the four lens pages.     |
+| A group Panarchy chart             | [Panarchy](panarchy.qmd)                                 |
+| An Ecocycle diagnosis              | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation) |
+| One practical action               | The [action plan](handouts/action-plan.qmd)              |
 
 : Outputs on the course day {.striped}
 

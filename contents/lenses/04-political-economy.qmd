@@ -42,7 +42,7 @@ Universities choose which tools to license, which to recommend, and which data m
 
 ### 5. Regulation is one lever among several
 
-The EU AI Act is one example of governance. Since 2 August 2025, providers of general-purpose AI models in the EU must meet the duties of its Article 53 [@euaiact2024]:
+The EU AI Act is one example of governance. The duties of its Article 53 for providers of general-purpose AI models in the EU apply from 2 August 2025 [@euaiact2024]:
 
 - keep technical documentation of the model,
 - give information to providers who build systems on the model,
@@ -50,6 +50,8 @@ The EU AI Act is one example of governance. Since 2 August 2025, providers of ge
 - publish "a sufficiently detailed summary about the content used for training".
 
 Models under a free and open-source license with public weights are exempt from the first two duties, but not from the copyright policy or the training summary. The exemption does not apply to models with systemic risk [@euaiact2024, art. 53(2)].
+
+The duties phase in. The Commission can fine providers from 2 August 2026. Providers of models placed on the market before 2 August 2025 have until 2 August 2027 to comply [@euaiact2024, arts. 101, 111(3), 113].
 
 ::: {.callout-caution title="Not legal advice"}
 This page summarizes the regulation for teaching. It does not say whether the AI Act applies to a specific project in Switzerland or elsewhere. Ask the legal service of your institution.

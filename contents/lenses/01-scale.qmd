@@ -95,7 +95,7 @@ The BigScience project published unusual detail about the footprint of the model
 The figures also show what usually stays hidden:
 
 - **The grid.** The authors explain the low training emissions largely with the low carbon intensity of the French grid. The same energy on a coal-heavy grid would cause several times the emissions [@luccioni2023].
-- **Experiments.** The intermediate models emitted more than the final training [@luccioni2023].
+- **Experiments.** The intermediate models emitted 35.8 t CO₂eq from dynamic power use. That is more than the 24.69 t of dynamic power use in the final training [@luccioni2023]. Compare on the same boundary.
 - **Use.** The authors ran BLOOM as an API on 16 GPUs for about 18 days. The instance answered 230,768 requests and used 914 kWh. They estimate about 19 kg CO₂eq per day, and note that roughly 75% of the energy went into keeping the model in memory, ready for requests [@luccioni2023].
 - **Data governance.** The ROOTS corpus came with a data governance effort. Its authors propose a multi-party international structure to manage language data across stakeholders, values, and rights [@jernite2022].
 

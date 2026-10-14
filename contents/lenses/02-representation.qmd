@@ -30,7 +30,7 @@ An image generator answers a prompt with what its training data made typical. Th
 
 ### 1. Datasets encode categories and aesthetics
 
-LAION-5B is a dataset of image links with captions. Its developers took image links from Common Crawl, a monthly crawl of the web. They kept an image only if its ALT text — the text that describes an image for screen readers — matched the image closely enough, according to the CLIP model [@buschek2024]. The threshold was a similarity score of 0.26 to 0.28, depending on the language. Buschek and Thorp show that a change of 0.01 would have removed 937,489,831 pairs, and they conclude: "What the images contain plays no role at all in deciding what stays and what goes" [-@buschek2024].
+LAION-5B is a dataset of image links with captions. Its developers took image links from Common Crawl, a monthly crawl of the web. They kept an image only if its ALT text — the text that describes an image for screen readers — matched the image closely enough, according to the CLIP model [@buschek2024]. The threshold was a similarity score of 0.26 to 0.28, depending on the language. Buschek and Thorp show that a change of 0.01 would have removed 937,489,831 pairs, and they conclude: "What the images contain plays no role at all in deciding what stays and what goes" [-@buschek2024]. CLIP does compare each image with its text. Their point is that a similarity score tests neither consent, nor representation, nor fitness for use.
 
 ALT text is often written for search engines, not for people. For Buschek and Thorp, the dataset therefore contains "less about how humans see the world than it does about how search engines see the world" [-@buschek2024].
 
@@ -81,7 +81,7 @@ Every step in this case comes from published investigations and from LAION's own
 
 ![The LAION-5B pathway, from web pages to generated images. At each step, a decision selects some images and excludes others. Original diagram, based on Buschek and Thorp (2024), Thiel (2023), and LAION (2024).](../../assets/cases/02-laion-pathway.svg){fig-alt="Flow diagram with six steps from left to right: web pages in Common Crawl; image links with ALT text; CLIP similarity filter with a threshold of 0.26 to 0.28; LAION-5B with billions of links and captions; an aesthetic score subset; image models such as Stable Diffusion that are trained or fine-tuned on these subsets. Under each step, a note names who decides and what can go wrong."}
 
-1. **Web pages.** Common Crawl collects pages from more than 3 billion websites. Shopping sites and image platforms are heavily represented [@buschek2024].
+1. **Web pages.** Common Crawl collects billions of web pages. Shopping sites and image platforms are heavily represented [@buschek2024].
 2. **Links and ALT text.** The pipeline keeps images whose HTML tag has an ALT text. Many ALT texts are written for search engines [@buschek2024].
 3. **Statistical filter.** CLIP compares each image with its ALT text. A pair above the threshold stays in the dataset [@buschek2024].
 4. **The dataset.** LAION-5B contains links and metadata, not the images. LAION never distributed image content [@laion2024]. Midjourney and Stable Diffusion are trained in part on LAION-5B [@buschek2024].

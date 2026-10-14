@@ -84,7 +84,7 @@ BLOOM: 176 billion parameters, an open-science project with more than a thousand
 ## What the BLOOM figures reveal {.smaller}
 
 - **The grid:** 57 g CO₂eq per kWh in France. The authors explain the low emissions largely with this grid.
-- **Experiments:** intermediate models emitted 35.8 t, more than the final training.
+- **Experiments:** intermediate models emitted 35.8 t from dynamic power use, more than the 24.69 t of the final training on the same boundary.
 - **Use:** 230,768 requests in about 18 days used 914 kWh. Roughly 75% of the energy kept the model in memory, ready for requests.
 - **Data:** the 1.6 TB ROOTS corpus in 46 natural and 13 programming languages came with a data governance effort.
 

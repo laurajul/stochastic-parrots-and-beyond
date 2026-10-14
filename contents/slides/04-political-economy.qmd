@@ -69,7 +69,7 @@ This concept prepares Panarchy: the university is one of the levels.
 
 ## 5. Regulation: the EU AI Act as one example {.smaller}
 
-Since 2 August 2025, providers of general-purpose AI models must, under Article 53:
+From 2 August 2025, providers of general-purpose AI models must, under Article 53:
 
 - keep technical documentation,
 - inform providers who build on the model,
@@ -78,7 +78,9 @@ Since 2 August 2025, providers of general-purpose AI models must, under Article 
 
 Free and open-source models with public weights are exempt from the first two duties, unless they have systemic risk.
 
-[Regulation (EU) 2024/1689, arts. 53 and 113. Not legal advice.]{.source}
+Fines are possible from 2 August 2026. Models placed on the market before 2 August 2025 have until 2 August 2027.
+
+[Regulation (EU) 2024/1689, arts. 53, 101, 111(3), and 113. Not legal advice.]{.source}
 
 ::: notes
 Do not answer whether the Act applies to a specific project. Note such questions for the legal service.

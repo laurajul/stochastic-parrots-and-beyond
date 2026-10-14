@@ -30,6 +30,7 @@ Read the content note aloud. Say that participants can step out at any time. Do 
 - LAION-5B: image links from Common Crawl, kept if the ALT text matched the image according to CLIP (threshold 0.26 to 0.28).
 - A change of 0.01 would have removed 937,489,831 pairs.
 - "What the images contain plays no role at all in deciding what stays and what goes."
+  - CLIP compares image and text. A similarity score tests neither consent, nor representation, nor fitness for use.
 - The dataset shows "less about how humans see the world than it does about how search engines see the world."
 
 [Buschek and Thorp (2024), Models All the Way Down, Knowing Machines.]{.source}
