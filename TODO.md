@@ -17,6 +17,8 @@ The course site is built. The tasks below need a decision by the instructors, an
 - [ ] `[Manual]` Approve the eight-hour preparation plan in `contents/assignments.qmd`.
 - [ ] `[Manual]` Confirm the follow-up task, the rubric, the submission channel, and the deadline with GRACE. Then set `assessment_deadline` and remove the "proposed" labels.
 - [ ] `[Manual]` Read the lens pages and the decks for accuracy and tone. Laura Wagner and Moritz Mähr both sign off.
+- [ ] `[Manual]` Approve the revised rubric criteria (relevant evidence, a mitigation that addresses the cause, a check that can change the decision). Laura Wagner and GRACE both agree.
+- [ ] `[Manual]` Ask GRACE for the language of instruction. Then state it on the course description.
 
 ## HS 2026 Operations
 
@@ -27,6 +29,7 @@ These tasks hold no participant data. Keep all participant data outside this rep
 - [ ] `[Manual]` On 4 November 2026: record attendance privately, and keep the last ten minutes for the evaluation.
 - [ ] `[Manual]` After the course day: return the attendance table to GRACE. After the deadline, return the completion table. Arrange the certificates.
 - [ ] `[Agent]` After 4 November 2026: set `hs2026.status: delivered` and decide on `featured_edition`.
+- [ ] `[Manual]` After 4 November 2026: check whether the reasoning of the participants changed, not only their satisfaction. Compare a sample of statements with the rubric. Use no personal data in this repository.
 
 ## FS 2027
 
@@ -38,11 +41,14 @@ These tasks hold no participant data. Keep all participant data outside this rep
 - [ ] `[Shared]` Check the six decks for legibility and accessibility. Then offer PDF versions.
 - [ ] `[Agent]` Run veraPDF on the handouts (`quarto install verapdf`) to validate PDF/UA-1.
 - [ ] `[Shared]` Decide whether to self-host the IBM Plex fonts instead of loading them from Google Fonts.
+- [ ] `[Agent]` Check the IEA 2026 update of the data center figures against the IEA report itself. Only then add a dated note to Lens 1. Keep the 2025 figures.
 
 ## GitHub and Zenodo
 
 - [x] `[Manual]` Enable GitHub Pages with the source **GitHub Actions**.
 - [x] `[Shared]` Enable Dependabot alerts and security updates, secret scanning, and push protection.
+- [ ] `[Manual]` Merge PR #1. The published site must come from `main`, so that the reuse guide matches a fresh clone.
+- [ ] `[Shared]` Restrict the `github-pages` environment to the `main` branch.
 - [ ] `[Shared]` Protect the `main` branch. For one maintainer: require a pull request and passing checks, 0 approvals.
 - [ ] `[Shared]` Enable CodeQL default setup for GitHub Actions.
 - [ ] `[Manual]` Enable the Zenodo-GitHub integration. Add the DOI badge and a `doi` key to `CITATION.cff` after the first release. Do not invent a DOI.
