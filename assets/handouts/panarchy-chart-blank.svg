@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 707" width="1000" height="707" role="img" aria-labelledby="title desc">
+  <title id="title">Panarchy chart (blank)</title>
+  <desc id="desc">Panarchy chart in A4 landscape. Five horizontal bands stacked from bottom to top. The bottom band is small and fast, the top band large and slow. Each band has a field for its level name. An arrow on the left points up and reads: ideas and experiments spread up. An arrow on the right points down and reads: resources and rules flow down. Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33322f"/></marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="1000" height="707" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="start">Panarchy chart</text>
+  <text x="220.0" y="34.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Challenge:</text>
+  <line x1="300" y1="38" x2="976" y2="38" stroke="#8f8d88" stroke-width="1"/>
+  <rect x="110.0" y="60.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="82.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 5</text>
+  <line x1="180" y1="85" x2="440" y2="85" stroke="#8f8d88" stroke-width="1"/>
+  <text x="450.0" y="82.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#8f8d88" text-anchor="start" font-style="italic">name the level</text>
+  <rect x="110.0" y="172.0" width="780.0" height="104.0" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="194.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 4</text>
+  <line x1="180" y1="197" x2="440" y2="197" stroke="#8f8d88" stroke-width="1"/>
+  <text x="450.0" y="194.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#8f8d88" text-anchor="start" font-style="italic">name the level</text>
+  <rect x="110.0" y="284.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="306.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 3</text>
+  <line x1="180" y1="309" x2="440" y2="309" stroke="#8f8d88" stroke-width="1"/>
+  <text x="450.0" y="306.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#8f8d88" text-anchor="start" font-style="italic">name the level</text>
+  <rect x="110.0" y="396.0" width="780.0" height="104.0" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="418.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 2</text>
+  <line x1="180" y1="421" x2="440" y2="421" stroke="#8f8d88" stroke-width="1"/>
+  <text x="450.0" y="418.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#8f8d88" text-anchor="start" font-style="italic">name the level</text>
+  <rect x="110.0" y="508.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="530.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 1</text>
+  <line x1="180" y1="533" x2="440" y2="533" stroke="#8f8d88" stroke-width="1"/>
+  <text x="450.0" y="530.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#8f8d88" text-anchor="start" font-style="italic">name the level</text>
+  <text x="60.0" y="66.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">large</text>
+  <text x="60.0" y="80.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and slow</text>
+  <text x="60.0" y="586.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">small</text>
+  <text x="60.0" y="600.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and fast</text>
+  <line x1="60.0" y1="568.0" x2="60.0" y2="100.0" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text transform="translate(80 340) rotate(-90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">ideas and experiments spread up</text>
+  <line x1="940.0" y1="100.0" x2="940.0" y2="568.0" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="940.0" y="66.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">resources</text>
+  <text x="940.0" y="80.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and rules</text>
+  <text x="940.0" y="586.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">flow</text>
+  <text x="940.0" y="600.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">down</text>
+  <text transform="translate(920 340) rotate(90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">resources and rules flow down</text>
+  <text x="24.0" y="695.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#52514e" text-anchor="start">Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0. Original drawing.</text>
+</svg>
