@@ -11,6 +11,7 @@ format:
     background-transition: none
     center: false
     css: slides.css
+    include-after-body: ../../_includes/a11y-slides.html
     footer: 'Stochastic Parrots and Beyond · Lens 1 · CC BY 4.0'
 ---
 
@@ -38,14 +39,14 @@ Read the definition slowly. Point out that the paper names costs and data before
 
 ## 2. Models have a material footprint {.smaller}
 
-- **Energy:** data centres used about 415 TWh in 2024, about 1.5% of global electricity. The IEA projects about 945 TWh by 2030, with AI as the main driver (IEA 2025).
-- **Water:** training GPT-3 could directly evaporate about 700,000 litres of fresh water, according to an estimate by Li et al. (2025).
+- **Energy:** data centers used about 415 TWh in 2024, about 1.5% of global electricity. The IEA projects about 945 TWh by 2030, with AI as the main driver (IEA 2025).
+- **Water:** training GPT-3 could directly evaporate about 700,000 liters of fresh water, according to an estimate by Li et al. (2025).
 - **Hardware:** manufacturing servers and GPUs causes emissions before the first computation (Luccioni et al. 2023).
 
 [Estimates and projections. Use them as orders of magnitude.]{.source}
 
 ::: notes
-Distinguish measurement, estimate, and projection. The IEA figures concern all data centres, not one model.
+Distinguish measurement, estimate, and projection. The IEA figures concern all data centers, not one model.
 :::
 
 ## 3. Use costs energy again and again

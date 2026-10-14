@@ -16,6 +16,9 @@ exclude = [
   "https://doi.org/10.1145/",
   "https://www.google.com/maps/",
   "https://time.com/",
+  "https://direct.mit.edu/",
+  "https://doi.org/10.7551/mitpress/",
+  "https://www.iea.org/",
   # Placeholders for the Zenodo badge after the first release.
   "ZENODO_RECORD",
   "GITHUB_REPO_ID",

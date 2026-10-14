@@ -1,0 +1,19 @@
+<script>
+  // Accessibility fixes for the Reveal.js decks.
+  (function () {
+    // Allow zoom (WCAG 1.4.4). Reveal.js disables it by default.
+    var vp = document.querySelector('meta[name="viewport"]');
+    if (vp) vp.setAttribute('content', 'width=device-width, initial-scale=1.0');
+    // The menu plugin adds its button late. Name it when it appears.
+    function nameMenuButton() {
+      document.querySelectorAll('.slide-menu-button a').forEach(function (a) {
+        if (!a.getAttribute('aria-label')) a.setAttribute('aria-label', 'Open the slide menu');
+      });
+    }
+    new MutationObserver(nameMenuButton).observe(document.documentElement, {
+      childList: true,
+      subtree: true
+    });
+    document.addEventListener('DOMContentLoaded', nameMenuButton);
+  })();
+</script>

@@ -7,11 +7,13 @@ description: >-
 ---
 
 ::: {.callout-note title="At a glance"}
+
 - **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
 - **Output:** a representation and harm pathway.
 - **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
 - **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).
 - **Anchor sources:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Birhane, Prabhu, and Kahembwe [-@birhane2021]; Buschek and Thorp [-@buschek2024], a Knowing Machines investigation.
+
 :::
 
 ::: {.callout-caution title="Content note"}
@@ -55,16 +57,20 @@ Open image models can be fine-tuned on a few images of one person. Hawkins, Mitt
 ## Evidence and limits
 
 ::: {.callout-note title="What the evidence shows"}
+
 - The structure of LAION-5B is documented: its sources, its filter, its aesthetic subsets [@buschek2024; @laion2024].
 - Audits found harmful content and stereotypes in the dataset and in the outputs of models [@birhane2021; @bianchi2023; @thiel2023].
 - The rise of non-consensual model variants is measured on two public platforms [@hawkins2025].
+
 :::
 
 ::: {.callout-caution title="Limits of the evidence"}
+
 - An audit of one dataset or one model version does not describe every model. Commercial providers rarely publish their training data, so outside audits are hard.
 - A biased output does not prove one specific cause. Training data, fine-tuning, prompts, and filters interact.
 - Counts of model variants describe what is offered for download, not how often each variant is used.
 - Pygmalion displacement is an interpretive lens. It explains patterns. It is not a measurement.
+
 :::
 
 ## Case: the LAION-5B pathway {#case-laion}
@@ -94,7 +100,7 @@ Every step in this case comes from published investigations and from LAION's own
 4. Name one mitigation that a researcher can control. (2 minutes)
 
 ::: {.callout-tip title="Hypothetical example"}
-An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favours a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.
+An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favors a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.
 :::
 
 ## Output

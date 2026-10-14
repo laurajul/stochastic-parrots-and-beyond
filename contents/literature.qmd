@@ -21,16 +21,16 @@ Lens 1 builds on this text. Its arguments about scale, environmental cost, and d
 
 Choose two of these readings or cases. They are not all mandatory. The table names the selected chapters and the lens that each reading supports.
 
-| Reading                                                                                                                          | Selected part                                                          | Lens   | Access                                                                                  |
-| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------- |
-| Buolamwini, _Unmasking AI_ [-@buolamwini2023]                                                                                    | Chapter 1, "Daughter of Art and Science"; chapter 11, "Gender Shades"   | 2      | Library or bookshop                                                                     |
-| Crawford, _Atlas of AI_ [-@crawford2021]                                                                                         | Chapters 1–3: "Earth", "Labor", "Data"                                  | 1, 3   | [Publisher](https://yalebooks.yale.edu/book/9780300252392/atlas-of-ai/), library        |
-| Loukissas, _All Data Are Local_ [-@loukissas2019]                                                                                | Chapter 3, "Collecting Infrastructures"                                 | 1      | [Open access](https://doi.org/10.7551/mitpress/11543.001.0001)                          |
-| O'Neil, _Weapons of Math Destruction_ [-@oneil2016]                                                                              | Introduction; chapter 1, "Bomb Parts: What Is a Model?"                 | 3, 4   | Library or bookshop                                                                     |
-| Erscoi, Kleinherenbrink, and Guest, _Pygmalion Displacement_ [-@erscoi2023]                                                      | Whole paper                                                             | 2      | [Open preprint](https://doi.org/10.31235/osf.io/jqxb6)                                  |
-| Buschek and Thorp, _Models All the Way Down_ [-@buschek2024]                                                                     | Whole investigation                                                     | 1, 2   | [Open web publication](https://knowingmachines.org/models-all-the-way)                  |
-| Birhane, Prabhu, and Kahembwe, _Multimodal Datasets_ [-@birhane2021]                                                             | Sections on the audit of LAION-400M                                     | 2      | [Open preprint](https://arxiv.org/abs/2110.01963)                                       |
-| Widder, West, and Whittaker, _Open (For Business)_ [-@widder2023]                                                                | Whole paper                                                             | 4      | [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807)            |
+| Reading                                                                     | Selected part                                                         | Lens | Access                                                                           |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------- |
+| Buolamwini, _Unmasking AI_ [-@buolamwini2023]                               | Chapter 1, "Daughter of Art and Science"; chapter 11, "Gender Shades" | 2    | Library or bookshop                                                              |
+| Crawford, _Atlas of AI_ [-@crawford2021]                                    | Chapters 1–3: "Earth", "Labor", "Data"                                | 1, 3 | [Publisher](https://yalebooks.yale.edu/book/9780300252392/atlas-of-ai/), library |
+| Loukissas, _All Data Are Local_ [-@loukissas2019]                           | Chapter 3, "Collecting Infrastructures"                               | 1    | [Open access](https://doi.org/10.7551/mitpress/11543.001.0001)                   |
+| O'Neil, _Weapons of Math Destruction_ [-@oneil2016]                         | Introduction; chapter 1, "Bomb Parts: What Is a Model?"               | 3, 4 | Library or bookshop                                                              |
+| Erscoi, Kleinherenbrink, and Guest, _Pygmalion Displacement_ [-@erscoi2023] | Whole paper                                                           | 2    | [Open preprint](https://doi.org/10.31235/osf.io/jqxb6)                           |
+| Buschek and Thorp, _Models All the Way Down_ [-@buschek2024]                | Whole investigation                                                   | 1, 2 | [Open web publication](https://knowingmachines.org/models-all-the-way)           |
+| Birhane, Prabhu, and Kahembwe, _Multimodal Datasets_ [-@birhane2021]        | Sections on the audit of LAION-400M                                   | 2    | [Open preprint](https://arxiv.org/abs/2110.01963)                                |
+| Widder, West, and Whittaker, _Open (For Business)_ [-@widder2023]           | Whole paper                                                           | 4    | [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807)     |
 
 : Recommended readings {.striped}
 
@@ -46,12 +46,12 @@ Birhane, Prabhu, and Kahembwe [-@birhane2021] and the Stanford Internet Observat
 
 Each lens uses one documented case. These sources support the case and the evidence on the lens page.
 
-| Lens                            | Case                                                       | Main sources                                                                                   |
-| ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [1](lenses/01-scale.qmd)         | The documented footprint and data governance of BLOOM      | @luccioni2023; @laurencon2022; @jernite2022                                                    |
-| [2](lenses/02-representation.qmd) | The LAION-5B pathway, from web links to generated images  | @buschek2024; @birhane2021; @thiel2023; @laion2024; @bianchi2023                               |
-| [3](lenses/03-lifecycle-labor.qmd) | Outsourced safety labeling for ChatGPT in Kenya          | @perrigo2023; @ouyang2022; @gray2019                                                           |
-| [4](lenses/04-political-economy.qmd) | "Open" model licences and the EU AI Act                 | @meta2023; @osi2024; @liesenfeld2024; @euaiact2024                                             |
+| Lens                                 | Case                                                     | Main sources                                                     |
+| ------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------------------- |
+| [1](lenses/01-scale.qmd)             | The documented footprint and data governance of BLOOM    | @luccioni2023; @laurencon2022; @jernite2022                      |
+| [2](lenses/02-representation.qmd)    | The LAION-5B pathway, from web links to generated images | @buschek2024; @birhane2021; @thiel2023; @laion2024; @bianchi2023 |
+| [3](lenses/03-lifecycle-labor.qmd)   | Outsourced safety labeling for ChatGPT in Kenya          | @perrigo2023; @ouyang2022; @gray2019                             |
+| [4](lenses/04-political-economy.qmd) | "Open" model licenses and the EU AI Act                  | @meta2023; @osi2024; @liesenfeld2024; @euaiact2024               |
 
 : Case sources {.striped}
 

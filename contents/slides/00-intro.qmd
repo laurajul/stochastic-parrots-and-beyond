@@ -11,6 +11,7 @@ format:
     background-transition: none
     center: false
     css: slides.css
+    include-after-body: ../../_includes/a11y-slides.html
     footer: 'Stochastic Parrots and Beyond · Orientation · CC BY 4.0'
 ---
 
@@ -66,12 +67,12 @@ Read the stages from left to right. Say that we will mark risks at each stage. T
 
 A doctoral candidate in history wants to use a hosted chatbot to summarize 200 digitized newspaper articles for a literature review.
 
-| Lens                     | First question                                                         |
-| ------------------------ | ---------------------------------------------------------------------- |
-| Scale and environment    | What is known about the model's training data and energy use?           |
-| Representation           | Whose voices does the summary make typical, and whose does it drop?     |
-| Lifecycle and labor      | Who labeled the data, and who checks the summaries?                     |
-| Political economy        | What does the provider gain, and what does the university pay?          |
+| Lens                  | First question                                                      |
+| --------------------- | ------------------------------------------------------------------- |
+| Scale and environment | What is known about the model's training data and energy use?       |
+| Representation        | Whose voices does the summary make typical, and whose does it drop? |
+| Lifecycle and labor   | Who labeled the data, and who checks the summaries?                 |
+| Political economy     | What does the provider gain, and what does the university pay?      |
 
 [This example is invented for teaching.]{.source}
 

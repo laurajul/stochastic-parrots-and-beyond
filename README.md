@@ -11,13 +11,13 @@ Open educational resources for **Stochastic Parrots and Beyond: Normative Dimens
 
 ## Overview
 
-Researchers use generative AI more and more. Its environmental costs, training data, labour conditions, representations, commercial incentives, and governance often get separate treatment. This workshop puts them together.
+Researchers use generative AI more and more. Its environmental costs, training data, labor conditions, representations, commercial incentives, and governance often get separate treatment. This workshop puts them together.
 
 Participants examine text and image generators through four analytical lenses:
 
 1. Stochastic Parrots: scale and environment.
 2. Representation and Pygmalion.
-3. Lifecycle and labour: materiality and extraction.
+3. Lifecycle and labor: materiality and extraction.
 4. Political economy: power and markets.
 
 Then the group uses the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) and a short adaptation of [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning). With these methods, participants find feasible changes in their own research settings. The aim is a transparent and defensible position on generative AI in research. The aim is not a list of permitted and forbidden tools.
@@ -92,9 +92,9 @@ The preview server reloads the site after each change. The [reuse guide](documen
 
 ## Reuse
 
-You can copy, change, and teach these materials. Give credit, and keep the licence of each part.
+You can copy, change, and teach these materials. Give credit, and keep the license of each part.
 
-| Content                                     | Licence                                                   |
+| Content                                     | License                                                   |
 | ------------------------------------------- | --------------------------------------------------------- |
 | Original course text, figures, and handouts | [CC BY 4.0](LICENSE-CCBY.md)                              |
 | Material adapted from Liberating Structures | [CC BY-SA 4.0](LICENSE-CCBYSA.md)                         |
@@ -127,7 +127,7 @@ Corrections, better sources, and reuse reports are welcome. Read [CONTRIBUTING.m
 - **Laura Wagner**: course design and materials. [Website](https://laurajul.github.io/), [ORCID 0009-0003-4244-6342](https://orcid.org/0009-0003-4244-6342).
 - **Moritz Mähr**: course design and materials. [Website](https://moritzmaehr.ch/), [ORCID 0000-0002-1367-1618](https://orcid.org/0000-0002-1367-1618).
 
-The workshop is part of the Transferable Skills programme of the Graduate Center (GRACE), University of Basel.
+The workshop is part of the Transferable Skills program of the Graduate Center (GRACE), University of Basel.
 
 Henri Lipmanowicz and Keith McCandless created [Liberating Structures](https://www.liberatingstructures.com/). The Panarchy and Ecocycle materials in this repository adapt their methods under [CC BY-SA 4.0](https://www.liberatingstructures.com/cc-license).
 

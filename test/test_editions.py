@@ -50,7 +50,9 @@ def test_all_editions_have_the_same_keys(editions_data):
         assert k == union, f"{eid} lacks {sorted(union - k)}. Add them as null."
 
 
-@pytest.mark.parametrize("field", ["status", "detailed_program_status", "registration_status"])
+@pytest.mark.parametrize(
+    "field", ["status", "detailed_program_status", "registration_status"]
+)
 def test_vocabularies(editions_data, field):
     allowed = {
         "status": STATUSES,
@@ -113,7 +115,11 @@ def test_planned_edition_has_no_confirmed_logistics(editions_data):
             assert e["evaluation_url"] is None, eid
 
 
-def test_each_edition_has_a_page_and_each_page_an_edition(editions_data, repo_root: Path):
+def test_each_edition_has_a_page_and_each_page_an_edition(
+    editions_data, repo_root: Path
+):
     pages = {p.stem for p in (repo_root / "contents" / "editions").glob("*.qmd")}
     ids = set(editions_data["editions"])
-    assert ids == pages, f"pages without data: {pages - ids}; data without page: {ids - pages}"
+    assert ids == pages, (
+        f"pages without data: {pages - ids}; data without page: {ids - pages}"
+    )

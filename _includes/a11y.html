@@ -1,0 +1,53 @@
+<script>
+  // Small accessibility fixes for markup that Quarto generates.
+  // The site needs no other JavaScript of its own.
+  (function () {
+    function fix() {
+      // Give each navigation landmark a unique name.
+      var named = {
+        'nav.navbar': 'Main',
+        '#quarto-sidebar': 'Course',
+        '.quarto-secondary-nav': 'Section',
+        '#TOC': 'On this page',
+        'nav.page-navigation': 'Previous and next page'
+      };
+      Object.keys(named).forEach(function (sel) {
+        var el = document.querySelector(sel);
+        if (el && el.getAttribute('aria-label') !== named[sel])
+          el.setAttribute('aria-label', named[sel]);
+      });
+      // A section toggle in the sidebar is a button, not a landmark.
+      document
+        .querySelectorAll('[data-bs-toggle="collapse"][role="navigation"]')
+        .forEach(function (el) {
+          el.setAttribute('role', 'button');
+        });
+      // Collapsible callouts ("For teachers"): a keyboard-operable button whose
+      // name is its visible title.
+      document
+        .querySelectorAll('.callout-header[data-bs-toggle="collapse"]:not([data-a11y])')
+        .forEach(function (el) {
+          el.setAttribute('data-a11y', '');
+          el.setAttribute('role', 'button');
+          el.setAttribute('tabindex', '0');
+          el.removeAttribute('aria-label');
+          el.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              el.click();
+            }
+          });
+        });
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      fix();
+      // Quarto sets some attributes again after the page loads.
+      new MutationObserver(fix).observe(document.body, {
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['role', 'aria-label']
+      });
+    });
+    window.addEventListener('load', fix);
+  })();
+</script>

@@ -1,17 +1,19 @@
 ---
 title: 'Lens 1: Stochastic Parrots — Scale and Environment'
-subtitle: 'Which environmental and data choices are hidden by a model''s apparent performance?'
+subtitle: "Which environmental and data choices are hidden by a model's apparent performance?"
 description: >-
   Why scale is not a sufficient criterion for quality or social benefit, and
   how to trace a model from its data sources to its daily use.
 ---
 
 ::: {.callout-note title="At a glance"}
+
 - **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
 - **Output:** a material-and-provenance map.
 - **Worksheet:** [Lens 1 worksheet: material-and-provenance map](../handouts/lens-1-provenance-map.qmd).
 - **Slides:** [Lens 1 slide deck](../slides/01-scale.qmd).
 - **Anchor sources:** Bender et al. [-@bender2021]; Crawford [-@crawford2021], chapter 1.
+
 :::
 
 ## Question
@@ -32,8 +34,8 @@ The authors define a language model as "a system for haphazardly stitching toget
 
 Training and use need electricity, cooling water, hardware, and buildings. Crawford traces this material base back to mines, energy grids, and supply chains [-@crawford2021, ch. 1].
 
-- **Energy.** The International Energy Agency estimates that data centres used about 415 TWh of electricity in 2024, about 1.5% of global electricity use. It projects about 945 TWh by 2030, with AI as the most important driver [@iea2025].
-- **Water.** Data centres use water for cooling, and power plants use water to make electricity. Li et al. estimate that training GPT-3 in Microsoft's US data centres could directly evaporate about 700,000 litres of fresh water [@li2025].
+- **Energy.** The International Energy Agency estimates that data centers used about 415 TWh of electricity in 2024, about 1.5% of global electricity use. It projects about 945 TWh by 2030, with AI as the most important driver [@iea2025].
+- **Water.** Data centers use water for cooling, and power plants use water to make electricity. Li et al. estimate that training GPT-3 in Microsoft's US data centers could directly evaporate about 700,000 liters of fresh water [@li2025].
 - **Hardware.** Servers and GPUs have an "embodied" footprint from their manufacture. It counts even when they stand idle [@luccioni2023].
 
 ### 3. Where and how a model runs matters
@@ -49,16 +51,20 @@ Scraping raises questions of consent and copyright. Large undocumented datasets 
 ## Evidence and limits
 
 ::: {.callout-note title="What the evidence shows"}
+
 - Peer-reviewed measurements exist for some open models. The [case](#case-bloom) below uses one of them.
-- The IEA figures [@iea2025] are estimates and projections for all data centres. They are not measurements of one model.
+- The IEA figures [@iea2025] are estimates and projections for all data centers. They are not measurements of one model.
 - The water figure of Li et al. [@li2025] is an estimate from a published method and stated assumptions.
+
 :::
 
 ::: {.callout-caution title="Limits of the evidence"}
-- Each estimate depends on assumptions: the power draw of the hardware, the efficiency of the data centre, the carbon intensity of the grid. Two methods can give different results for the same model.
+
+- Each estimate depends on assumptions: the power draw of the hardware, the efficiency of the data center, the carbon intensity of the grid. Two methods can give different results for the same model.
 - Most providers of commercial models publish no comparable figures. A missing number is not a zero.
-- Figures for one model or one data centre do not transfer to another system. Use them as orders of magnitude, not as exact values.
+- Figures for one model or one data center do not transfer to another system. Use them as orders of magnitude, not as exact values.
 - A footprint alone does not decide whether a use is justified. Weigh it against the purpose, the alternatives, and the people who carry the costs.
+
 :::
 
 ## Case: BLOOM {#case-bloom}
@@ -71,16 +77,16 @@ BLOOM is a multilingual language model with 176 billion parameters. More than a 
 
 The BigScience project published unusual detail about the footprint of the model:
 
-| Item                                              | Published figure                    |
-| ------------------------------------------------- | ----------------------------------- |
-| Training time                                     | 118 days, 1,082,990 GPU hours       |
-| Electricity for training                          | 433,196 kWh                         |
-| Carbon intensity of the French grid               | 57 g CO₂eq per kWh                  |
-| Emissions from the power that training used       | 24.69 t CO₂eq                       |
-| Emissions from idle infrastructure                | 14.6 t CO₂eq                        |
-| Emissions from the manufacture of the hardware    | 11.2 t CO₂eq                        |
-| **Total for the final training**                  | **50.5 t CO₂eq**                    |
-| Intermediate models and experiments               | 35.8 t CO₂eq from dynamic power use |
+| Item                                           | Published figure                    |
+| ---------------------------------------------- | ----------------------------------- |
+| Training time                                  | 118 days, 1,082,990 GPU hours       |
+| Electricity for training                       | 433,196 kWh                         |
+| Carbon intensity of the French grid            | 57 g CO₂eq per kWh                  |
+| Emissions from the power that training used    | 24.69 t CO₂eq                       |
+| Emissions from idle infrastructure             | 14.6 t CO₂eq                        |
+| Emissions from the manufacture of the hardware | 11.2 t CO₂eq                        |
+| **Total for the final training**               | **50.5 t CO₂eq**                    |
+| Intermediate models and experiments            | 35.8 t CO₂eq from dynamic power use |
 
 : The published footprint of BLOOM. Source: Luccioni, Viguier, and Ligozat [-@luccioni2023]. {.striped}
 
@@ -107,7 +113,7 @@ The figures also show what usually stays hidden:
 The stages on the worksheet are: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use.
 
 ::: {.callout-tip title="Hypothetical example"}
-A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The map shows: the training data are unknown, the location of the data centre is unknown, and the transcripts would leave the university. An avoidable cost: the candidate could test a smaller local model on synthetic text first. This example is invented for teaching.
+A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The map shows: the training data are unknown, the location of the data center is unknown, and the transcripts would leave the university. An avoidable cost: the candidate could test a smaller local model on synthetic text first. This example is invented for teaching.
 :::
 
 ## Output

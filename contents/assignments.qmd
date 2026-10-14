@@ -5,14 +5,14 @@ subtitle: 'Preparation, work on the course day, and the follow-up task'
 
 ## What is confirmed and what is proposed
 
-| Item                                                    | Status                                                        |
-| ------------------------------------------------------- | ------------------------------------------------------------- |
-| Required reading: Bender et al. (2021)                   | Confirmed                                                     |
-| Workload and credits                                    | Confirmed per edition. See the [edition pages](editions/hs2026.qmd). |
-| Full attendance on the course day                       | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd). |
-| The plan for the eight hours of preparation             | <span class="status-label">Proposed</span>                    |
-| The Responsible GenAI Use Statement and its rubric      | <span class="status-label">Proposed</span>                    |
-| Submission channel and deadline                         | <span class="status-label">To be confirmed</span>             |
+| Item                                               | Status                                                               |
+| -------------------------------------------------- | -------------------------------------------------------------------- |
+| Required reading: Bender et al. (2021)             | Confirmed                                                            |
+| Workload and credits                               | Confirmed per edition. See the [edition pages](editions/hs2026.qmd). |
+| Full attendance on the course day                  | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd).  |
+| The plan for the eight hours of preparation        | <span class="status-label">Proposed</span>                           |
+| The Responsible GenAI Use Statement and its rubric | <span class="status-label">Proposed</span>                           |
+| Submission channel and deadline                    | <span class="status-label">To be confirmed</span>                    |
 
 : Status of each rule {.striped}
 
@@ -48,13 +48,13 @@ Describe the use, not the data. Do not include confidential, personal, or unpubl
 The allocation below is a suggestion. It is not a new university requirement.
 :::
 
-| Activity                                                                                      | Time      |
-| --------------------------------------------------------------------------------------------- | --------- |
-| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field.    | 3 hours   |
-| Read two recommended excerpts or cases from the [literature](literature.qmd) page.            | 3 hours   |
-| Write the research-use description.                                                           | 1.5 hours |
-| Look at the [syllabus](syllabus.qmd) and the [shared risk worksheet](handouts/risk-worksheet.qmd). | 0.5 hours |
-| **Total**                                                                                     | **8 hours** |
+| Activity                                                                                           | Time        |
+| -------------------------------------------------------------------------------------------------- | ----------- |
+| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field.         | 3 hours     |
+| Read two recommended excerpts or cases from the [literature](literature.qmd) page.                 | 3 hours     |
+| Write the research-use description.                                                                | 1.5 hours   |
+| Look at the [syllabus](syllabus.qmd) and the [shared risk worksheet](handouts/risk-worksheet.qmd). | 0.5 hours   |
+| **Total**                                                                                          | **8 hours** |
 
 : Proposed preparation plan {.striped}
 
@@ -62,12 +62,12 @@ The allocation below is a suggestion. It is not a new university requirement.
 
 You contribute four outputs. The group keeps them on paper or on a shared wall.
 
-| Output                     | Where                                                         |
-| -------------------------- | ------------------------------------------------------------- |
-| A risk map for one lens    | The worksheet of the lens. See the four lens pages.           |
-| A group Panarchy chart     | [Panarchy](panarchy.qmd)                                      |
-| An Ecocycle diagnosis      | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation)      |
-| One practical action       | The [action plan](handouts/action-plan.qmd)                   |
+| Output                  | Where                                                    |
+| ----------------------- | -------------------------------------------------------- |
+| A risk map for one lens | The worksheet of the lens. See the four lens pages.      |
+| A group Panarchy chart  | [Panarchy](panarchy.qmd)                                 |
+| An Ecocycle diagnosis   | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation) |
+| One practical action    | The [action plan](handouts/action-plan.qmd)              |
 
 : Outputs on the course day {.striped}
 
@@ -101,13 +101,13 @@ The [Use Statement template](handouts/use-statement-template.qmd) contains the h
 
 The statement passes when it meets all five criteria.
 
-| Criterion                  | The statement passes when it ...                                                                                   |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Adequately scoped use      | describes one concrete use or non-use in the author's research, with the system and the task.                      |
-| At least two supported risks | names at least two risks, each with a source or with evidence from the course materials.                        |
-| Feasible mitigation        | proposes at least one mitigation or less harmful alternative that the author can carry out.                        |
-| Transparent practice       | states how the author will disclose, cite, and document the use, and which rules apply.                            |
-| Reasoned conclusion        | reaches a decision that follows from the analysis, and states its limits.                                          |
+| Criterion                    | The statement passes when it ...                                                              |
+| ---------------------------- | --------------------------------------------------------------------------------------------- |
+| Adequately scoped use        | describes one concrete use or non-use in the author's research, with the system and the task. |
+| At least two supported risks | names at least two risks, each with a source or with evidence from the course materials.      |
+| Feasible mitigation          | proposes at least one mitigation or less harmful alternative that the author can carry out.   |
+| Transparent practice         | states how the author will disclose, cite, and document the use, and which rules apply.       |
+| Reasoned conclusion          | reaches a decision that follows from the analysis, and states its limits.                     |
 
 : Proposed pass or fail rubric {.striped}
 

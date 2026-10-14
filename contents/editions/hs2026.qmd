@@ -23,7 +23,7 @@ The course takes place at {{< edition hs2026 venue >}}, {{< edition hs2026 addre
 - Full attendance is mandatory.
 - Registration: {{< edition hs2026 registration >}}. This site takes no registrations.
 - A late withdrawal after the registration deadline, or an unannounced absence, incurs a fee of {{< edition hs2026 no_show_fee >}} under the published course regulations.
-- Further consequences for later registrations follow the {{< edition hs2026 regulations_url link="regulations of the Transferable Skills programme" >}}. This site does not repeat them.
+- Further consequences for later registrations follow the {{< edition hs2026 regulations_url link="regulations of the Transferable Skills program" >}}. This site does not repeat them.
 
 Write to {{< edition hs2026 contact link="the course administration" >}} about registration, attendance, or a withdrawal. Do not use GitHub for these questions.
 

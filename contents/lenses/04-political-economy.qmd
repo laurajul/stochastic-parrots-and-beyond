@@ -7,11 +7,13 @@ description: >-
 ---
 
 ::: {.callout-note title="At a glance"}
+
 - **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
 - **Output:** a stakeholder and incentive map.
 - **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
 - **Anchor sources:** Widder, West, and Whittaker [-@widder2023]; Regulation (EU) 2024/1689, the AI Act [@euaiact2024].
+
 :::
 
 ## Question
@@ -47,7 +49,7 @@ The EU AI Act is one example of governance. Since 2 August 2025, providers of ge
 - put in place a policy to comply with EU copyright law,
 - publish "a sufficiently detailed summary about the content used for training".
 
-Models under a free and open-source licence with public weights are exempt from the first two duties, but not from the copyright policy or the training summary. The exemption does not apply to models with systemic risk [@euaiact2024, art. 53(2)].
+Models under a free and open-source license with public weights are exempt from the first two duties, but not from the copyright policy or the training summary. The exemption does not apply to models with systemic risk [@euaiact2024, art. 53(2)].
 
 ::: {.callout-caution title="Not legal advice"}
 This page summarizes the regulation for teaching. It does not say whether the AI Act applies to a specific project in Switzerland or elsewhere. Ask the legal service of your institution.
@@ -56,43 +58,47 @@ This page summarizes the regulation for teaching. It does not say whether the AI
 ## Evidence and limits
 
 ::: {.callout-note title="What the evidence shows"}
+
 - The concentration of resources and the uses of the word "open" are documented in peer-reviewed analyses [@widder2024; @liesenfeld2024].
-- The licence terms in the case are public documents [@meta2023; @osi2024].
+- The license terms in the case are public documents [@meta2023; @osi2024].
 - The duties of the AI Act are law. Their enforcement and interpretation are still developing.
+
 :::
 
 ::: {.callout-caution title="Limits of the evidence"}
+
 - Market shares and investment figures change fast. Check the date of any figure.
 - Incentives are inferred from structures and statements. A company rarely states them.
 - The AI Act is subject to amendments and implementing guidance. Check the current consolidated text before you rely on a date or an article.
+
 :::
 
-## Case: an "open" licence {#case-licence}
+## Case: an "open" license {#case-license}
 
 ::: {.callout-note title="Documented case"}
-This case compares two public documents: the licence of Llama 2 and the Open Source AI Definition.
+This case compares two public documents: the license of Llama 2 and the Open Source AI Definition.
 :::
 
-In July 2023, Meta released Llama 2 and described it as open. Its licence permits download and many uses, with conditions [@meta2023]:
+In July 2023, Meta released Llama 2 and described it as open. Its license permits download and many uses, with conditions [@meta2023]:
 
-- A company whose products had "greater than 700 million monthly active users" at the release date needs a separate licence from Meta.
+- A company whose products had "greater than 700 million monthly active users" at the release date needs a separate license from Meta.
 - Users must not use the model or its outputs "to improve any other large language model", except Llama 2 and its derivatives.
 - Every use must follow Meta's Acceptable Use Policy.
 
-The Open Source Initiative stated that the licence is not open source. It restricts commercial use for some users and restricts fields of use [@maffulli2023]. In October 2024, the OSI published the Open Source AI Definition 1.0 [@osi2024]. It requires the freedom to use a system "for any purpose and without having to ask for permission", and the freedoms to study, modify, and share it. It also requires access to the code, the parameters, and "sufficiently detailed information about the data used to train the system" [@osi2024].
+The Open Source Initiative stated that the license is not open source. It restricts commercial use for some users and restricts fields of use [@maffulli2023]. In October 2024, the OSI published the Open Source AI Definition 1.0 [@osi2024]. It requires the freedom to use a system "for any purpose and without having to ask for permission", and the freedoms to study, modify, and share it. It also requires access to the code, the parameters, and "sufficiently detailed information about the data used to train the system" [@osi2024].
 
-| Question                                        | Llama 2 licence                         | Open Source AI Definition 1.0      |
-| ----------------------------------------------- | --------------------------------------- | ---------------------------------- |
-| Can anyone use it for any purpose?              | No: user threshold and use policy       | Required                           |
-| Can its outputs improve other models?           | Not other large language models         | No such restriction                |
-| Are the weights available?                      | Yes, under the licence                  | Required                           |
-| Is detailed information about training data required? | Not by the licence                | Required                           |
+| Question                                              | Llama 2 license                   | Open Source AI Definition 1.0 |
+| ----------------------------------------------------- | --------------------------------- | ----------------------------- |
+| Can anyone use it for any purpose?                    | No: user threshold and use policy | Required                      |
+| Can its outputs improve other models?                 | Not other large language models   | No such restriction           |
+| Are the weights available?                            | Yes, under the license            | Required                      |
+| Is detailed information about training data required? | Not by the license                | Required                      |
 
 : Two meanings of "open". Sources: Meta [-@meta2023]; Open Source Initiative [-@osi2024]. {.striped}
 
 **Why this case.** The word "open" carries reputation, and in the EU it can reduce regulatory duties. Liesenfeld and Dingemanse call the use of the word without the substance "open-washing" [-@liesenfeld2024]. For a researcher, the question is practical: can I inspect, document, and cite what I use?
 
-![A stakeholder and incentive map for an "open-weight" model. Original diagram.](../../assets/cases/04-stakeholder-map.svg){fig-alt="Map with the model provider in the centre. Around it: cloud and hardware suppliers, data creators, data workers, universities as licensees, individual researchers, research participants, regulators, and the public. Arrows show money, data, and rules. A legend explains the three kinds of arrows."}
+![A stakeholder and incentive map for an "open-weight" model. Original diagram.](../../assets/cases/04-stakeholder-map.svg){fig-alt="Map with the model provider in the center. Around it: cloud and hardware suppliers, data creators, data workers, universities as licensees, individual researchers, research participants, regulators, and the public. Arrows show money, data, and rules. A legend explains the three kinds of arrows."}
 
 ## Activity
 

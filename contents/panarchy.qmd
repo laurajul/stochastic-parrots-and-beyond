@@ -10,11 +10,13 @@ link-citations: true
 ---
 
 ::: {.callout-note title="At a glance"}
+
 - **Proposed slot:** the afternoon. Panarchy takes 130 minutes, with a 10-minute break. The adapted Ecocycle takes 30 minutes.
 - **Outputs:** a shared Panarchy chart, three priorities, action owners, a review point, and an Ecocycle diagnosis.
 - **Handouts:** [Panarchy chart](handouts/panarchy-chart.qmd), [fictional example](handouts/panarchy-example.qmd), [Ecocycle sheet](handouts/ecocycle.qmd), [sticky notes and action plan](handouts/action-plan.qmd).
 - **Slides:** [Panarchy and Ecocycle slide deck](slides/05-panarchy.qmd).
 - **For teachers:** the [facilitator guide](panarchy-facilitator.qmd) gives every step with minute marks and spoken prompts.
+
 :::
 
 ## The challenge
@@ -41,16 +43,16 @@ The four lenses showed costs, harms, hidden labor, and incentives. Most of them 
 
 You work alone, in pairs, in groups of four, and with everyone. With up to 16 participants, four groups of four work well. Everyone contributes.
 
-| Phase                              | Steps | Minutes | What you do                                                                  |
-| ---------------------------------- | ----- | ------- | ---------------------------------------------------------------------------- |
-| Frame                              | 1     | 5       | Hear the challenge and see an example chart                                  |
-| Map influences and levels          | 2–5   | 35      | List factors alone, sort them into levels in pairs, compare in fours, build one shared chart |
-| Diagnose                           | 6–7   | 25      | Mark levels that get little attention, and uneven resources                  |
-| Break                              | 8     | 10      | Rest                                                                         |
-| Find opportunities and barriers    | 9–10  | 25      | In new groups of four, find leverage and blockages across levels             |
-| Prioritize and commit              | 11–12 | 25      | Vote for three priorities, then plan actions with 1-2-4-All                  |
-| Follow up                          | 13    | 5       | Decide in groups of three how and when to revisit the chart                  |
-| **Total**                          |       | **130** |                                                                              |
+| Phase                           | Steps | Minutes | What you do                                                                                  |
+| ------------------------------- | ----- | ------- | -------------------------------------------------------------------------------------------- |
+| Frame                           | 1     | 5       | Hear the challenge and see an example chart                                                  |
+| Map influences and levels       | 2–5   | 35      | List factors alone, sort them into levels in pairs, compare in fours, build one shared chart |
+| Diagnose                        | 6–7   | 25      | Mark levels that get little attention, and uneven resources                                  |
+| Break                           | 8     | 10      | Rest                                                                                         |
+| Find opportunities and barriers | 9–10  | 25      | In new groups of four, find leverage and blockages across levels                             |
+| Prioritize and commit           | 11–12 | 25      | Vote for three priorities, then plan actions with 1-2-4-All                                  |
+| Follow up                       | 13    | 5       | Decide in groups of three how and when to revisit the chart                                  |
+| **Total**                       |       | **130** |                                                                                              |
 
 : The Panarchy exercise in seven phases {.striped}
 
@@ -66,12 +68,12 @@ The full [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-plann
 
 Ecocycle sorts initiatives by their phase of life. Each priority from the Panarchy chart is an initiative: a rule, a practice, a tool, a project.
 
-| Phase                    | What it means for an initiative                                                       |
-| ------------------------ | ------------------------------------------------------------------------------------- |
-| **Birth**                | A new idea or experiment. Few resources, much uncertainty.                            |
-| **Maturity**             | An established practice. It is productive and uses most of the resources.            |
-| **Creative destruction** | An ending. Letting go frees attention and resources for something new.                |
-| **Renewal**              | Reflection and exploration. New networks and ideas form before the next birth.        |
+| Phase                    | What it means for an initiative                                                |
+| ------------------------ | ------------------------------------------------------------------------------ |
+| **Birth**                | A new idea or experiment. Few resources, much uncertainty.                     |
+| **Maturity**             | An established practice. It is productive and uses most of the resources.      |
+| **Creative destruction** | An ending. Letting go frees attention and resources for something new.         |
+| **Renewal**              | Reflection and exploration. New networks and ideas form before the next birth. |
 
 : The four phases of the Ecocycle {.striped}
 
@@ -82,14 +84,14 @@ Two traps block the movement through the phases [@ls-ecocycle]:
 
 ![A blank Ecocycle: a figure-eight loop with the four phases birth, maturity, creative destruction, and renewal. The rigidity trap sits between maturity and creative destruction, the scarcity trap between renewal and birth. Original diagram, adapted from Liberating Structures Ecocycle Planning under CC BY-SA 4.0.](../assets/handouts/ecocycle-blank.svg){fig-alt="A figure-eight loop. The front loop goes from birth up to maturity. The back loop goes from creative destruction down to renewal and back to birth. A marked zone between maturity and creative destruction is labelled rigidity trap. A marked zone between renewal and birth is labelled scarcity trap."}
 
-| Minutes | Step                                                                              |
-| ------- | --------------------------------------------------------------------------------- |
-| 5       | Hear the four phases: birth, maturity, creative destruction, renewal.             |
-| 5       | Place the priority initiatives from the Panarchy chart on the Ecocycle.           |
-| 10      | Find the initiatives in the scarcity trap and in the rigidity trap.               |
-| 5       | Propose a move for each trapped initiative: what to start, stop, or support.      |
-| 5       | Record concrete next steps on the action plan.                                    |
-| **30**  |                                                                                   |
+| Minutes | Step                                                                         |
+| ------- | ---------------------------------------------------------------------------- |
+| 5       | Hear the four phases: birth, maturity, creative destruction, renewal.        |
+| 5       | Place the priority initiatives from the Panarchy chart on the Ecocycle.      |
+| 10      | Find the initiatives in the scarcity trap and in the rigidity trap.          |
+| 5       | Propose a move for each trapped initiative: what to start, stop, or support. |
+| 5       | Record concrete next steps on the action plan.                               |
+| **30**  |                                                                              |
 
 : The 30-minute adaptation {.striped}
 

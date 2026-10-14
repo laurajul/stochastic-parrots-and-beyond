@@ -11,6 +11,7 @@ format:
     background-transition: none
     center: false
     css: slides.css
+    include-after-body: ../../_includes/a11y-slides.html
     footer: 'Stochastic Parrots and Beyond · Lens 3 · CC BY 4.0'
 ---
 
@@ -72,14 +73,14 @@ Transition to the case: "Here is a case where the safety of users depended on th
 
 [Documented case]{.label}
 
-| Item           | Reported fact                                                        |
-| -------------- | -------------------------------------------------------------------- |
+| Item           | Reported fact                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------- |
 | Task           | Label passages about violence, hate speech, and sexual abuse, for a ChatGPT safety detector |
-| Supplier       | Sama, outsourcing firm, team in Nairobi                              |
-| Take-home wage | About USD 1.32 to 2 per hour                                         |
-| Workload       | 150 to 250 passages per nine-hour shift, according to workers. Sama said 70. |
-| Impact         | All four employees interviewed "described being mentally scarred by the work" |
-| End            | Sama ended the work in February 2022, eight months early             |
+| Supplier       | Sama, outsourcing firm, team in Nairobi                                                     |
+| Take-home wage | About USD 1.32 to 2 per hour                                                                |
+| Workload       | 150 to 250 passages per nine-hour shift, according to workers. Sama said 70.                |
+| Impact         | All four employees interviewed "described being mentally scarred by the work"               |
+| End            | Sama ended the work in February 2022, eight months early                                    |
 
 [Perrigo (2023), TIME.]{.source}
 

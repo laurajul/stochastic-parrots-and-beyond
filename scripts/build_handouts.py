@@ -31,7 +31,7 @@ OUTPUT_DIR = REPO_ROOT / "assets" / "handouts"
 SITE_DIR = REPO_ROOT / "_site" / "contents" / "handouts"
 
 # Front-matter format key -> file extension of the rendered output.
-FORMATS = {"typst": "pdf", "docx": "docx"}
+FORMATS = {"typst": "pdf", "docx": "docx", "gfm": "md"}
 
 
 def front_matter(path: Path) -> dict:

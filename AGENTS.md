@@ -2,7 +2,7 @@
 
 This repository holds the open educational resources for the workshop _Stochastic Parrots and Beyond: Normative Dimensions of Generative AI_. A Quarto website with Reveal.js slide decks and Typst handouts publishes them through GitHub Pages.
 
-The file follows the shared [Agents Tooling Specification](https://gist.github.com/maehr/6c48ef14f37c9f745fa1fbaa315d106b), Quarto stack. Sections 1, 3, 5, and 6 are the shared text. Sections 2, 4, and 7 are narrowed to this repository. No document executes code, and the repository has no R. Python runs only the tests. The repository keeps the template file names `LICENSE-AGPL.md`, `LICENSE-CCBY.md`, and `LICENSE-CCBYSA.md`, and the Contributor Covenant 2.1 from the template.
+The file follows the shared [Agents Tooling Specification](https://gist.github.com/maehr/6c48ef14f37c9f745fa1fbaa315d106b), Quarto stack. Sections 1, 3, 5, and 6 are the shared text. Sections 2, 4, and 7 are narrowed to this repository. Sections 8 to 13 hold the rules of this course. No document executes code, and the repository has no R. Python runs only the tests. The repository keeps the template file names `LICENSE-AGPL.md`, `LICENSE-CCBY.md`, and `LICENSE-CCBYSA.md`, and the Contributor Covenant 2.1 from the template.
 
 ## 1. Orchestration
 
@@ -121,3 +121,57 @@ The workflow `.github/workflows/quarto-publish.yml` deploys the site from `main`
 * Give the deploy job the narrowest permission that works. Gate it on the `github-pages` Environment.
 * Keep the site URL in `_quarto.yml`. An absolute link breaks a preview deployment.
 * In the repository settings, Pages must use the source **GitHub Actions**.
+
+## 8. Course Content
+
+The course pages are teaching material for a real course. Accuracy matters more than style.
+
+* Mark every fact with its status. CONFIRMED: a published course fact. PROPOSED: a decision that the instructors must approve. TBC: unknown.
+* The official University of Basel course listing overrides this repository.
+* Do not invent a date, a reading, a page number, a case, an outcome, or an assessment rule.
+* Cite each claim next to the claim. Verify the source against the DOI or the publisher before you add it to `references.bib`.
+* Label each example as a documented case or as a hypothetical example. A product name is not evidence.
+* Leave a blank line between a list and a closing `:::`. Otherwise Prettier indents the fence, and the div stays open.
+* Keep the section order of a lesson page: question, core concepts, evidence and limits, case, activity, output, reading, slides. `test/test_consistency.py` checks it.
+* Never show, link, or describe in detail abusive images from audited datasets. Describe findings, and cite the audit.
+* Ask the instructors before you change a timetable, a reading, or an assessment rule.
+
+## 9. Edition Data
+
+`data/editions.yml` is the single source for the facts of each edition. `_quarto.yml` loads it through `metadata-files`. The shortcode in `_extensions/edition/` renders it at build time.
+
+* Write an edition fact only in `data/editions.yml`. Show it with the shortcode, for example `{{< edition hs2026 date >}}`.
+* Use `null` for each unknown fact. The shortcode renders "To be confirmed".
+* Never copy a value from one edition to another. Each value needs its own public source.
+* Put no edition fact in a slide deck. The decks serve every edition.
+* Show the evaluation link only on its own edition page.
+* Switch `featured_edition` and `status: delivered` on purpose. Never delete or rename an edition page.
+
+## 10. Privacy
+
+The repository holds generic teaching resources only.
+
+* Never commit participant names, contact details, attendance records, applications, evaluation answers, submissions, certificates, or signatures.
+* Keep this data out of issues, pull requests, commit messages, assets, and archives too.
+* Use synthetic examples. Label them as fictional.
+* `test/test_privacy.py` and `.gitignore` catch common cases. Add a public role address to the allowlist only, never a personal one.
+
+## 11. Liberating Structures and Licenses
+
+* Material adapted from Liberating Structures carries CC BY-SA 4.0. Set `license: 'CC BY-SA'` in its front matter and keep the attribution text.
+* Never relicense an adapted Liberating Structures asset as CC BY.
+* Use no Liberating Structures icons, unless they are the original icons.
+* Original course content carries CC BY 4.0. Code carries AGPL 3.0.
+
+## 12. Handouts and Diagrams
+
+* Edit the handout source in `contents/handouts/`. The source is also the accessible web version.
+* Run `npm run handouts:build` after a change to a handout or to a diagram that it embeds. Commit the generated files in `assets/handouts/` in the same commit. The `check-handouts` CI job fails when a generated file is older than its sources.
+* This build writes committed files, so it is allowed in an agent session.
+* Open each generated PDF and check the layout. A table that does not fit moves to the next page without an error.
+* The SVG files are the editable sources of the diagrams. Keep their `<title>` and `<desc>` current. Use the greyscale palette from `_brand.yml`.
+
+## 13. Writing Style
+
+* Write procedures, instructions, and documentation in Simplified Technical English: one instruction per sentence, active voice, short sentences.
+* Use American English on the site. Keep the original spelling in titles and quotations.

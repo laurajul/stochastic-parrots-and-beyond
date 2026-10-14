@@ -11,6 +11,7 @@ format:
     background-transition: none
     center: false
     css: slides.css
+    include-after-body: ../../_includes/a11y-slides.html
     footer: 'Stochastic Parrots and Beyond · Lens 2 · CC BY 4.0'
 ---
 

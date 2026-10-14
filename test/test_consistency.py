@@ -65,7 +65,9 @@ def test_local_links_resolve(page: Path):
         path = unquote(target.split("#", 1)[0].split("?", 1)[0])
         if not path:
             continue
-        resolved = REPO_ROOT / path.lstrip("/") if path.startswith("/") else page.parent / path
+        resolved = (
+            REPO_ROOT / path.lstrip("/") if path.startswith("/") else page.parent / path
+        )
         if not resolved.exists():
             broken.append(target)
     assert not broken, f"{rel(page)} links to missing files: {broken}"
@@ -103,14 +105,18 @@ def test_each_lens_has_a_lesson_a_deck_and_a_worksheet(lens: str):
 
 @pytest.mark.parametrize("lens", sorted(LENSES))
 def test_lesson_sections_follow_the_fixed_order(lens: str):
-    text = (REPO_ROOT / "contents" / "lenses" / f"{lens}.qmd").read_text(encoding="utf-8")
+    text = (REPO_ROOT / "contents" / "lenses" / f"{lens}.qmd").read_text(
+        encoding="utf-8"
+    )
     headings = [h.strip() for h in re.findall(r"^## (.+)$", text, flags=re.M)]
     positions = []
     for name in LESSON_ORDER:
         match = [i for i, h in enumerate(headings) if h.startswith(name)]
         assert match, f"{lens}: section '{name}' is missing"
         positions.append(match[0])
-    assert positions == sorted(positions), f"{lens}: sections are out of order: {headings}"
+    assert positions == sorted(positions), (
+        f"{lens}: sections are out of order: {headings}"
+    )
 
 
 def test_liberating_structures_pages_carry_cc_by_sa():
@@ -129,3 +135,17 @@ def test_liberating_structures_pages_carry_cc_by_sa():
             f"{rel(page)} adapts Liberating Structures and must carry CC BY-SA 4.0"
         )
         assert "Liberating Structures" in text, f"{rel(page)} lacks the attribution"
+
+
+@pytest.mark.parametrize("page", site_sources(), ids=rel)
+def test_fenced_divs_are_not_indented(page: Path):
+    # Prettier indents a closing ":::" that follows a list item without a blank
+    # line. Quarto then reads the fence as list text, and the div stays open.
+    bad = [
+        i + 1
+        for i, line in enumerate(page.read_text(encoding="utf-8").splitlines())
+        if re.match(r"^\s+:::\s*$", line)
+    ]
+    assert not bad, (
+        f"{rel(page)}: indented ':::' on lines {bad}. Add a blank line before it."
+    )

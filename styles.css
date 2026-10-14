@@ -41,7 +41,21 @@ main table th {
 /* The practical-information table of an edition. */
 table.edition-facts td:first-child {
   width: 30%;
-  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  table.edition-facts td:first-child {
+    white-space: nowrap;
+  }
+}
+
+/* Small screens: a wide table scrolls inside its own box, not the page. */
+@media (max-width: 767.98px) {
+  main table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
 }
 
 /* Blank lines in a worksheet table give room to write by hand. */
@@ -93,4 +107,24 @@ figure img[src$='.svg'],
   .worksheet table td {
     height: 2.2cm;
   }
+}
+
+/* Touch targets of at least 24 by 24 px (WCAG 2.5.8). */
+.toc-actions a,
+.sidebar-item-toggle {
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+.toc-actions li {
+  margin-bottom: 6px;
+}
+
+#TOC .nav-link {
+  display: block;
+  min-height: 26px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }

@@ -89,7 +89,18 @@ website:
       - href: contents/literature.qmd
       - section: Handouts
         href: contents/resources.qmd
-        contents: contents/handouts/*
+        contents:
+          - contents/handouts/lens-1-provenance-map.qmd
+          - contents/handouts/lens-2-harm-pathway.qmd
+          - contents/handouts/lens-3-lifecycle-matrix.qmd
+          - contents/handouts/lens-4-stakeholder-map.qmd
+          - contents/handouts/risk-worksheet.qmd
+          - contents/handouts/risk-worksheet-example.qmd
+          - contents/handouts/panarchy-chart.qmd
+          - contents/handouts/panarchy-example.qmd
+          - contents/handouts/ecocycle.qmd
+          - contents/handouts/action-plan.qmd
+          - contents/handouts/use-statement-template.qmd
       - section: Slides
         contents:
           - contents/slides/00-intro.qmd
@@ -106,6 +117,8 @@ website:
         contents:
           - text: Reuse this course
             href: documentation/reuse.qmd
+          - text: Run an edition
+            href: documentation/reuse.qmd#run-an-edition
           - text: Changelog
             href: CHANGELOG.md
           - text: Code of Conduct
@@ -143,6 +156,7 @@ format:
       - brand
       - theme.scss
     css: styles.css
+    include-after-body: _includes/a11y.html
     code-copy: true
     code-overflow: wrap
     canonical-url: true

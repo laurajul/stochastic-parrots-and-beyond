@@ -22,7 +22,9 @@ ALLOWED_EMAILS = {
     "noreply@anthropic.com",
 }
 
-EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+EMAIL = re.compile(
+    r"\b[A-Za-z0-9][A-Za-z0-9._%+-]*@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}"
+)
 
 FORBIDDEN_NAME = re.compile(
     r"attendance|anwesen|participant|teilnehm|roster|certificate|zertifikat|"
@@ -32,7 +34,13 @@ FORBIDDEN_NAME = re.compile(
 FORBIDDEN_SUFFIX = {".xlsx", ".xls", ".ods", ".csv", ".p12", ".pfx", ".pem", ".key"}
 
 # Files that third parties wrote, and lock files. They hold no course data.
-SKIP = {"package-lock.json", "uv.lock", "LICENSE-AGPL.md", "LICENSE-CCBY.md", "LICENSE-CCBYSA.md"}
+SKIP = {
+    "package-lock.json",
+    "uv.lock",
+    "LICENSE-AGPL.md",
+    "LICENSE-CCBY.md",
+    "LICENSE-CCBYSA.md",
+}
 
 # Domains that appear in package or image metadata, not in personal addresses.
 NOT_AN_ADDRESS = re.compile(r"@\d+x\.|\.(png|jpg|jpeg|svg|webp)$", re.IGNORECASE)
@@ -82,6 +90,11 @@ def test_history_contains_only_allowed_addresses():
         text=True,
         check=True,
     ).stdout
-    added = "\n".join(line for line in log.splitlines() if not line.startswith("-"))
+    # Keep added lines and commit messages. Drop the "+" marker of a diff line.
+    added = "\n".join(
+        line[1:] if line.startswith("+") else line
+        for line in log.splitlines()
+        if not line.startswith("-")
+    )
     extra = addresses(added) - ALLOWED_EMAILS
     assert not extra, f"The Git history contains unexpected e-mail addresses: {extra}"

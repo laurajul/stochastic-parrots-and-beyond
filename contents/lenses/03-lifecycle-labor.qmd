@@ -7,11 +7,13 @@ description: >-
 ---
 
 ::: {.callout-note title="At a glance"}
+
 - **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
 - **Output:** a lifecycle risk matrix.
 - **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
 - **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).
 - **Anchor sources:** Crawford [-@crawford2021], chapters 2 and 3; Bender et al. [-@bender2021].
+
 :::
 
 ::: {.callout-caution title="Content note"}
@@ -50,14 +52,18 @@ A person who is harmed by an output can often not find out which data, which wor
 ## Evidence and limits
 
 ::: {.callout-note title="What the evidence shows"}
+
 - Investigative journalism and interview studies document the conditions of outsourced data work [@perrigo2023; @miceli2022; @gray2019].
 - Developers' own papers document that human feedback is part of the training [@ouyang2022].
+
 :::
 
 ::: {.callout-caution title="Limits of the evidence"}
+
 - Most contracts between AI companies and suppliers are confidential. Single cases come from leaks, investigations, or interviews.
 - Working conditions differ across suppliers, countries, and years. One case does not describe the whole industry.
 - The companies dispute some details of the reported cases. The case below states where they do.
+
 :::
 
 ## Case: safety labeling for ChatGPT in Kenya {#case-sama}
@@ -68,17 +74,17 @@ This case comes from an investigation by _TIME_, based on interviews and documen
 
 To make ChatGPT less toxic, OpenAI needed a detector for violent, hateful, and sexual content. The detector needed labeled examples. From late 2021, OpenAI contracted Sama, a San Francisco-based outsourcing firm, to label tens of thousands of text passages in Nairobi, Kenya [@perrigo2023].
 
-| Item                     | Reported fact                                                                                          |
-| ------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Task                     | Label text passages that describe violence, hate speech, and sexual abuse                              |
-| Take-home wage           | About USD 1.32 to 2 per hour, by seniority and performance                                             |
-| Workload                 | Workers reported 150 to 250 passages per nine-hour shift. Sama said 70.                                |
-| Contracts                | Three contracts worth about USD 200,000. OpenAI said it paid about USD 150,000, because the work ended early. |
-| End of the work          | Sama ended the work in February 2022, eight months early                                               |
+| Item            | Reported fact                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------- |
+| Task            | Label text passages that describe violence, hate speech, and sexual abuse                                     |
+| Take-home wage  | About USD 1.32 to 2 per hour, by seniority and performance                                                    |
+| Workload        | Workers reported 150 to 250 passages per nine-hour shift. Sama said 70.                                       |
+| Contracts       | Three contracts worth about USD 200,000. OpenAI said it paid about USD 150,000, because the work ended early. |
+| End of the work | Sama ended the work in February 2022, eight months early                                                      |
 
 : Reported facts. Source: Perrigo [-@perrigo2023]. {.striped}
 
-_TIME_ interviewed four Sama employees who worked on the project. All four "described being mentally scarred by the work". They had access to "wellness" counselling, but all four said that the sessions did not help [@perrigo2023]. OpenAI said that it works "hard to build safe and useful AI systems that limit bias and harmful content" [@perrigo2023].
+_TIME_ interviewed four Sama employees who worked on the project. All four "described being mentally scarred by the work". They had access to "wellness" counseling, but all four said that the sessions did not help [@perrigo2023]. OpenAI said that it works "hard to build safe and useful AI systems that limit bias and harmful content" [@perrigo2023].
 
 **Why this case.** The safety of a product for its users depended on work that exposed other people to harm. The users never saw this work. The case asks where the responsibility of a researcher who uses the product begins.
 
