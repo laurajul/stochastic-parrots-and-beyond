@@ -6,15 +6,17 @@
 > ### Proposed task — check the edition page
 >
 > This task is a proposal. The instructors and the Graduate Center
-> (GRACE) confirm the task, the rules, the submission channel, and the
-> deadline for each edition. Do not submit through GitHub. Do not
-> include confidential or personal research data.
+> (GRACE) confirm the task, the rules, the submission channels, and the
+> deadline for each edition. Do not include confidential or personal
+> research data.
 
 **Length:** 1,200 to 1,500 words, without the bibliography and the peer
 note. **Work:** alone, about your own research context. **Peer
 discussion:** discuss your draft with at least one peer who knows your
-field. **Assessment:** a formal check, pass or fail, with the six
-criteria at the end.
+field. **Assessment:** a formal check, pass or fail, with the seven
+criteria at the end. **Submission:** by email to the course
+administration (GRACE), or through the Use Statement issue form on
+GitHub. A GitHub issue is public.
 
 Replace each guiding question with your own text. Keep the seven
 headings.
@@ -96,6 +98,15 @@ revise it. Do not write the name of the peer.
 - **Main feedback:**
 - **What you changed:**
 
+## Publication
+
+The instructors publish a statement on the course site only when its
+author agrees. Write one answer: **no**, **yes, with my name**, or
+**yes, anonymously**. Without an answer, the statement stays
+unpublished.
+
+- **My answer:**
+
 ## Questions for your peer
 
 These questions can guide the discussion. They are not graded. Ask your
@@ -117,7 +128,7 @@ peer whether the statement:
 ## Formal check (pass or fail)
 
 The instructors are not experts in your field. They check the form only.
-The statement passes when it meets all six criteria:
+The statement passes when it meets all seven criteria:
 
 1.  **Length:** 1,200 to 1,500 words, without the bibliography and the
     peer note.
@@ -127,7 +138,8 @@ The statement passes when it meets all six criteria:
     agree.
 5.  **Peer note:** the field and the role of at least one domain-expert
     peer, the date, the main feedback, and what you changed.
-6.  **Data protection:** no confidential, personal, or unpublished
+6.  **Publication:** an answer in the section “Publication”.
+7.  **Data protection:** no confidential, personal, or unpublished
     research data.
 
 ------------------------------------------------------------------------

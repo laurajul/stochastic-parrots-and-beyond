@@ -12,12 +12,13 @@ subtitle: 'Preparation, work on the course day, and the follow-up task'
 | Full attendance on the course day                            | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd).  |
 | The plan for the eight hours of preparation                  | <span class="status-label">Proposed</span>                           |
 | The Use Statement, the peer discussion, and the formal check | <span class="status-label">Proposed</span>                           |
-| Submission channel and deadline                              | <span class="status-label">To be confirmed</span>                    |
+| Submission by email or GitHub issue                          | <span class="status-label">Proposed</span>                           |
+| Deadline                                                     | <span class="status-label">To be confirmed</span>                    |
 
 : Status of each rule {.striped}
 
 ::: {.callout-warning title="Proposed — awaiting instructor approval"}
-The instructors and the Graduate Center (GRACE) must confirm the follow-up task, the formal check, the peer discussion, the submission channel, and the deadline. Until then, treat this page as a description of the planned task, not as a binding instruction. The edition page shows the confirmed rules.
+The instructors and the Graduate Center (GRACE) must confirm the follow-up task, the formal check, the peer discussion, the submission channels, and the deadline. Until then, treat this page as a description of the planned task, not as a binding instruction. The edition page shows the confirmed rules.
 :::
 
 ## Before the course day
@@ -123,7 +124,7 @@ The questions below can guide the discussion. They are not graded.
 
 The instructors check the form only. They do not judge the content, because they are not experts in your field. Your peer discussion covers the content.
 
-The statement passes when it meets all six criteria.
+The statement passes when it meets all seven criteria.
 
 | Criterion        | The statement passes when it ...                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -132,13 +133,21 @@ The statement passes when it meets all six criteria.
 | Sources          | has a bibliography that lists every source that you cite.                                                           |
 | Follow-up action | ends with one action: what you will do, by when, and who must agree.                                                |
 | Peer note        | names the field and the role of at least one domain-expert peer, the date, the main feedback, and what you changed. |
+| Publication      | declares whether the instructors may publish it on the course site.                                                 |
 | Data protection  | contains no confidential, personal, or unpublished research data.                                                   |
 
 : Proposed formal check {.striped}
 
 ### Submission
 
-The submission channel and the deadline are not confirmed yet. Do not submit through GitHub, and do not post your statement in a public repository. The edition page will give the confirmed channel.
+Submit your statement in one of two ways:
+
+- **By email.** Send the statement to the course administration (GRACE). Your edition page gives the address.
+- **Through a GitHub issue.** Use the [Use Statement form](https://github.com/maehr/stochastic-parrots-and-beyond/issues/new?template=use-statement.yml). A GitHub issue is public as soon as you submit it. Everyone can see your GitHub account name and your text. For the credit, email the link of your issue to the course administration (GRACE).
+
+Publication on the course site is opt-in. The instructors publish a statement only when its author agrees. Declare your choice in the "Publication" section of the template, or in the issue form. Without a declaration, the statement stays unpublished.
+
+The deadline is not confirmed yet. The edition page will give it.
 
 ## Credits
 

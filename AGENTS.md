@@ -153,6 +153,8 @@ The repository holds generic teaching resources only.
 
 * Never commit participant names, contact details, attendance records, applications, evaluation answers, submissions, certificates, or signatures.
 * Keep this data out of issues, pull requests, commit messages, assets, and archives too.
+* One exception: a participant may submit their own Use Statement through the issue form `.github/ISSUE_TEMPLATE/use-statement.yml`. The form asks for no real name and no peer name.
+* Never copy a submission into the repository unless its author opted in to publication.
 * Use synthetic examples. Label them as fictional.
 * `test/test_privacy.py` and `.gitignore` catch common cases. Add a public role address to the allowlist only, never a personal one.
 

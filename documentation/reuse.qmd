@@ -97,7 +97,7 @@ This checklist is for the instructors. It contains no participant data, and it m
 5. Tag a release for the edition, so that the published state stays reproducible.
 
 ::: {.callout-warning title="Privacy boundary"}
-Never commit participant names, contact details, attendance records, applications, evaluation answers, discussion artifacts, submissions, certificates, or signatures. This applies to Git history, issues, pull requests, static assets, and archives. The privacy test and `.gitignore` catch common file names. They do not replace your judgement.
+Never commit participant names, contact details, attendance records, applications, evaluation answers, discussion artifacts, submissions, certificates, or signatures. This applies to Git history, issues, pull requests, static assets, and archives. One exception: a participant may submit their own Use Statement through the public issue form. Copy a submission into the repository only when its author opted in to publication. The privacy test and `.gitignore` catch common file names. They do not replace your judgement.
 :::
 
 ### Roll over to a new semester

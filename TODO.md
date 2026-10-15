@@ -18,6 +18,8 @@ The course site is built. The tasks below need a decision by the instructors, an
 - [ ] `[Manual]` Confirm the follow-up task, the formal check, the submission channel, and the deadline with GRACE. Then set `assessment_deadline` and remove the "proposed" labels.
 - [ ] `[Manual]` Read the lens pages and the decks for accuracy and tone. Laura Wagner and Moritz Mähr both sign off.
 - [ ] `[Manual]` Approve the formal check and the discussion with a domain-expert peer. The instructors check the form only. Laura Wagner and GRACE both agree.
+- [ ] `[Manual]` Create the `use-statement` label on GitHub. The Use Statement issue form uses it.
+- [ ] `[Manual]` Approve the two submission channels: email to GRACE, or the public GitHub issue form. Publication on the site stays opt-in.
 - [ ] `[Manual]` Ask GRACE for the language of instruction. Then state it on the course description.
 
 ## HS 2026 Operations

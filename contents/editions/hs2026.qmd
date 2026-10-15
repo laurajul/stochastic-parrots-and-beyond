@@ -56,10 +56,17 @@ Detailed program: {{< edition hs2026 detailed_program >}}.
 
 ## Follow-up task
 
-The proposed follow-up task is a Responsible GenAI Use Statement. The [assignments](../assignments.qmd) page describes it.
+The proposed follow-up task is a Responsible GenAI Use Statement. The [assignments](../assignments.qmd) page describes it. Before you submit, discuss your draft with at least one peer who knows your field.
+
+Submit the statement in one of two ways:
+
+- by email to the course administration (GRACE): {{< edition hs2026 contact >}}.
+- through the [Use Statement form](https://github.com/maehr/stochastic-parrots-and-beyond/issues/new?template=use-statement.yml) on GitHub. A GitHub issue is public. For the credit, email the link of your issue to the course administration.
+
+Publication on this site is opt-in. The instructors publish a statement only when its author agrees.
 
 ::: {.callout-warning title="Not yet binding"}
-The exact task, the assessment rules, the submission channel, and the deadline need confirmation by the instructors and the Graduate Center. Deadline: {{< edition hs2026 assessment_deadline >}}. This page will show the confirmed rules.
+The exact task, the formal check, the submission channels, and the deadline need confirmation by the instructors and the Graduate Center. Deadline: {{< edition hs2026 assessment_deadline >}}. This page will show the confirmed rules.
 :::
 
 ## Course evaluation
