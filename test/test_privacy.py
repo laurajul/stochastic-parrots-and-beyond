@@ -15,8 +15,10 @@ import pytest
 from conftest import REPO_ROOT, tracked_files
 
 # Public role addresses and the maintainer contact. Add an address only for a
-# public role, never for a participant.
+# public role, never for a participant. The GitHub noreply address of the
+# maintainer appears in the co-author trailers of squash merges.
 ALLOWED_EMAILS = {
+    "14755525+maehr@users.noreply.github.com",
     "grace@unibas.ch",
     "moritz.maehr@gmail.com",
     "noreply@anthropic.com",
