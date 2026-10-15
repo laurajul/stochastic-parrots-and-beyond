@@ -82,19 +82,19 @@ Leverage: the department writes the template (fast), and asks the university to 
 
 [This example is invented for teaching.]{.source}
 
-## Panarchy: 130 minutes {.smaller}
+## Panarchy: 120 minutes and a break {.smaller}
 
 | Steps | Minutes | What happens                                                         |
 | ----- | ------: | -------------------------------------------------------------------- |
 | 1     |       5 | Frame the challenge                                                  |
 | 2–5   |      35 | Identify influences, sort them into levels, compare, build one chart |
 | 6–7   |      25 | Diagnose neglected levels and uneven resources, share diagnoses      |
-| 8     |      10 | Break                                                                |
+| 8     |      30 | Afternoon break                                                      |
 | 9–10  |      25 | Find opportunities and barriers across levels, share them            |
 | 11–12 |      25 | Vote for three priorities, commit to actions with 1-2-4-All          |
 | 13    |       5 | Arrange the follow-up                                                |
 
-[Step durations follow Liberating Structures. Step labels adapted.]{.source}
+[The durations of the working steps follow Liberating Structures. Step labels adapted.]{.source}
 
 ::: notes
 The facilitator guide gives the spoken prompt for each step. Keep this slide visible during the session. Before the vote in step 11, record each objection about consent, rights, or a burden on one group. The vote does not settle it.

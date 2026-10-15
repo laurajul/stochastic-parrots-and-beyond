@@ -2,7 +2,7 @@
 title: Panarchy and Ecocycle
 subtitle: 'Find changes across levels that make generative AI use in research more responsible'
 description: >-
-  The central method of the afternoon: a Liberating Structures Panarchy of 130
+  The central method of the afternoon: a Liberating Structures Panarchy of 120
   minutes and a 30-minute adaptation of Ecocycle Planning.
 license: 'CC BY-SA'
 suppress-bibliography: false
@@ -11,7 +11,7 @@ link-citations: true
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** the afternoon. Panarchy takes 130 minutes, with a 10-minute break. The adapted Ecocycle takes 30 minutes.
+- **Proposed slot:** the afternoon. Panarchy takes 120 minutes. The 30-minute afternoon break falls between step 7 and step 9. The adapted Ecocycle takes 30 minutes.
 - **Outputs:** a shared Panarchy chart, three priorities, action owners, a review point, and an Ecocycle diagnosis.
 - **Handouts:** [Panarchy chart](handouts/panarchy-chart.qmd), [fictional example](handouts/panarchy-example.qmd), [Ecocycle sheet](handouts/ecocycle.qmd), [sticky notes and action plan](handouts/action-plan.qmd).
 - **Slides:** [Panarchy and Ecocycle slide deck](slides/05-panarchy.qmd).
@@ -48,11 +48,11 @@ You work alone, in pairs, in groups of four, and with everyone. With up to 16 pa
 | Frame                           | 1     | 5       | Hear the challenge and see an example chart                                                  |
 | Map influences and levels       | 2–5   | 35      | List factors alone, sort them into levels in pairs, compare in fours, build one shared chart |
 | Diagnose                        | 6–7   | 25      | Mark levels that get little attention, and uneven resources                                  |
-| Break                           | 8     | 10      | Rest                                                                                         |
+| Afternoon break                 | 8     | 30      | Rest                                                                                         |
 | Find opportunities and barriers | 9–10  | 25      | In new groups of four, find leverage and blockages across levels                             |
 | Prioritize and commit           | 11–12 | 25      | Vote for three priorities, then plan actions with 1-2-4-All                                  |
 | Follow up                       | 13    | 5       | Decide in groups of three how and when to revisit the chart                                  |
-| **Total**                       |       | **130** |                                                                                              |
+| **Total**                       |       | **150** |                                                                                              |
 
 : The Panarchy exercise in seven phases {.striped}
 

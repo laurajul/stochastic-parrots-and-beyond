@@ -1,6 +1,6 @@
 ---
 title: Facilitator guide
-subtitle: 'Panarchy (130 minutes) and the adapted Ecocycle (30 minutes), minute by minute'
+subtitle: 'Panarchy (120 minutes) and the adapted Ecocycle (30 minutes), minute by minute'
 description: >-
   Spoken prompts, minute marks, products, and room setup for the Panarchy and
   Ecocycle afternoon. For teachers and facilitators.
@@ -42,26 +42,26 @@ Agree on the challenge in the block before lunch. The default is:
 
 > What changes across interconnected levels would make generative AI use in academic research more responsible?
 
-## Panarchy: 130 minutes
+## Panarchy: 120 minutes and the afternoon break
 
-The column "Clock" follows the [proposed timetable](syllabus.qmd#proposed-timetable). The column "Minute" works for any start time.
+The column "Clock" follows the [proposed timetable](syllabus.qmd#proposed-timetable). The column "Minute" works for any start time. The 30-minute afternoon break falls between step 7 and step 9.
 
 | Step | Minute  | Clock       | Duration | Adapted label (original label)                                         | Configuration | Product                                                           |
 | ---: | ------- | ----------- | -------: | ---------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- |
-|    1 | 0–5     | 13:00–13:05 |        5 | Frame the challenge (Intro)                                            | Plenary       | Shared understanding of the challenge                             |
-|    2 | 5–10    | 13:05–13:10 |        5 | Identify influences (Identify factors)                                 | Alone         | Personal list of factors                                          |
-|    3 | 10–20   | 13:10–13:20 |       10 | Translate into levels (Translate factors to levels)                    | Pairs         | Factors sorted into nested levels                                 |
-|    4 | 20–30   | 13:20–13:30 |       10 | Compare levels (Compare levels)                                        | Quartets      | Consolidated level labels                                         |
-|    5 | 30–40   | 13:30–13:40 |       10 | Build group chart (Integrate levels)                                   | Plenary       | One shared Panarchy chart                                         |
-|    6 | 40–55   | 13:40–13:55 |       15 | Diagnose attention and dynamics (Generate insights)                    | Quartets      | Marks for neglected levels and uneven resources                   |
-|    7 | 55–65   | 13:55–14:05 |       10 | Share diagnoses (Share insights)                                       | Plenary       | Annotated shared chart                                            |
-|    8 | 65–75   | 14:05–14:15 |       10 | Break                                                                  | —             | Rest                                                              |
-|    9 | 75–90   | 14:15–14:30 |       15 | Find opportunities and barriers (Identify opportunities and obstacles) | New quartets  | Notes on cross-level leverage and blockage                        |
-|   10 | 90–100  | 14:30–14:40 |       10 | Share possibilities (Share opportunities and obstacles)                | Plenary       | Opportunities and barriers on the chart                           |
-|   11 | 100–110 | 14:40–14:50 |       10 | Prioritize (Prioritize opportunities and obstacles)                    | Everyone      | Three high-leverage priorities                                    |
-|   12 | 110–125 | 14:50–15:05 |       15 | Commit to action (Identify action steps)                               | 1-2-4-All     | Near-term actions and cross-level alliances                       |
-|   13 | 125–130 | 15:05–15:10 |        5 | Arrange follow-up (Next steps)                                         | Trios         | A review point                                                    |
-|      |         |             |  **130** |                                                                        |               | **A shared chart, three priorities, action owners, review point** |
+|    1 | 0–5     | 13:20–13:25 |        5 | Frame the challenge (Intro)                                            | Plenary       | Shared understanding of the challenge                             |
+|    2 | 5–10    | 13:25–13:30 |        5 | Identify influences (Identify factors)                                 | Alone         | Personal list of factors                                          |
+|    3 | 10–20   | 13:30–13:40 |       10 | Translate into levels (Translate factors to levels)                    | Pairs         | Factors sorted into nested levels                                 |
+|    4 | 20–30   | 13:40–13:50 |       10 | Compare levels (Compare levels)                                        | Quartets      | Consolidated level labels                                         |
+|    5 | 30–40   | 13:50–14:00 |       10 | Build group chart (Integrate levels)                                   | Plenary       | One shared Panarchy chart                                         |
+|    6 | 40–55   | 14:00–14:15 |       15 | Diagnose attention and dynamics (Generate insights)                    | Quartets      | Marks for neglected levels and uneven resources                   |
+|    7 | 55–65   | 14:15–14:25 |       10 | Share diagnoses (Share insights)                                       | Plenary       | Annotated shared chart                                            |
+|    8 | 65–95   | 14:25–14:55 |       30 | Afternoon break                                                        | —             | Rest                                                              |
+|    9 | 95–110  | 14:55–15:10 |       15 | Find opportunities and barriers (Identify opportunities and obstacles) | New quartets  | Notes on cross-level leverage and blockage                        |
+|   10 | 110–120 | 15:10–15:20 |       10 | Share possibilities (Share opportunities and obstacles)                | Plenary       | Opportunities and barriers on the chart                           |
+|   11 | 120–130 | 15:20–15:30 |       10 | Prioritize (Prioritize opportunities and obstacles)                    | Everyone      | Three high-leverage priorities                                    |
+|   12 | 130–145 | 15:30–15:45 |       15 | Commit to action (Identify action steps)                               | 1-2-4-All     | Near-term actions and cross-level alliances                       |
+|   13 | 145–150 | 15:45–15:50 |        5 | Arrange follow-up (Next steps)                                         | Trios         | A review point                                                    |
+|      |         |             |  **150** |                                                                        |               | **A shared chart, three priorities, action owners, review point** |
 
 : Panarchy: steps, minute marks, and products {.striped}
 
@@ -123,11 +123,11 @@ Say:
 
 Annotate the chart. Read out patterns, for example a level with no notes.
 
-### 8. Break · minutes 65–75
+### 8. Afternoon break · minutes 65–95
 
-Say: "Ten minutes. Step away from the wall and from your devices."
+Say: "Thirty minutes. Step away from the wall and from your devices. We meet again at the chart."
 
-### 9. Find opportunities and barriers · minutes 75–90
+### 9. Find opportunities and barriers · minutes 95–110
 
 Form new groups of four. Mix people from different groups. Say:
 
@@ -135,13 +135,13 @@ Form new groups of four. Mix people from different groups. Say:
 
 Ask the groups to label each link with its kind: funding, rules, data, procurement, or technical dependence. A level higher on the chart does not always hold more power.
 
-### 10. Share possibilities · minutes 90–100
+### 10. Share possibilities · minutes 110–120
 
 Say:
 
 > "Three or four people: add your group's opportunities and barriers to the chart. Put each note between the levels that it connects."
 
-### 11. Prioritize · minutes 100–110
+### 11. Prioritize · minutes 120–130
 
 Before the vote, ask: "Does any option raise an objection about consent, rights, or a burden on one group?" Write each objection on the chart next to the option. The vote does not settle an objection.
 
@@ -151,7 +151,7 @@ Give each participant three dot stickers. Say:
 
 Count the dots. Name the three priorities aloud.
 
-### 12. Commit to action · minutes 110–125
+### 12. Commit to action · minutes 130–145
 
 Use **1-2-4-All** for the three priorities. Say:
 
@@ -165,7 +165,7 @@ Use **1-2-4-All** for the three priorities. Say:
 
 Each participant notes one action on the [action plan](handouts/action-plan.qmd), with an owner. Ask who decides at that level, not only who volunteers. The remaining minutes go to the plenary round.
 
-### 13. Arrange follow-up · minutes 125–130
+### 13. Arrange follow-up · minutes 145–150
 
 Form groups of three. Say:
 
@@ -181,11 +181,11 @@ The full Ecocycle Planning takes about 90 minutes [@ls-ecocycle]. This is a shor
 
 | Minute | Clock       | Duration | Step                                                   | Product                            |
 | ------ | ----------- | -------: | ------------------------------------------------------ | ---------------------------------- |
-| 0–5    | 15:10–15:15 |        5 | Explain birth, maturity, creative destruction, renewal | Shared understanding of the phases |
-| 5–10   | 15:15–15:20 |        5 | Map the priority initiatives                           | Initiatives placed on the Ecocycle |
-| 10–20  | 15:20–15:30 |       10 | Identify scarcity traps and rigidity traps             | Trapped initiatives marked         |
-| 20–25  | 15:30–15:35 |        5 | Propose movements between phases                       | A move for each trapped initiative |
-| 25–30  | 15:35–15:40 |        5 | Record concrete next steps                             | Next steps on the action plan      |
+| 0–5    | 15:50–15:55 |        5 | Explain birth, maturity, creative destruction, renewal | Shared understanding of the phases |
+| 5–10   | 15:55–16:00 |        5 | Map the priority initiatives                           | Initiatives placed on the Ecocycle |
+| 10–20  | 16:00–16:10 |       10 | Identify scarcity traps and rigidity traps             | Trapped initiatives marked         |
+| 20–25  | 16:10–16:15 |        5 | Propose movements between phases                       | A move for each trapped initiative |
+| 25–30  | 16:15–16:20 |        5 | Record concrete next steps                             | Next steps on the action plan      |
 |        |             |   **30** |                                                        |                                    |
 
 : The adapted Ecocycle {.striped}

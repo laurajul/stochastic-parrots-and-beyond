@@ -34,7 +34,7 @@ The morning builds a shared vocabulary. Each lens takes about 35 minutes: a shor
 
 The afternoon applies the vocabulary to the institutions in which participants work.
 
-5. [Panarchy](panarchy.qmd): a facilitated discussion of 130 minutes. Output: a shared chart, three priorities, action owners, and a review point.
+5. [Panarchy](panarchy.qmd): a facilitated discussion of 120 minutes, with the afternoon break in the middle. Output: a shared chart, three priorities, action owners, and a review point.
 6. [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation): a 30-minute adaptation. Output: a diagnosis of the priority initiatives.
 7. Research-use clinic: each participant applies the worksheet to their own research use. Each participant then decides with three questions: constraints, comparison, and accountability. A peer reviews the result.
 
