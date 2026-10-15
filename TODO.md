@@ -10,16 +10,16 @@ The course site is built. The tasks below need a decision by the instructors, an
 | `[Shared]` | An agent can prepare the work, but a maintainer approves the external action. |
 | `[Manual]` | Complete this in GitHub, Zenodo, or another external service.                 |
 
-## Approve the Proposed Content
+## Approve the Content
 
-- [ ] `[Manual]` Approve the proposed timetable in `contents/_timetable.qmd`. Then set `detailed_program_status: approved` in `data/editions.yml`.
+- [x] `[Manual]` Approve the timetable in `contents/_timetable.qmd`. Then set `detailed_program_status: approved` in `data/editions.yml`.
 - [ ] `[Manual]` Approve the four documented cases: BLOOM, LAION-5B, Sama and OpenAI, and the Llama 2 license.
-- [ ] `[Manual]` Approve the eight-hour preparation plan in `contents/assignments.qmd`.
-- [ ] `[Manual]` Confirm the follow-up task, the formal check, the submission channel, and the deadline with GRACE. Then set `assessment_deadline` and remove the "proposed" labels.
+- [x] `[Manual]` Approve the eight-hour preparation plan in `contents/assignments.qmd`.
+- [ ] `[Manual]` Confirm the deadline of the follow-up task with GRACE. Then set `assessment_deadline` in `data/editions.yml`.
 - [ ] `[Manual]` Read the lens pages and the decks for accuracy and tone. Laura Wagner and Moritz Mähr both sign off.
-- [ ] `[Manual]` Approve the formal check and the discussion with a domain-expert peer. The instructors check the form only. Laura Wagner and GRACE both agree.
+- [x] `[Manual]` Approve the formal check and the discussion with a domain-expert peer. The instructors check the form only. Laura Wagner and GRACE both agree.
 - [ ] `[Manual]` Create the `use-statement` label on GitHub. The Use Statement issue form uses it.
-- [ ] `[Manual]` Approve the two submission channels: email to GRACE, or the public GitHub issue form. Publication on the site stays opt-in.
+- [x] `[Manual]` Approve the two submission channels: email to GRACE, or the public GitHub issue form. Publication on the site stays opt-in.
 - [ ] `[Manual]` Ask GRACE for the language of instruction. Then state it on the course description.
 
 ## HS 2026 Operations
@@ -49,8 +49,8 @@ These tasks hold no participant data. Keep all participant data outside this rep
 
 - [x] `[Manual]` Enable GitHub Pages with the source **GitHub Actions**.
 - [x] `[Shared]` Enable Dependabot alerts and security updates, secret scanning, and push protection.
-- [ ] `[Manual]` Merge PR #1. The published site must come from `main`, so that the reuse guide matches a fresh clone.
-- [ ] `[Shared]` Restrict the `github-pages` environment to the `main` branch.
+- [x] `[Manual]` Merge PR #1. The published site must come from `main`, so that the reuse guide matches a fresh clone.
+- [x] `[Shared]` Restrict the `github-pages` environment to the `main` branch.
 - [ ] `[Shared]` Protect the `main` branch. For one maintainer: require a pull request and passing checks, 0 approvals.
 - [ ] `[Shared]` Enable CodeQL default setup for GitHub Actions.
 - [ ] `[Manual]` Enable the Zenodo-GitHub integration. Add the DOI badge and a `doi` key to `CITATION.cff` after the first release. Do not invent a DOI.

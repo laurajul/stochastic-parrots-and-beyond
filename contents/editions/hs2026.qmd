@@ -35,7 +35,7 @@ Write to {{< edition hs2026 contact link="the course administration" >}} about r
 
 Further reading is optional. The [literature](../literature.qmd) page lists readings and cases for each lens.
 
-The [assignments](../assignments.qmd) page gives a proposed plan for the eight hours of preparation.
+The [assignments](../assignments.qmd) page gives a plan for the eight hours of preparation.
 
 ::: {.callout-important title="Protect your data"}
 Do not bring confidential or personal research data to the exercises. No exercise needs a commercial AI account.
@@ -56,7 +56,7 @@ Detailed program: {{< edition hs2026 detailed_program >}}.
 
 ## Follow-up task
 
-The proposed follow-up task is a Responsible GenAI Use Statement. The [assignments](../assignments.qmd) page describes it. Before you submit, discuss your draft with at least one peer who knows your field.
+The follow-up task is a Responsible GenAI Use Statement. The [assignments](../assignments.qmd) page describes it. Before you submit, discuss your draft with at least one peer who knows your field.
 
 Submit the statement in one of two ways:
 
@@ -65,8 +65,8 @@ Submit the statement in one of two ways:
 
 Publication on this site is opt-in. The instructors publish a statement only when its author agrees.
 
-::: {.callout-warning title="Not yet binding"}
-The exact task, the formal check, the submission channels, and the deadline need confirmation by the instructors and the Graduate Center. Deadline: {{< edition hs2026 assessment_deadline >}}. This page will show the confirmed rules.
+::: {.callout-important title="Deadline"}
+Deadline for the follow-up task: {{< edition hs2026 assessment_deadline >}}.
 :::
 
 ## Course evaluation

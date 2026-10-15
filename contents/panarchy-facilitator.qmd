@@ -44,7 +44,7 @@ Agree on the challenge in the block before lunch. The default is:
 
 ## Panarchy: 120 minutes and the afternoon break
 
-The column "Clock" follows the [proposed timetable](syllabus.qmd#proposed-timetable). The column "Minute" works for any start time. The 30-minute afternoon break falls between step 7 and step 9.
+The column "Clock" follows the [timetable](syllabus.qmd#timetable). The column "Minute" works for any start time. The 30-minute afternoon break falls between step 7 and step 9.
 
 | Step | Minute  | Clock       | Duration | Adapted label (original label)                                         | Configuration | Product                                                           |
 | ---: | ------- | ----------- | -------: | ---------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- |

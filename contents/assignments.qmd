@@ -3,23 +3,19 @@ title: Assignments
 subtitle: 'Preparation, work on the course day, and the follow-up task'
 ---
 
-## What is confirmed and what is proposed
+## What is confirmed
 
 | Item                                                         | Status                                                               |
 | ------------------------------------------------------------ | -------------------------------------------------------------------- |
 | Required reading: Bender et al. (2021)                       | Confirmed                                                            |
 | Workload and credits                                         | Confirmed per edition. See the [edition pages](editions/hs2026.qmd). |
 | Full attendance on the course day                            | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd).  |
-| The plan for the eight hours of preparation                  | <span class="status-label">Proposed</span>                           |
-| The Use Statement, the peer discussion, and the formal check | <span class="status-label">Proposed</span>                           |
-| Submission by email or GitHub issue                          | <span class="status-label">Proposed</span>                           |
+| The plan for the eight hours of preparation                  | Confirmed                                                            |
+| The Use Statement, the peer discussion, and the formal check | Confirmed                                                            |
+| Submission by email or GitHub issue                          | Confirmed                                                            |
 | Deadline                                                     | <span class="status-label">To be confirmed</span>                    |
 
 : Status of each rule {.striped}
-
-::: {.callout-warning title="Proposed — awaiting instructor approval"}
-The instructors and the Graduate Center (GRACE) must confirm the follow-up task, the formal check, the peer discussion, the submission channels, and the deadline. Until then, treat this page as a description of the planned task, not as a binding instruction. The edition page shows the confirmed rules.
-:::
 
 ## Before the course day
 
@@ -44,10 +40,10 @@ Describe one actual or planned use of generative AI in your research. Answer the
 Describe the use, not the data. Do not include confidential, personal, or unpublished research data. A synthetic example is acceptable.
 :::
 
-### A proposed plan for eight hours
+### A plan for eight hours
 
-::: {.callout-warning title="Proposed — awaiting instructor approval"}
-The allocation below is a suggestion. It is not a new university requirement.
+::: {.callout-note title="A guide, not a requirement"}
+The split below is a guide. It is not a new university requirement.
 :::
 
 | Activity                                                                                   | Time        |
@@ -56,7 +52,7 @@ The allocation below is a suggestion. It is not a new university requirement.
 | Write the research-use description.                                                        | 3 hours     |
 | **Total**                                                                                  | **8 hours** |
 
-: Proposed preparation plan {.striped}
+: Preparation plan {.striped}
 
 ## On the course day
 
@@ -74,10 +70,6 @@ You contribute four outputs. The group keeps them on paper or on a shared wall.
 The instructors collect no personal data from these outputs. Take a photo of the group charts if you want to keep them. Do not post photos of other participants.
 
 ## After the course day: the Responsible GenAI Use Statement
-
-::: {.callout-warning title="Proposed — awaiting instructor approval"}
-This task is the planned follow-up assignment. The edition page confirms the binding rules.
-:::
 
 ### The task
 
@@ -136,7 +128,7 @@ The statement passes when it meets all seven criteria.
 | Publication      | declares whether the instructors may publish it on the course site.                                                 |
 | Data protection  | contains no confidential, personal, or unpublished research data.                                                   |
 
-: Proposed formal check {.striped}
+: Formal check {.striped}
 
 ### Submission
 

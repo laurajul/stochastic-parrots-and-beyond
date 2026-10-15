@@ -64,7 +64,7 @@ Each lens uses one documented case. These sources support the case and the evide
 
 ## Preparation time
 
-The [assignments](assignments.qmd) page proposes how to use the eight hours of preparation.
+The [assignments](assignments.qmd) page gives a plan for the eight hours of preparation.
 
 ## References
 

@@ -28,11 +28,11 @@ You can prepare with the shared materials now. They do not depend on the edition
 
 - Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
 - Look at the [syllabus](../syllabus.qmd) and the four lens pages.
-- Read the [assignments](../assignments.qmd) page. Its rules are proposals until each edition confirms them.
+- Read the [assignments](../assignments.qmd) page.
 
 ## Follow-up task and deadline
 
-The deadline for the follow-up task is {{< edition fs2027 assessment_deadline >}}. The [assignments](../assignments.qmd) page describes the proposed task.
+The deadline for the follow-up task is {{< edition fs2027 assessment_deadline >}}. The [assignments](../assignments.qmd) page describes the task.
 
 ## Contact
 

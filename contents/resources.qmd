@@ -52,9 +52,9 @@ For the wall, print the Panarchy chart in A1 or A0, or draw it on flip-chart pap
 
 ## Follow-up task
 
-| Handout                                                       | Purpose                                          | Downloads                                                                                                                                                                | License   |
-| ------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| [Use Statement template](handouts/use-statement-template.qmd) | Seven headings with guiding questions (proposed) | [Markdown](../assets/handouts/use-statement-template.md) · [Word](../assets/handouts/use-statement-template.docx) · [PDF](../assets/handouts/use-statement-template.pdf) | CC BY 4.0 |
+| Handout                                                       | Purpose                               | Downloads                                                                                                                                                                | License   |
+| ------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| [Use Statement template](handouts/use-statement-template.qmd) | Seven headings with guiding questions | [Markdown](../assets/handouts/use-statement-template.md) · [Word](../assets/handouts/use-statement-template.docx) · [PDF](../assets/handouts/use-statement-template.pdf) | CC BY 4.0 |
 
 : Follow-up task {.striped}
 

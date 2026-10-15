@@ -35,7 +35,7 @@ Do not bring confidential or personal research data to the exercises. No exercis
 
 ### If you teach or study on your own
 
-- The [syllabus](contents/syllabus.qmd) shows the learning path and a proposed timetable.
+- The [syllabus](contents/syllabus.qmd) shows the learning path and the timetable.
 - The four lens pages each hold concepts, evidence, a documented case, and an activity.
 - The [facilitator guide](contents/panarchy-facilitator.qmd) gives the Panarchy and Ecocycle session minute by minute.
 - The [handouts](contents/resources.qmd) are printable and editable.

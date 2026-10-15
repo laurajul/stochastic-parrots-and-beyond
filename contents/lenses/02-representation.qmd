@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a representation and harm pathway.
 - **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
 - **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).

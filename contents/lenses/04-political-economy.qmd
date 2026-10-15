@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a stakeholder and incentive map.
 - **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).

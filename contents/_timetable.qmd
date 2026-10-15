@@ -1,7 +1,3 @@
-::: {.callout-warning title="Proposed — awaiting instructor approval"}
-The start and end of the course day are confirmed on the edition page. The sequence of blocks below is a proposal. It is not a confirmed timetable until the instructors approve it.
-:::
-
 | Time        | Block                                                                                    |
 | ----------- | ---------------------------------------------------------------------------------------- |
 | 09:00–09:20 | Welcome, objectives, research-use examples                                               |
@@ -20,4 +16,4 @@ The start and end of the course day are confirmed on the edition page. The seque
 | 16:40–16:50 | Next actions and instructions for the follow-up task                                     |
 | 16:50–17:00 | Course evaluation and closing                                                            |
 
-: Proposed sequence for a one-day edition {.striped}
+: Timetable of a one-day edition {.striped}

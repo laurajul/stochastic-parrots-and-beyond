@@ -1,14 +1,12 @@
 # Responsible GenAI Use Statement: template
 
 
-> [!WARNING]
+> [!IMPORTANT]
 >
-> ### Proposed task — check the edition page
+> ### Check the edition page
 >
-> This task is a proposal. The instructors and the Graduate Center
-> (GRACE) confirm the task, the rules, the submission channels, and the
-> deadline for each edition. Do not include confidential or personal
-> research data.
+> Your edition page gives the deadline and the email address for the
+> submission. Do not include confidential or personal research data.
 
 **Length:** 1,200 to 1,500 words, without the bibliography and the peer
 note. **Work:** alone, about your own research context. **Peer

@@ -14,7 +14,7 @@ The course materials are open educational resources. You can copy, change, and t
 | ----------------------------------- | ------------------------------------------------------------------- |
 | `index.qmd`                         | Home page                                                           |
 | `contents/course-description.qmd`   | Summary, audience, outcomes, the four lenses                        |
-| `contents/syllabus.qmd`             | Learning path and the proposed timetable                            |
+| `contents/syllabus.qmd`             | Learning path and the timetable                                     |
 | `contents/_timetable.qmd`           | The timetable. The syllabus and the edition pages include it.       |
 | `contents/editions/`                | One page for each edition                                           |
 | `data/editions.yml`                 | **The single source for edition facts**: dates, venue, rules, links |

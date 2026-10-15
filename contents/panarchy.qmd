@@ -11,7 +11,7 @@ link-citations: true
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** the afternoon. Panarchy takes 120 minutes. The 30-minute afternoon break falls between step 7 and step 9. The adapted Ecocycle takes 30 minutes.
+- **Slot:** the afternoon. Panarchy takes 120 minutes. The 30-minute afternoon break falls between step 7 and step 9. The adapted Ecocycle takes 30 minutes.
 - **Outputs:** a shared Panarchy chart, three priorities, action owners, a review point, and an Ecocycle diagnosis.
 - **Handouts:** [Panarchy chart](handouts/panarchy-chart.qmd), [fictional example](handouts/panarchy-example.qmd), [Ecocycle sheet](handouts/ecocycle.qmd), [sticky notes and action plan](handouts/action-plan.qmd).
 - **Slides:** [Panarchy and Ecocycle slide deck](slides/05-panarchy.qmd).

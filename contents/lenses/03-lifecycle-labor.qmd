@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a lifecycle risk matrix.
 - **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
 - **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).
