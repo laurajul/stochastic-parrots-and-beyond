@@ -9,6 +9,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set page(flipped: true)'
+  docx: default
 ---
 
 **Question:** Who does the work, carries the risk, or has no recourse?
@@ -61,4 +62,4 @@ Carry your main finding over to the twelve shared fields. You use them again in 
 
 {{< include _shared-fields.qmd >}}
 
-[[PDF](../../assets/handouts/lens-3-lifecycle-matrix.pdf) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/lens-3-lifecycle-matrix.pdf) · [Word](../../assets/handouts/lens-3-lifecycle-matrix.docx) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

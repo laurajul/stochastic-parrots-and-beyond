@@ -9,6 +9,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set page(flipped: true)'
+  docx: default
 ---
 
 **Question:** Whose perspectives become normal and whose are displaced?
@@ -63,4 +64,4 @@ Carry your main finding over to the twelve shared fields. You use them again in 
 
 {{< include _shared-fields.qmd >}}
 
-[[PDF](../../assets/handouts/lens-2-harm-pathway.pdf) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/lens-2-harm-pathway.pdf) · [Word](../../assets/handouts/lens-2-harm-pathway.docx) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

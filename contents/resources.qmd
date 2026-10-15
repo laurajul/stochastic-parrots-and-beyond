@@ -6,31 +6,32 @@ description: >-
   web version, its printable PDF, its editable source, and its license.
 ---
 
-Each handout has three forms:
+Each handout has these forms:
 
 - an accessible **web page**, which works with a screen reader and on a phone,
 - a **PDF** for print in A4, tagged for screen readers (PDF/UA-1),
-- an **editable source**: the Quarto file in the repository folder `contents/handouts/`, and the SVG diagrams, the Markdown file, or the Word file below.
+- a **Word file** for each worksheet that you fill in, so that you can type your answers on a laptop,
+- an **editable source**: the Quarto file in the repository folder `contents/handouts/`, and the SVG diagrams or the Markdown file below.
 
-All exercises work with pen and paper. No exercise needs an online whiteboard or an account.
+All exercises work on paper or in a Word file on a laptop. No exercise needs an online whiteboard or an account.
 
 ## Worksheets for the four lenses
 
-| Handout                                                                      | Purpose                                                  | PDF                                                   | License   |
-| ---------------------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- | --------- |
-| [Lens 1: material-and-provenance map](handouts/lens-1-provenance-map.qmd)    | Known, unknown, and avoidable costs from data to use     | [PDF](../assets/handouts/lens-1-provenance-map.pdf)   | CC BY 4.0 |
-| [Lens 2: representation and harm pathway](handouts/lens-2-harm-pathway.qmd)  | Decisions, exclusions, and harms along a dataset pathway | [PDF](../assets/handouts/lens-2-harm-pathway.pdf)     | CC BY 4.0 |
-| [Lens 3: lifecycle risk matrix](handouts/lens-3-lifecycle-matrix.qmd)        | Who works, who carries the risk, who has recourse        | [PDF](../assets/handouts/lens-3-lifecycle-matrix.pdf) | CC BY 4.0 |
-| [Lens 4: stakeholder and incentive map](handouts/lens-4-stakeholder-map.qmd) | Gains, costs, leverage, and one governance change        | [PDF](../assets/handouts/lens-4-stakeholder-map.pdf)  | CC BY 4.0 |
+| Handout                                                                      | Purpose                                                  | Downloads                                                                                                       | License   |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------- |
+| [Lens 1: material-and-provenance map](handouts/lens-1-provenance-map.qmd)    | Known, unknown, and avoidable costs from data to use     | [PDF](../assets/handouts/lens-1-provenance-map.pdf) · [Word](../assets/handouts/lens-1-provenance-map.docx)     | CC BY 4.0 |
+| [Lens 2: representation and harm pathway](handouts/lens-2-harm-pathway.qmd)  | Decisions, exclusions, and harms along a dataset pathway | [PDF](../assets/handouts/lens-2-harm-pathway.pdf) · [Word](../assets/handouts/lens-2-harm-pathway.docx)         | CC BY 4.0 |
+| [Lens 3: lifecycle risk matrix](handouts/lens-3-lifecycle-matrix.qmd)        | Who works, who carries the risk, who has recourse        | [PDF](../assets/handouts/lens-3-lifecycle-matrix.pdf) · [Word](../assets/handouts/lens-3-lifecycle-matrix.docx) | CC BY 4.0 |
+| [Lens 4: stakeholder and incentive map](handouts/lens-4-stakeholder-map.qmd) | Gains, costs, leverage, and one governance change        | [PDF](../assets/handouts/lens-4-stakeholder-map.pdf) · [Word](../assets/handouts/lens-4-stakeholder-map.docx)   | CC BY 4.0 |
 
 : Lens worksheets. Each worksheet ends with the twelve shared fields. {.striped}
 
 ## The shared risk worksheet
 
-| Handout                                                         | Purpose                                              | PDF                                                  | License   |
-| --------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | --------- |
-| [Shared risk worksheet](handouts/risk-worksheet.qmd)            | The twelve shared fields for one research use, blank | [PDF](../assets/handouts/risk-worksheet.pdf)         | CC BY 4.0 |
-| [Fictional worked example](handouts/risk-worksheet-example.qmd) | A completed worksheet for an invented research use   | [PDF](../assets/handouts/risk-worksheet-example.pdf) | CC BY 4.0 |
+| Handout                                                         | Purpose                                              | Downloads                                                                                     | License   |
+| --------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------- |
+| [Shared risk worksheet](handouts/risk-worksheet.qmd)            | The twelve shared fields for one research use, blank | [PDF](../assets/handouts/risk-worksheet.pdf) · [Word](../assets/handouts/risk-worksheet.docx) | CC BY 4.0 |
+| [Fictional worked example](handouts/risk-worksheet-example.qmd) | A completed worksheet for an invented research use   | [PDF](../assets/handouts/risk-worksheet-example.pdf)                                          | CC BY 4.0 |
 
 : Shared risk worksheet {.striped}
 
@@ -38,12 +39,12 @@ All exercises work with pen and paper. No exercise needs an online whiteboard or
 
 These materials adapt Liberating Structures. They carry CC BY-SA 4.0. Keep this license when you adapt them.
 
-| Handout                                                  | Purpose                                              | PDF                                            | Editable diagram                                     | License      |
-| -------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------- | ------------ |
-| [Panarchy chart](handouts/panarchy-chart.qmd)            | Blank chart with five levels, for A4 or a wall sheet | [PDF](../assets/handouts/panarchy-chart.pdf)   | [SVG](../assets/handouts/panarchy-chart-blank.svg)   | CC BY-SA 4.0 |
-| [Panarchy example](handouts/panarchy-example.qmd)        | A fictional completed chart                          | [PDF](../assets/handouts/panarchy-example.pdf) | [SVG](../assets/handouts/panarchy-chart-example.svg) | CC BY-SA 4.0 |
-| [Ecocycle sheet](handouts/ecocycle.qmd)                  | Phases, traps, and a diagnosis table                 | [PDF](../assets/handouts/ecocycle.pdf)         | [SVG](../assets/handouts/ecocycle-blank.svg)         | CC BY-SA 4.0 |
-| [Sticky notes and action plan](handouts/action-plan.qmd) | Notes by level, and the action plan                  | [PDF](../assets/handouts/action-plan.pdf)      | —                                                    | CC BY-SA 4.0 |
+| Handout                                                  | Purpose                                              | Downloads                                                                               | Editable diagram                                     | License      |
+| -------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------ |
+| [Panarchy chart](handouts/panarchy-chart.qmd)            | Blank chart with five levels, for A4 or a wall sheet | [PDF](../assets/handouts/panarchy-chart.pdf)                                            | [SVG](../assets/handouts/panarchy-chart-blank.svg)   | CC BY-SA 4.0 |
+| [Panarchy example](handouts/panarchy-example.qmd)        | A fictional completed chart                          | [PDF](../assets/handouts/panarchy-example.pdf)                                          | [SVG](../assets/handouts/panarchy-chart-example.svg) | CC BY-SA 4.0 |
+| [Ecocycle sheet](handouts/ecocycle.qmd)                  | Phases, traps, and a diagnosis table                 | [PDF](../assets/handouts/ecocycle.pdf) · [Word](../assets/handouts/ecocycle.docx)       | [SVG](../assets/handouts/ecocycle-blank.svg)         | CC BY-SA 4.0 |
+| [Sticky notes and action plan](handouts/action-plan.qmd) | Notes by level, and the action plan                  | [PDF](../assets/handouts/action-plan.pdf) · [Word](../assets/handouts/action-plan.docx) | —                                                    | CC BY-SA 4.0 |
 
 : Panarchy and Ecocycle handouts {.striped}
 

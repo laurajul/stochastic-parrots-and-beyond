@@ -114,7 +114,7 @@ The dataset was open, so outsiders could audit it. Ask: "What would an audit of 
 
 ## Activity · 15 minutes
 
-**Analyze a representation pathway.** Groups of three or four, pen and paper. Do not search for harmful images.
+**Analyze a representation pathway.** Groups of three or four, on paper or on a laptop. Do not search for harmful images.
 
 1. Choose a research-use card from your group. Use LAION-5B only if no card fits. (3 min)
 2. For each step: who decides, what is selected, what is excluded, which harm can enter. (8 min)

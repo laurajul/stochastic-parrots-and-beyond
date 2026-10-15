@@ -10,6 +10,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set page(flipped: true)'
+  docx: default
 ---
 
 Use page 1 if you have no sticky notes. Use page 2 for the actions from step 12 of Panarchy and from the Ecocycle. The action plan belongs to you: the instructors do not collect it. Do not write the names of people who are not in the room.
@@ -57,4 +58,4 @@ Use page 1 if you have no sticky notes. Use page 2 for the actions from step 12 
 The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The drawing is original. No Liberating Structures icons are used.
 :::
 
-[[PDF](../../assets/handouts/action-plan.pdf) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/action-plan.pdf) · [Word](../../assets/handouts/action-plan.docx) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

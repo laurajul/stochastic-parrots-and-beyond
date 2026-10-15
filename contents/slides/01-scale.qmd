@@ -96,7 +96,7 @@ Ask: "For the system you use, which of these four lines could you fill in?" Usua
 
 ## Activity · 15 minutes
 
-**Trace one model or use case from its data sources to its use.** Groups of three or four, pen and paper.
+**Trace one model or use case from its data sources to its use.** Groups of three or four, on paper or on a laptop.
 
 1. Choose a research-use card from your group. Use BLOOM only if no card fits. (3 min)
 2. For each stage, note what is known, unknown, and avoidable, with a source. (8 min)

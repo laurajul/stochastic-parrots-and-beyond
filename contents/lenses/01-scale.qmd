@@ -104,7 +104,7 @@ The figures also show what usually stays hidden:
 
 ## Activity
 
-**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 15 minutes, with pen and paper.
+**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
 
 1. Choose the example. First choice: one research-use description from your group. Use the ready-made BLOOM case only when no description fits. (3 minutes)
 2. Fill in the [worksheet](../handouts/lens-1-provenance-map.qmd). For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. (8 minutes)

@@ -104,7 +104,7 @@ The Open Source Initiative stated that the license is not open source. It restri
 
 ## Activity
 
-**Map stakeholders and incentives.** Work in groups of three or four, for 15 minutes, with pen and paper.
+**Map stakeholders and incentives.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
 
 1. Choose the system. First choice: the system from one research-use description in your group. Use Llama 2 as in the ready-made case only when no description fits. (3 minutes)
 2. On the [worksheet](../handouts/lens-4-stakeholder-map.qmd), place the stakeholders. For each, note what it gains, what it pays or risks, and which leverage it has. (7 minutes)

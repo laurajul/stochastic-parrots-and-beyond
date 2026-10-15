@@ -90,7 +90,7 @@ _TIME_ interviewed four Sama employees who worked on the project. All four "desc
 
 ## Activity
 
-**Build a lifecycle risk matrix.** Work in groups of three or four, for 15 minutes, with pen and paper.
+**Build a lifecycle risk matrix.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
 
 1. Choose the system. First choice: the system from one research-use description in your group. Use ChatGPT as in the ready-made case only when no description fits. (3 minutes)
 2. On the [worksheet](../handouts/lens-3-lifecycle-matrix.qmd), fill one column for each of the six stages. For each stage, write who does the work, who carries the risk, and who has recourse. (7 minutes)

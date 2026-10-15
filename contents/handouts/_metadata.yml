@@ -8,4 +8,6 @@ margin:
   y: 1.5cm
 # Tagged PDF for screen readers (PDF/UA-1).
 pdf-standard: ua-1
+# Word versions: table cells with borders. Built by scripts/build_reference_docx.py.
+reference-doc: _reference.docx
 format-links: false

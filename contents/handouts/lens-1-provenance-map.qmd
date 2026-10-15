@@ -9,6 +9,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set page(flipped: true)'
+  docx: default
 ---
 
 **Question:** Which environmental and data choices are hidden by a model's apparent performance?
@@ -63,4 +64,4 @@ Carry your main finding over to the twelve shared fields. You use them again in 
 
 {{< include _shared-fields.qmd >}}
 
-[[PDF](../../assets/handouts/lens-1-provenance-map.pdf) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/lens-1-provenance-map.pdf) · [Word](../../assets/handouts/lens-1-provenance-map.docx) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

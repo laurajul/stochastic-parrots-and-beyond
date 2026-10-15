@@ -115,7 +115,7 @@ Read one arrow of each kind: money, data, rules. Ask which arrow is missing for 
 
 ## Activity · 15 minutes
 
-**Map stakeholders and incentives.** Groups of three or four, pen and paper.
+**Map stakeholders and incentives.** Groups of three or four, on paper or on a laptop.
 
 1. Choose a research-use card from your group. Use Llama 2 only if no card fits. (3 min)
 2. Place the stakeholders. For each: gains, costs or risks, leverage. (7 min)

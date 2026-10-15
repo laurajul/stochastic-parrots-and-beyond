@@ -10,6 +10,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set page(flipped: true)'
+  docx: default
 ---
 
 Place each priority initiative from the Panarchy chart on the Ecocycle on page 2. Then find the traps, and propose a move. This sheet supports a **30-minute adaptation**. The full [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning) takes about 90 minutes. See the [Panarchy page](../panarchy.qmd#ecocycle-a-30-minute-adaptation).
@@ -53,4 +54,4 @@ Place each priority initiative from the Panarchy chart on the Ecocycle on page 2
 The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The drawing is original. No Liberating Structures icons are used.
 :::
 
-[[PDF](../../assets/handouts/ecocycle.pdf) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/ecocycle.pdf) · [Word](../../assets/handouts/ecocycle.docx) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

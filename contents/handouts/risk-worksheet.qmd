@@ -10,6 +10,7 @@ format:
     include-in-header:
       - _handout.typ
       - text: '#set table(rows: (auto, 1.55cm))'
+  docx: default
 ---
 
 Use this worksheet for one actual or planned use of generative AI in your research. Fill in each field. Name a source where you can. Write "unknown" where you do not know: an unknown is a finding.
@@ -42,4 +43,4 @@ Do not write confidential or personal research data on this sheet. A [fictional 
 
 :::
 
-[[PDF](../../assets/handouts/risk-worksheet.pdf) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+[[PDF](../../assets/handouts/risk-worksheet.pdf) · [Word](../../assets/handouts/risk-worksheet.docx) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
