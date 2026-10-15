@@ -18,7 +18,7 @@ One set of teaching materials serves every edition. The practical facts differ f
 
 {{< edition all list >}}
 
-This site is a course companion. It takes no registrations and awards no credits. The Graduate Center (GRACE) of the University of Basel does both. The official course listing overrides this site.
+This site is a course companion. It takes no registrations and awards no credits. The Graduate Center (GRACE) of the University of Basel does both. For registration, credits, and the binding course rules, go to the official course listing of the University of Basel. Each edition page links it.
 
 ## Start here
 

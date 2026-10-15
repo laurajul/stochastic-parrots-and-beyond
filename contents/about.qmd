@@ -19,7 +19,7 @@ This site is a course companion that the instructors maintain. It is not an offi
 
 - It takes no registrations and awards no credits.
 - It collects no data about visitors. It sets no cookies and uses no analytics.
-- The official course listing overrides this site if the two differ.
+- For registration, credits, and the binding course rules, go to the official course listing of the University of Basel. Each edition page links it.
 
 The site loads its fonts (IBM Plex) from Google Fonts. Your browser therefore contacts Google when it opens a page.
 

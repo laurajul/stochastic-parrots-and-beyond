@@ -8,7 +8,7 @@ description: >-
 
 {{< edition hs2026 banner >}}
 
-This page is the single reference for participants of the HS 2026 edition. The {{< edition hs2026 official_url link="official course listing of the University of Basel" >}} overrides this page if the two differ.
+This page is the single reference for participants of the HS 2026 edition. For registration, credits, and the binding course rules, go to the {{< edition hs2026 official_url link="official course listing of the University of Basel" >}}.
 
 ## Practical information
 
