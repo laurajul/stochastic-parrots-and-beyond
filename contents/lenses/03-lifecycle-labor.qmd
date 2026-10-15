@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a lifecycle risk matrix.
 - **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
 - **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).
@@ -90,15 +90,32 @@ _TIME_ interviewed four Sama employees who worked on the project. All four "desc
 
 ## Activity
 
-**Build a lifecycle risk matrix.** Work in groups of three or four, for 12 minutes, with pen and paper.
+**Build a lifecycle risk matrix.** Work in groups of three or four, for 15 minutes, with pen and paper.
 
-1. Choose a system: ChatGPT as in the case, or the system from one research-use description in your group. (1 minute)
-2. On the [worksheet](../handouts/lens-3-lifecycle-matrix.qmd), fill one column for each of the six stages. For each stage, write who does the work, who carries the risk, and who has recourse. (6 minutes)
+1. Choose the system. First choice: the system from one research-use description in your group. Use ChatGPT as in the ready-made case only when no description fits. (3 minutes)
+2. On the [worksheet](../handouts/lens-3-lifecycle-matrix.qmd), fill one column for each of the six stages. For each stage, write who does the work, who carries the risk, and who has recourse. (7 minutes)
 3. Mark the stage where the risk is highest, and the stage where you as a researcher have the most influence. (2 minutes)
 4. Write one intervention for the stage where you have influence. (3 minutes)
 
-::: {.callout-tip title="Hypothetical example"}
+::: {.panel-tabset}
+
+### Your group's example
+
+This is the first choice. A use from your own research makes the analysis concrete.
+
+- Choose the research-use description with the most open questions.
+- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
+- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
+- The column "who has recourse" often stays empty. Keep it empty and visible.
+
+### Ready-made case
+
+Use the [safety-labeling case](#case-sama) and analyze ChatGPT when no description in your group fits, or when the group prefers not to discuss its own use. The case documents one stage in detail: the labeling of data for a safety filter.
+
+### Hypothetical example
+
 A sociology team plans to code 2,000 open survey answers with a hosted model. The matrix shows: at the data stage, the respondents never agreed to this use. At the evaluation stage, student assistants check the codes but get no credit in the publication. Intervention: ask the ethics board, keep a sample coded by hand, and acknowledge the assistants. This example is invented for teaching.
+
 :::
 
 ## Output
@@ -116,7 +133,7 @@ A **lifecycle risk matrix** on one sheet for each group. For each of the six sta
 Open the [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
 
 **Prompts.**
 
@@ -128,7 +145,7 @@ Open the [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd). Press `S` for th
 
 **Difficult moments.** Some participants work with outsourced labor themselves, for example through crowdsourcing platforms. Invite them to share practice, not to defend it. Point to fair-pay guidelines of their discipline where they exist.
 
-**Fallback.** If the group has no own system, use the case. Groups that finish early can add a seventh column for "after deployment": who maintains the system, and who deals with complaints.
+**Fallback.** Start with the group's own example. If no description fits, use the case. Groups that finish early can add a seventh column for "after deployment": who maintains the system, and who deals with complaints.
 :::
 
 ## References

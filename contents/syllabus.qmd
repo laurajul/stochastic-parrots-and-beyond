@@ -24,7 +24,7 @@ Further reading is optional. The [literature](literature.qmd) page lists reading
 
 ### On the course day
 
-The morning builds a shared vocabulary. Each lens takes about 35 minutes: a short input, a documented case, and a group activity of 10 to 15 minutes.
+The morning builds a shared vocabulary. Each lens takes about 35 minutes: a short input, a documented case, and a group activity of 15 minutes. Each group works first on an example from its own research-use descriptions.
 
 1. [Lens 1: Stochastic Parrots — Scale and Environment](lenses/01-scale.qmd). Output: a material-and-provenance map.
 2. [Lens 2: Representation and Pygmalion](lenses/02-representation.qmd). Output: a representation and harm pathway.

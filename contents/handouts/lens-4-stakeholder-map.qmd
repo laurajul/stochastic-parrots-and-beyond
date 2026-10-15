@@ -13,7 +13,7 @@ format:
 
 **Question:** Which incentives preserve an unsafe or inequitable practice?
 
-**Task (12 minutes, groups of three or four):** Choose Llama 2 as in the case or a system from your research-use descriptions. For each stakeholder, note what it gains, what it pays or risks, and which leverage it has. Circle one incentive that keeps an unsafe or inequitable practice in place. See the [Lens 4 page](../lenses/04-political-economy.qmd).
+**Task (15 minutes, groups of three or four):** Choose a system from a research-use description in your group. Use Llama 2 as in the case only if no description fits. For each stakeholder, note what it gains, what it pays or risks, and which leverage it has. Circle one incentive that keeps an unsafe or inequitable practice in place. See the [Lens 4 page](../lenses/04-political-economy.qmd).
 
 System: ______________________________________________
 

@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a representation and harm pathway.
 - **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
 - **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).
@@ -92,15 +92,33 @@ Every step in this case comes from published investigations and from LAION's own
 
 ## Activity
 
-**Analyze a documented representation pathway.** Work in groups of three or four, for 12 minutes, with pen and paper. Do not search for or open harmful images.
+**Analyze a representation pathway.** Work in groups of three or four, for 15 minutes, with pen and paper. Do not search for or open harmful images.
 
-1. Choose a pathway: the LAION-5B case above, or the image generator that a group member uses or plans to use. (2 minutes)
-2. On the [worksheet](../handouts/lens-2-harm-pathway.qmd), mark for each step: who decides, what is selected, what is excluded, and which harm can enter. (6 minutes)
+1. Choose the pathway. First choice: the system from one research-use description in your group. Use the ready-made LAION-5B case only when no description fits. (3 minutes)
+2. On the [worksheet](../handouts/lens-2-harm-pathway.qmd), mark for each step: who decides, what is selected, what is excluded, and which harm can enter. (8 minutes)
 3. Mark the step where you see the largest risk for your research context, and the people it affects. (2 minutes)
 4. Name one mitigation that a researcher can control. It must fit the harm: a consent problem needs a consent remedy, not a fix for bias. (2 minutes)
 
-::: {.callout-tip title="Hypothetical example"}
+::: {.panel-tabset}
+
+### Your group's example
+
+This is the first choice. A use from your own research makes the analysis concrete.
+
+- Choose the research-use description with the most open questions.
+- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
+- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
+- An image generator fits best. A language model also has a pathway from web data to output.
+- Do not search for or open harmful images.
+
+### Ready-made case
+
+Use the [LAION-5B pathway](#case-laion) when no description in your group fits, or when the group prefers not to discuss its own use. Every step of this pathway is documented.
+
+### Hypothetical example
+
 An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favors a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.
+
 :::
 
 ## Output
@@ -118,7 +136,7 @@ A **representation and harm pathway** on one sheet for each group. It shows each
 Open the [Lens 2 slide deck](../slides/02-representation.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The LAION case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The LAION case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
 
 **Never show abusive material.** Do not show examples from the audited datasets, not even blurred. Describe the findings in words, and cite the source. Do not run live image generation that targets identities or real people.
 
@@ -132,7 +150,7 @@ Open the [Lens 2 slide deck](../slides/02-representation.qmd). Press `S` for the
 
 **Difficult moments.** The topic can affect participants personally. Announce the content note at the start. Allow participants to step out. Keep the discussion on structures and decisions, not on individual images.
 
-**Fallback.** If no group member uses an image generator, use the LAION case. Groups that finish early can compare the LAION pathway with a text dataset from Lens 1.
+**Fallback.** Start with the group's own example. If no description fits, use the LAION case. Groups that finish early can compare the LAION pathway with a text dataset from Lens 1.
 :::
 
 ## References

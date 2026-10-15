@@ -112,12 +112,12 @@ Walk through the steps from left to right. At each step, ask: "Who decided here?
 The dataset was open, so outsiders could audit it. Ask: "What would an audit of a closed dataset require?"
 :::
 
-## Activity · 12 minutes
+## Activity · 15 minutes
 
-**Analyze a documented representation pathway.** Groups of three or four, pen and paper. Do not search for harmful images.
+**Analyze a representation pathway.** Groups of three or four, pen and paper. Do not search for harmful images.
 
-1. Choose LAION-5B or an image tool from your cards. (2 min)
-2. For each step: who decides, what is selected, what is excluded, which harm can enter. (6 min)
+1. Choose a research-use card from your group. Use LAION-5B only if no card fits. (3 min)
+2. For each step: who decides, what is selected, what is excluded, which harm can enter. (8 min)
 3. Mark the riskiest step and the people it affects. (2 min)
 4. Name one mitigation that a researcher controls. (2 min)
 

@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a stakeholder and incentive map.
 - **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
@@ -104,15 +104,32 @@ The Open Source Initiative stated that the license is not open source. It restri
 
 ## Activity
 
-**Map stakeholders and incentives.** Work in groups of three or four, for 12 minutes, with pen and paper.
+**Map stakeholders and incentives.** Work in groups of three or four, for 15 minutes, with pen and paper.
 
-1. Choose a system: Llama 2 as in the case, or the system from one research-use description in your group. (1 minute)
-2. On the [worksheet](../handouts/lens-4-stakeholder-map.qmd), place the stakeholders. For each, note what it gains, what it pays or risks, and which leverage it has. (6 minutes)
+1. Choose the system. First choice: the system from one research-use description in your group. Use Llama 2 as in the ready-made case only when no description fits. (3 minutes)
+2. On the [worksheet](../handouts/lens-4-stakeholder-map.qmd), place the stakeholders. For each, note what it gains, what it pays or risks, and which leverage it has. (7 minutes)
 3. Circle one incentive that keeps an unsafe or inequitable practice in place. (2 minutes)
 4. Write one feasible governance change: who must act, at which level, and by when. (3 minutes)
 
-::: {.callout-tip title="Hypothetical example"}
+::: {.panel-tabset}
+
+### Your group's example
+
+This is the first choice. A use from your own research makes the analysis concrete.
+
+- Choose the research-use description with the most open questions.
+- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
+- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
+- Place your own university on the map: as a licensee, a data owner, or a rule maker.
+
+### Ready-made case
+
+Use the [Llama 2 license](#case-license) when no description in your group fits, or when the group prefers not to discuss its own use. The case shows how a license distributes gains, costs, and leverage.
+
+### Hypothetical example
+
 A faculty licenses one chatbot for all staff because the vendor offers a discount. The map shows: the vendor gains data and lock-in. The faculty gains convenience, and researchers lose the choice of a documented model. A feasible change: the faculty adds a documentation requirement to the next procurement, and the research data office maintains a list of documented alternatives. This example is invented for teaching.
+
 :::
 
 ## Output
@@ -130,7 +147,7 @@ A **stakeholder and incentive map** on one sheet for each group. It shows the st
 Open the [Lens 4 slide deck](../slides/04-political-economy.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
 
 **Prompts.**
 
@@ -142,7 +159,7 @@ Open the [Lens 4 slide deck](../slides/04-political-economy.qmd). Press `S` for 
 
 **Difficult moments.** Discussions of regulation can turn into legal questions about a specific project. Note the question for the legal service of the institution, and return to incentives and levers.
 
-**Fallback.** If the group has no own system, use the case. Groups that finish early can add a second map for the same system ten years ago, and compare the stakeholders.
+**Fallback.** Start with the group's own example. If no description fits, use the case. Groups that finish early can add a second map for the same system ten years ago, and compare the stakeholders.
 :::
 
 ## References

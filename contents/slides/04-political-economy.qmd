@@ -113,12 +113,12 @@ The OSI stated in July 2023 that the Llama 2 license is not open source. Ask: "W
 Read one arrow of each kind: money, data, rules. Ask which arrow is missing for the research participants.
 :::
 
-## Activity · 12 minutes
+## Activity · 15 minutes
 
 **Map stakeholders and incentives.** Groups of three or four, pen and paper.
 
-1. Choose Llama 2 or a system from your cards. (1 min)
-2. Place the stakeholders. For each: gains, costs or risks, leverage. (6 min)
+1. Choose a research-use card from your group. Use Llama 2 only if no card fits. (3 min)
+2. Place the stakeholders. For each: gains, costs or risks, leverage. (7 min)
 3. Circle one incentive that keeps an unsafe or inequitable practice in place. (2 min)
 4. Write one feasible governance change: who acts, at which level, by when. (3 min)
 

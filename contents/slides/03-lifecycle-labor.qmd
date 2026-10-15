@@ -88,12 +88,12 @@ Transition to the case: "Here is a case where the safety of users depended on th
 Mention that OpenAI and Sama dispute some details, for example the workload and the contract value. The lesson page gives both sides.
 :::
 
-## Activity · 12 minutes
+## Activity · 15 minutes
 
 **Build a lifecycle risk matrix.** Groups of three or four, pen and paper.
 
-1. Choose ChatGPT or a system from your cards. (1 min)
-2. For each of the six stages: who works, who carries the risk, who has recourse? (6 min)
+1. Choose a research-use card from your group. Use ChatGPT only if no card fits. (3 min)
+2. For each of the six stages: who works, who carries the risk, who has recourse? (7 min)
 3. Mark the stage of highest risk and the stage where you have most influence. (2 min)
 4. Write one intervention for your stage. (3 min)
 

@@ -13,7 +13,7 @@ format:
 
 **Question:** Whose perspectives become normal and whose are displaced?
 
-**Task (12 minutes, groups of three or four):** Choose the LAION-5B pathway or an image tool from your research-use descriptions. For each step, note who decides, what is selected, what is excluded, and which harm can enter. Do not search for or open harmful images. See the [Lens 2 page](../lenses/02-representation.qmd).
+**Task (15 minutes, groups of three or four):** Choose a system from a research-use description in your group. Use the LAION-5B pathway only if no description fits. For each step, note who decides, what is selected, what is excluded, and which harm can enter. Do not search for or open harmful images. See the [Lens 2 page](../lenses/02-representation.qmd).
 
 Pathway: ______________________________________________
 

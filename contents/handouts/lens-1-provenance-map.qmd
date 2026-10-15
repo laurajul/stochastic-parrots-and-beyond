@@ -13,7 +13,7 @@ format:
 
 **Question:** Which environmental and data choices are hidden by a model's apparent performance?
 
-**Task (12 minutes, groups of three or four):** Choose BLOOM or a system from your research-use descriptions. For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. Mark the largest unknown and one avoidable cost. Complete the sentence: "The choice that the performance of this system hides most is …" See the [Lens 1 page](../lenses/01-scale.qmd).
+**Task (15 minutes, groups of three or four):** Choose a system from a research-use description in your group. Use BLOOM only if no description fits. For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. Mark the largest unknown and one avoidable cost. Complete the sentence: "The choice that the performance of this system hides most is …" See the [Lens 1 page](../lenses/01-scale.qmd).
 
 System: ______________________________________________
 

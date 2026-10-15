@@ -13,7 +13,7 @@ format:
 
 **Question:** Who does the work, carries the risk, or has no recourse?
 
-**Task (12 minutes, groups of three or four):** Choose ChatGPT as in the case or a system from your research-use descriptions. For each stage, write who does the work, who carries the risk, and who has recourse. Mark the stage of highest risk and the stage where you have most influence. See the [Lens 3 page](../lenses/03-lifecycle-labor.qmd).
+**Task (15 minutes, groups of three or four):** Choose a system from a research-use description in your group. Use ChatGPT as in the case only if no description fits. For each stage, write who does the work, who carries the risk, and who has recourse. Mark the stage of highest risk and the stage where you have most influence. See the [Lens 3 page](../lenses/03-lifecycle-labor.qmd).
 
 System: ______________________________________________
 

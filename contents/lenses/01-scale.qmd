@@ -8,7 +8,7 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Proposed slot:** about 35 minutes in the morning, with a 12-minute group activity.
+- **Proposed slot:** about 35 minutes in the morning, with a 15-minute group activity.
 - **Output:** a material-and-provenance map.
 - **Worksheet:** [Lens 1 worksheet: material-and-provenance map](../handouts/lens-1-provenance-map.qmd).
 - **Slides:** [Lens 1 slide deck](../slides/01-scale.qmd).
@@ -104,17 +104,34 @@ The figures also show what usually stays hidden:
 
 ## Activity
 
-**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 12 minutes, with pen and paper.
+**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 15 minutes, with pen and paper.
 
-1. Choose a system: BLOOM, or the system from one research-use description in your group. (2 minutes)
-2. Fill in the [worksheet](../handouts/lens-1-provenance-map.qmd). For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. (6 minutes)
+1. Choose the example. First choice: one research-use description from your group. Use the ready-made BLOOM case only when no description fits. (3 minutes)
+2. Fill in the [worksheet](../handouts/lens-1-provenance-map.qmd). For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. (8 minutes)
 3. Mark the largest unknown and one avoidable cost. (2 minutes)
 4. Prepare one sentence for the plenary: "The choice that the performance of this system hides most is …" (2 minutes)
 
 The stages on the worksheet are: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use.
 
-::: {.callout-tip title="Hypothetical example"}
+::: {.panel-tabset}
+
+### Your group's example
+
+This is the first choice. A use from your own research makes the analysis concrete.
+
+- Choose the research-use description with the most open questions.
+- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
+- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
+- Many cells stay empty for a commercial system. An empty cell is a finding.
+
+### Ready-made case
+
+Use the [BLOOM case](#case-bloom) when no description in your group fits, or when the group prefers not to discuss its own use. The published figures fill most cells of the map. Compare them with the empty cells for a commercial chatbot.
+
+### Hypothetical example
+
 A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The map shows: the training data are unknown, the location of the data center is unknown, and the transcripts would leave the university. An avoidable cost: the candidate could test a smaller local model on synthetic text first. This example is invented for teaching.
+
 :::
 
 ## Output
@@ -132,7 +149,7 @@ A **material-and-provenance map** on one sheet for each group. It lists known, u
 Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The BLOOM case, 8 minutes. Activity, 12 minutes. Plenary round, 5 minutes.
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The BLOOM case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
 
 **Prompts.**
 
@@ -148,7 +165,7 @@ Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presente
 
 **Difficult moments.** Some participants feel guilt about their own use. Keep the focus on decisions and alternatives, not on individual blame. Panarchy in the afternoon takes up the institutional levels.
 
-**Fallback.** If no group member has a research-use description, use BLOOM. If the group finishes early, ask it to fill in the map for a commercial chatbot and to count the empty cells.
+**Fallback.** Start with the group's own example. If no description fits, use BLOOM. If the group finishes early, ask it to fill in the map for a commercial chatbot and to count the empty cells.
 :::
 
 ## References

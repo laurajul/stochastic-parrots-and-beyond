@@ -94,19 +94,19 @@ BLOOM: 176 billion parameters, an open-science project with more than a thousand
 Ask: "For the system you use, which of these four lines could you fill in?" Usually none. The empty cells are a finding.
 :::
 
-## Activity · 12 minutes
+## Activity · 15 minutes
 
 **Trace one model or use case from its data sources to its use.** Groups of three or four, pen and paper.
 
-1. Choose BLOOM or a system from your cards. (2 min)
-2. For each stage, note what is known, unknown, and avoidable, with a source. (6 min)
+1. Choose a research-use card from your group. Use BLOOM only if no card fits. (3 min)
+2. For each stage, note what is known, unknown, and avoidable, with a source. (8 min)
 3. Mark the largest unknown and one avoidable cost. (2 min)
 4. Prepare one sentence for the plenary. (2 min)
 
 [Worksheet: Lens 1, material-and-provenance map]{.source}
 
 ::: notes
-Hand out the Lens 1 worksheet. Announce each step. At 10 minutes, call for the sentence: "The choice that the performance of this system hides most is …"
+Hand out the Lens 1 worksheet. Announce each step. At 13 minutes, call for the sentence: "The choice that the performance of this system hides most is …"
 :::
 
 ## Expected output
