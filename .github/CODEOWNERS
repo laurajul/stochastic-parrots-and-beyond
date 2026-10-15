@@ -1,3 +1,4 @@
-# The maintainer reviews every change to CI and to the deploy path.
-/.github/workflows/ @maehr
-/.github/CODEOWNERS @maehr
+# Both maintainers review every change to CI and to the deploy path. With two
+# owners, each one can approve a change by the other.
+/.github/workflows/ @maehr @laurajul
+/.github/CODEOWNERS @maehr @laurajul
