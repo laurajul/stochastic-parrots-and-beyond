@@ -15,9 +15,9 @@ The course site is built. The tasks below need a decision by the instructors, an
 - [ ] `[Manual]` Approve the proposed timetable in `contents/_timetable.qmd`. Then set `detailed_program_status: approved` in `data/editions.yml`.
 - [ ] `[Manual]` Approve the four documented cases: BLOOM, LAION-5B, Sama and OpenAI, and the Llama 2 license.
 - [ ] `[Manual]` Approve the eight-hour preparation plan in `contents/assignments.qmd`.
-- [ ] `[Manual]` Confirm the follow-up task, the rubric, the submission channel, and the deadline with GRACE. Then set `assessment_deadline` and remove the "proposed" labels.
+- [ ] `[Manual]` Confirm the follow-up task, the formal check, the submission channel, and the deadline with GRACE. Then set `assessment_deadline` and remove the "proposed" labels.
 - [ ] `[Manual]` Read the lens pages and the decks for accuracy and tone. Laura Wagner and Moritz Mähr both sign off.
-- [ ] `[Manual]` Approve the revised rubric criteria (relevant evidence, a mitigation that addresses the cause, a check that can change the decision). Laura Wagner and GRACE both agree.
+- [ ] `[Manual]` Approve the formal check and the discussion with a domain-expert peer. The instructors check the form only. Laura Wagner and GRACE both agree.
 - [ ] `[Manual]` Ask GRACE for the language of instruction. Then state it on the course description.
 
 ## HS 2026 Operations

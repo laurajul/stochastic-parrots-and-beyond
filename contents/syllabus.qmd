@@ -41,7 +41,7 @@ Your contributions on the day are four lens worksheets, a group Panarchy chart, 
 
 ### After the course day
 
-Write a Responsible GenAI Use Statement for your own research. The [assignments](assignments.qmd) page describes the task, the rubric, and the template. The task is a proposal. The instructors and the Graduate Center confirm the binding rules for each edition.
+Write a Responsible GenAI Use Statement for your own research. The [assignments](assignments.qmd) page describes the task, the peer discussion, the formal check, and the template. The task is a proposal. The instructors and the Graduate Center confirm the binding rules for each edition.
 
 ## Proposed timetable
 

@@ -10,9 +10,11 @@
 > deadline for each edition. Do not submit through GitHub. Do not
 > include confidential or personal research data.
 
-**Length:** 1,200 to 1,500 words, without the bibliography. **Work:**
-alone, about your own research context. **Assessment:** pass or fail,
-with the five criteria at the end.
+**Length:** 1,200 to 1,500 words, without the bibliography and the peer
+note. **Work:** alone, about your own research context. **Peer
+discussion:** discuss your draft with at least one peer who knows your
+field. **Assessment:** a formal check, pass or fail, with the six
+criteria at the end.
 
 Replace each guiding question with your own text. Keep the seven
 headings.
@@ -84,21 +86,49 @@ headings.
 
 - List every source that you cite.
 
-## Assessment criteria (pass or fail)
+## Peer discussion
 
-The statement passes when it meets all five criteria:
+Discuss your draft with at least one peer who knows your field. Then
+revise it. Do not write the name of the peer.
 
-1.  **Adequately scoped use:** one concrete use or non-use, with the
-    system and the task.
-2.  **Relevant evidence:** at least two risks, each with a source or
-    evidence from the course that applies to this system and task.
-3.  **Feasible mitigation:** at least one mitigation or alternative that
-    the author can carry out, and that addresses the cause of a named
-    risk.
-4.  **Transparent practice:** disclosure, citation, documentation, and
-    the applicable rules.
-5.  **Reasoned conclusion:** a decision that follows from the analysis,
-    names a check whose result would change it, and states its limits.
+- **Field and role of the peer:**
+- **Date of the discussion:**
+- **Main feedback:**
+- **What you changed:**
+
+## Questions for your peer
+
+These questions can guide the discussion. They are not graded. Ask your
+peer whether the statement:
+
+1.  **Adequately scoped use:** describes one concrete use or non-use,
+    with the system and the task.
+2.  **Relevant evidence:** names at least two risks, each with a source
+    or evidence from the course that applies to this system and task.
+3.  **Feasible mitigation:** proposes at least one mitigation or
+    alternative that the author can carry out, and that addresses the
+    cause of a named risk.
+4.  **Transparent practice:** covers disclosure, citation,
+    documentation, and the applicable rules.
+5.  **Reasoned conclusion:** reaches a decision that follows from the
+    analysis, names a check whose result would change it, and states its
+    limits.
+
+## Formal check (pass or fail)
+
+The instructors are not experts in your field. They check the form only.
+The statement passes when it meets all six criteria:
+
+1.  **Length:** 1,200 to 1,500 words, without the bibliography and the
+    peer note.
+2.  **Structure:** the seven headings, each with your own text.
+3.  **Sources:** a bibliography that lists every source that you cite.
+4.  **Follow-up action:** one action, with what, by when, and who must
+    agree.
+5.  **Peer note:** the field and the role of at least one domain-expert
+    peer, the date, the main feedback, and what you changed.
+6.  **Data protection:** no confidential, personal, or unpublished
+    research data.
 
 ------------------------------------------------------------------------
 
