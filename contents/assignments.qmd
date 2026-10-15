@@ -25,9 +25,10 @@ The instructors and the Graduate Center (GRACE) must confirm the follow-up task,
 ### Tasks
 
 1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
-2. Choose two recommended readings or cases from the [literature](literature.qmd) page.
-3. Write a research-use description of one page or less.
-4. Bring a laptop and your research-use description.
+2. Write a research-use description of one page or less.
+3. Bring a laptop and your research-use description.
+
+Further reading is optional. The [literature](literature.qmd) page lists readings and cases for each lens.
 
 ### The research-use description
 
@@ -48,13 +49,11 @@ Describe the use, not the data. Do not include confidential, personal, or unpubl
 The allocation below is a suggestion. It is not a new university requirement.
 :::
 
-| Activity                                                                                           | Time        |
-| -------------------------------------------------------------------------------------------------- | ----------- |
-| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field.         | 3 hours     |
-| Read two recommended excerpts or cases from the [literature](literature.qmd) page.                 | 3 hours     |
-| Write the research-use description.                                                                | 1.5 hours   |
-| Look at the [syllabus](syllabus.qmd) and the [shared risk worksheet](handouts/risk-worksheet.qmd). | 0.5 hours   |
-| **Total**                                                                                          | **8 hours** |
+| Activity                                                                                   | Time        |
+| ------------------------------------------------------------------------------------------ | ----------- |
+| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field. | 5 hours     |
+| Write the research-use description.                                                        | 3 hours     |
+| **Total**                                                                                  | **8 hours** |
 
 : Proposed preparation plan {.striped}
 

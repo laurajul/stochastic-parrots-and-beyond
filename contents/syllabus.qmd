@@ -18,10 +18,9 @@ flowchart LR
 ### Before the course day
 
 - Read the required text: Bender et al., _On the Dangers of Stochastic Parrots_ [-@bender2021].
-- Choose two recommended readings or cases from the [literature](literature.qmd) page.
 - Write a short description of one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it.
 
-The [assignments](assignments.qmd) page gives a proposed plan for the eight hours of preparation.
+Further reading is optional. The [literature](literature.qmd) page lists readings and cases for each lens. The [assignments](assignments.qmd) page gives a proposed plan for the eight hours of preparation.
 
 ### On the course day
 

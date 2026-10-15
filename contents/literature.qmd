@@ -19,7 +19,7 @@ Lens 1 builds on this text. Its arguments about scale, environmental cost, and d
 
 ## Recommended readings
 
-Choose two of these readings or cases. They are not all mandatory. The table names the selected chapters and the lens that each reading supports.
+These readings are optional. Use them to go deeper into a lens before or after the course day. The table names the selected chapters and the lens that each reading supports.
 
 | Reading                                                                     | Selected part                                                         | Lens | Access                                                                           |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------- |
