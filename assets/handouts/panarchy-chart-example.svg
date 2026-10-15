@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 707" width="1000" height="707" role="img" aria-labelledby="title desc">
+  <title id="title">Panarchy chart: fictional example</title>
+  <desc id="desc">Panarchy chart in A4 landscape. Five horizontal bands stacked from bottom to top. The bottom band is small and fast, the top band large and slow. Each band has a field for its level name. An arrow on the left points up and reads: ideas and experiments spread up. An arrow on the right points down and reads: resources and rules flow down. The bands are labelled, from bottom to top: my research project, research group or department, university, model vendors and industry, regulation and society. Notes in each band name influences, and three notes are marked as priorities 1 to 3. The content is fictional. Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33322f"/></marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="1000" height="707" fill="#ffffff"/>
+  <text x="24.0" y="34.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="start">Panarchy chart</text>
+  <text x="976.0" y="34.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="end">FICTIONAL EXAMPLE</text>
+  <text x="220.0" y="34.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Challenge: more responsible generative AI use in our research</text>
+  <rect x="110.0" y="60.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="82.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 5</text>
+  <text x="180.0" y="82.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Regulation and society</text>
+  <rect x="110.0" y="172.0" width="780.0" height="104.0" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="194.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 4</text>
+  <text x="180.0" y="194.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Model vendors and industry</text>
+  <rect x="110.0" y="284.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="306.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 3</text>
+  <text x="180.0" y="306.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">University</text>
+  <rect x="110.0" y="396.0" width="780.0" height="104.0" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="418.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 2</text>
+  <text x="180.0" y="418.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Research group or department</text>
+  <rect x="110.0" y="508.0" width="780.0" height="104.0" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="124.0" y="530.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e" text-anchor="start">Level 1</text>
+  <text x="180.0" y="530.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">My research project</text>
+  <text x="60.0" y="66.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">large</text>
+  <text x="60.0" y="80.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and slow</text>
+  <text x="60.0" y="586.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">small</text>
+  <text x="60.0" y="600.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and fast</text>
+  <line x1="60.0" y1="568.0" x2="60.0" y2="100.0" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text transform="translate(80 340) rotate(-90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">ideas and experiments spread up</text>
+  <line x1="940.0" y1="100.0" x2="940.0" y2="568.0" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="940.0" y="66.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">resources</text>
+  <text x="940.0" y="80.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">and rules</text>
+  <text x="940.0" y="586.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">flow</text>
+  <text x="940.0" y="600.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="middle">down</text>
+  <text transform="translate(920 340) rotate(90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">resources and rules flow down</text>
+  <rect x="180.0" y="94.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="190.0" y="116.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">EU AI Act: providers publish</text>
+  <text x="190.0" y="133.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">a training data summary</text>
+  <rect x="430.0" y="94.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="440.0" y="116.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Public debate on</text>
+  <text x="440.0" y="133.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">AI and research integrity</text>
+  <rect x="180.0" y="206.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="190.0" y="228.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Licenses restrict</text>
+  <text x="190.0" y="245.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">documentation</text>
+  <circle cx="385.0" cy="218.0" r="11" fill="#33322f"/>
+  <text x="385.0" y="222.5" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="430.0" y="206.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="440.0" y="228.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Terms change</text>
+  <text x="440.0" y="245.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">without notice</text>
+  <rect x="180.0" y="318.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="190.0" y="340.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Licensed chatbot without</text>
+  <text x="190.0" y="357.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">data documentation</text>
+  <circle cx="385.0" cy="330.0" r="11" fill="#33322f"/>
+  <text x="385.0" y="334.5" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="430.0" y="318.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="440.0" y="340.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Research data office</text>
+  <text x="440.0" y="357.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">could advise</text>
+  <rect x="180.0" y="430.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="190.0" y="452.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">No owner for</text>
+  <text x="190.0" y="469.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">AI guidance</text>
+  <circle cx="385.0" cy="442.0" r="11" fill="#33322f"/>
+  <text x="385.0" y="446.5" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="430.0" y="430.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="440.0" y="452.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Ethics board not</text>
+  <text x="440.0" y="469.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">asked about AI use</text>
+  <rect x="180.0" y="542.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="190.0" y="564.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">No disclosure</text>
+  <text x="190.0" y="581.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">template</text>
+  <rect x="430.0" y="542.0" width="220.0" height="56.0" rx="3" fill="#ffffff" stroke="#33322f" stroke-width="1"/>
+  <text x="440.0" y="564.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Transcripts sent to</text>
+  <text x="440.0" y="581.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">a hosted chatbot</text>
+  <line x1="850.0" y1="476.0" x2="850.0" y2="330.0" stroke="#33322f" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="670.0" y="456.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" font-style="italic">department template</text>
+  <text x="670.0" y="471.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" font-style="italic">becomes university policy ↑</text>
+  <line x1="850.0" y1="100.0" x2="850.0" y2="248.0" stroke="#33322f" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="670.0" y="120.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" font-style="italic">duty to document</text>
+  <text x="670.0" y="135.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" font-style="italic">supports procurement ↓</text>
+  <text x="24.0" y="677.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start">Numbered notes: the three priorities after the vote. All content is invented for teaching.</text>
+  <text x="24.0" y="695.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#52514e" text-anchor="start">Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0. Original drawing.</text>
+</svg>

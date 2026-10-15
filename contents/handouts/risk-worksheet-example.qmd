@@ -1,0 +1,49 @@
+---
+title: 'Shared risk worksheet: a fictional worked example'
+subtitle: 'Stochastic Parrots and Beyond · fictional example'
+description: >-
+  A completed shared risk worksheet. The person, the project, and the vendor
+  are invented for teaching.
+format:
+  html: default
+  typst:
+    include-in-header:
+      - _handout.typ
+---
+
+::: {.callout-important title="Fictional example"}
+The person, the project, the vendor, and the contract are invented for teaching. No real submission, person, or product is described.
+:::
+
+A doctoral candidate in political science plans to use a hosted chatbot. The chatbot is licensed by the university. The candidate wants to translate and summarize 40 French policy documents for a literature review.
+
+| Field                    | Notes                                                                                                                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Research use             | Translate and summarize 40 public French policy documents for a literature review.                                                                                                                 |
+| System or vendor         | A hosted chatbot that the university licenses from "Vendor X". Record the version and the date of use.                                                                                             |
+| Evidence source          | The vendor's terms of use and the university's license page. No published documentation of the training data.                                                                                      |
+| Lifecycle stage          | Deployment (use of a hosted service) and evaluation (checking the translations).                                                                                                                   |
+| People affected          | The candidate; the readers of the review; the authors of the documents, who can be misrepresented; data workers behind the model (unknown).                                                        |
+| Risk or benefit          | Benefit: a faster first reading. Risks: mistranslated legal terms, invented content in summaries, an unknown energy cost per request.                                                              |
+| Severity and uncertainty | Medium severity for the conclusions of the review. High uncertainty about the training data and the error rate for legal French.                                                                   |
+| Existing mitigation      | The license contract keeps uploads out of model training. Fictional contract term.                                                                                                                 |
+| Possible alternative     | Read the originals with a dictionary; test a smaller local translation model; ask a bilingual colleague to check a sample.                                                                         |
+| Disclosure requirement   | State the tool, the version, the date, and the purpose in the methods section. Follow the AI policy of the target journal.                                                                         |
+| Institutional owner      | The supervisor and the research data office.                                                                                                                                                       |
+| Next action              | Within two weeks, check ten passages with legal terms from different documents. One wrong legal term or invented claim ends the use of summaries. This is a first check, not proof of reliability. |
+
+: A completed worksheet for a fictional research use {tbl-colwidths="[24,76]"}
+
+```{=typst}
+#pagebreak()
+```
+
+**Decision in this example.** The candidate uses the chatbot for a first reading only. Quotations and arguments come from the originals. The methods section discloses the use.
+
+- **Constraints:** The documents are public, and the license keeps uploads out of model training. Both conditions hold.
+- **Comparison:** A faster first reading outweighs the risk only because each claim is checked against the original.
+- **Accountability:** The supervisor agrees. The candidate reviews the decision after the ten-passage check.
+
+**A non-use variant.** With confidential interview transcripts, the constraint fails: the data would leave the university. The decision is non-use, whatever the time saved.
+
+[[PDF](../../assets/handouts/risk-worksheet-example.pdf) · ]{.content-visible when-format="html"}Original handout, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.

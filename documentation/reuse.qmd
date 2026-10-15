@@ -1,0 +1,125 @@
+---
+title: Reuse this course
+subtitle: 'Edit, check, publish, and roll the site over to a new semester'
+description: >-
+  How teachers adapt the course site, run an edition, and keep participant
+  data out of the repository.
+---
+
+The course materials are open educational resources. You can copy, change, and teach them. Keep the license of each part: see [Licenses](#licenses) below.
+
+## Where the content lives
+
+| Path                                | Content                                                             |
+| ----------------------------------- | ------------------------------------------------------------------- |
+| `index.qmd`                         | Home page                                                           |
+| `contents/course-description.qmd`   | Summary, audience, outcomes, the four lenses                        |
+| `contents/syllabus.qmd`             | Learning path and the timetable                                     |
+| `contents/_timetable.qmd`           | The timetable. The syllabus and the edition pages include it.       |
+| `contents/editions/`                | One page for each edition                                           |
+| `data/editions.yml`                 | **The single source for edition facts**: dates, venue, rules, links |
+| `_extensions/edition/`              | The shortcode that renders edition facts at build time              |
+| `contents/lenses/`                  | The four lesson pages                                               |
+| `contents/panarchy.qmd`             | The Panarchy and Ecocycle page for participants                     |
+| `contents/panarchy-facilitator.qmd` | The facilitator guide                                               |
+| `contents/slides/`                  | The six Reveal.js decks                                             |
+| `contents/handouts/`                | Handout sources. Each source is also the web version.               |
+| `assets/handouts/`                  | Generated PDF, Word, and Markdown files, and the handout diagrams   |
+| `assets/cases/`                     | Original case figures                                               |
+| `references.bib`                    | Every cited work, verified                                          |
+| `test/`                             | Tests for edition data, consistency, links, and privacy             |
+
+: Repository structure {.striped}
+
+## Set up
+
+You need Node.js 24 or later, [uv](https://docs.astral.sh/uv/), and [Quarto](https://quarto.org/). CI pins the Quarto version in `.github/workflows/quarto-publish.yml`.
+
+1. Clone the repository.
+2. Run `npm install`.
+3. Run `npm run prepare` to install the Git hooks.
+4. Run `uv sync`.
+5. Run `npm run preview`.
+
+The preview server reloads the site after each change.
+
+## Edit content
+
+- **Edition facts.** Change them only in `data/editions.yml`. A page shows a fact with the shortcode, for example `{{{< edition hs2026 date >}}}`. A test fails when a page hard-codes a date or an address.
+- **Lesson pages.** Keep the fixed order of sections: question, core concepts, evidence and limits, case, activity, output, reading, slides. A test checks the order.
+- **Claims.** Cite each claim next to the claim, with a key from `references.bib`. Mark each example as a documented case or as a hypothetical example.
+- **Slides.** Put no edition fact in a deck. The decks serve every edition.
+- **Handouts.** Edit the `.qmd` source in `contents/handouts/`. Then run `npm run handouts:build` and commit the generated files in the same commit. CI fails when a generated file is older than its source.
+- **Diagrams.** The SVG files are the editable sources. Keep the `<title>` and the `<desc>` elements up to date. They are the text alternative.
+
+## Check
+
+Run these commands before you push:
+
+| Command                  | What it checks                                   |
+| ------------------------ | ------------------------------------------------ |
+| `npm run check`          | Formatting, Python lint and types, and all tests |
+| `npm run lychee-check`   | Links (needs the `lychee` executable)            |
+| `npm run site:build`     | The full site and all six decks as Reveal.js     |
+| `npm run handouts:build` | The PDF, Word, and Markdown handouts             |
+
+: Checks {.striped}
+
+The Git hook runs `npm run check` before each commit.
+
+## Publish
+
+The workflow `.github/workflows/quarto-publish.yml` renders the site and deploys it to GitHub Pages after each push to `main`. In the repository settings, Pages must use the source **GitHub Actions**. Do not publish by hand.
+
+## Run an edition {#run-an-edition}
+
+This checklist is for the instructors. It contains no participant data, and it must never contain any.
+
+### Before the course day
+
+1. Add or update the edition in `data/editions.yml`. Use `null` for each fact that no public source confirms.
+2. Set `status: confirmed` when the official listing confirms the date and the venue.
+3. Approve the detailed program. Then set `detailed_program_status: approved`.
+4. Confirm the assessment rules, the submission channel, and the deadline with the Graduate Center. Then set `assessment_deadline` and update the [assignments](../contents/assignments.qmd) page.
+5. About two weeks before the course day, send the registered participants a course message. Link the edition page. Use the participant addresses that the organizer controls, and copy the organizer. Never use a public mailing list.
+
+### On the course day
+
+1. Record attendance privately, outside this repository.
+2. Keep the last ten minutes for the course evaluation. The edition page shows the evaluation link.
+
+### After the course day
+
+1. Return the private attendance table to the Graduate Center ("Anwesend?" yes or no for each registered participant).
+2. After the deadline of the follow-up task, return the private completion table ("Alle Aufgaben für den ECTS-Punkt erledigt?" yes or no).
+3. Arrange the certificates: sign them digitally, or give the Graduate Center an authorized digital signature through a secure channel.
+4. Set the edition to `status: delivered`. The edition page then shows an archive notice. Keep the page and its URL.
+5. Tag a release for the edition, so that the published state stays reproducible.
+
+::: {.callout-warning title="Privacy boundary"}
+Never commit participant names, contact details, attendance records, applications, evaluation answers, discussion artifacts, submissions, certificates, or signatures. This applies to Git history, issues, pull requests, static assets, and archives. One exception: a participant may submit their own Use Statement through the public issue form. Copy a submission into the repository only when its author opted in to publication. The privacy test and `.gitignore` catch common file names. They do not replace your judgement.
+:::
+
+### Roll over to a new semester
+
+1. Add the new edition to `data/editions.yml` with its own key, for example `fs2027`.
+2. Add a page `contents/editions/<key>.qmd`. Copy the structure of an existing edition page. Use only shortcodes for the facts.
+3. Add the page to the **Editions** menu and to the sidebar in `_quarto.yml`.
+4. Switch `featured_edition` when the new edition becomes the next course. Do it on purpose, not by a date.
+5. Keep earlier edition pages. Do not delete or rename their URLs.
+6. If an edition needs different teaching content, add an explicit variant for that edition. Do not change the content that an earlier edition used without a note in `CHANGELOG.md`.
+
+## Licenses {#licenses}
+
+| Content                                                                              | License                              |
+| ------------------------------------------------------------------------------------ | ------------------------------------ |
+| Original course text, case figures, lens slides, lens worksheets, and the template   | [CC BY 4.0](../LICENSE-CCBY.md)      |
+| Panarchy and Ecocycle pages, the facilitator guide, their deck, charts, and handouts | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
+| Code, configuration, the shortcode extension, tests, and scripts                     | [AGPL 3.0](../LICENSE-AGPL.md)       |
+| Quoted or linked third-party material                                                | The terms of the owner               |
+
+: License boundaries {.striped}
+
+Credit the original as: Laura Wagner and Moritz Mähr, _Stochastic Parrots and Beyond: Normative Dimensions of Generative AI_, <https://maehr.github.io/stochastic-parrots-and-beyond/>.
+
+For material adapted from Liberating Structures, keep the attribution on the page and the CC BY-SA 4.0 license. Do not add Liberating Structures icons that you made yourself. If you use icons, use the original ones.

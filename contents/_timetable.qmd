@@ -1,0 +1,19 @@
+| Time        | Block                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------- |
+| 09:00–09:20 | Welcome, objectives, research-use examples                                               |
+| 09:20–09:55 | [Lens 1: Scale and environment](/contents/lenses/01-scale.qmd)                           |
+| 09:55–10:30 | [Lens 2: Representation and Pygmalion](/contents/lenses/02-representation.qmd)           |
+| 10:30–11:00 | Break                                                                                    |
+| 11:00–11:35 | [Lens 3: Lifecycle and labor](/contents/lenses/03-lifecycle-labor.qmd)                   |
+| 11:35–12:10 | [Lens 4: Political economy](/contents/lenses/04-political-economy.qmd)                   |
+| 12:10–12:20 | Integrate the four lenses; agree on the Panarchy challenge                               |
+| 12:20–13:20 | Lunch                                                                                    |
+| 13:20–14:25 | [Panarchy](/contents/panarchy.qmd), steps 1 to 7                                         |
+| 14:25–14:55 | Break                                                                                    |
+| 14:55–15:50 | [Panarchy](/contents/panarchy.qmd), steps 9 to 13                                        |
+| 15:50–16:20 | [Ecocycle](/contents/panarchy.qmd#ecocycle-a-30-minute-adaptation): 30-minute adaptation |
+| 16:20–16:40 | Individual research-use clinic                                                           |
+| 16:40–16:50 | Next actions and instructions for the follow-up task                                     |
+| 16:50–17:00 | Course evaluation and closing                                                            |
+
+: Timetable of a one-day edition {.striped}

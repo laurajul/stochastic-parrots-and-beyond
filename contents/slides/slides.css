@@ -1,0 +1,59 @@
+/* Shared styles for the Reveal.js decks. Colors follow _brand.yml. */
+
+/* _brand.yml sets 1.05rem for the website, which is too small on a slide. */
+html:root {
+  --r-main-font-size: 30px;
+}
+
+.reveal .slides section {
+  line-height: 1.35;
+}
+
+.reveal .slides section p,
+.reveal .slides section li {
+  margin: 0.25em 0;
+}
+
+.reveal .slides img {
+  max-height: 58vh;
+}
+
+/* Small text uses slate, which clears WCAG AA contrast on white. */
+.reveal .source,
+.reveal .note,
+.reveal figcaption {
+  font-size: 0.55em;
+  color: #52514e;
+}
+
+.reveal table {
+  font-size: 0.65em;
+}
+
+.reveal blockquote {
+  width: 90%;
+  font-size: 0.9em;
+  box-shadow: none;
+  border-left: 4px solid #0b0b0b;
+}
+
+.reveal .label {
+  display: inline-block;
+  padding: 0 0.3em;
+  border: 2px solid currentColor;
+  font-size: 0.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.reveal :focus-visible {
+  outline: 3px solid #268bd2;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal .slides section,
+  .reveal .slide-background {
+    transition: none !important;
+  }
+}

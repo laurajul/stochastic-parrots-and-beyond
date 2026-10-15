@@ -1,0 +1,13 @@
+# Shared settings for the handouts. Each handout is an accessible web page and
+# the source of a printable PDF. Run `npm run handouts:build` after a change.
+papersize: a4
+mainfont: IBM Plex Sans
+fontsize: 10.5pt
+margin:
+  x: 1.6cm
+  y: 1.5cm
+# Tagged PDF for screen readers (PDF/UA-1).
+pdf-standard: ua-1
+# Word versions: table cells with borders. Built by scripts/build_reference_docx.py.
+reference-doc: _reference.docx
+format-links: false

@@ -1,0 +1,39 @@
+# Lychee configuration for link checking
+# https://lychee.cli.rs/configuration/
+
+exclude = [
+  # The repository and its Pages site exist only after the first deploy.
+  "https://maehr.github.io/stochastic-parrots-and-beyond",
+  # The evaluation link works only during the course evaluation window.
+  "https://evasys.unibas.ch/",
+  # These hosts block automated requests. The links are correct.
+  "https://www.gnu.org/licenses/",
+  "https://fsf.org/",
+  "https://www.contributor-covenant.org/",
+  "https://papers.ssrn.com/",
+  "https://www.jstor.org/",
+  "https://dl.acm.org/",
+  "https://doi.org/10.1145/",
+  "https://doi.org/10.1073/",
+  "https://www.google.com/maps/",
+  "https://time.com/",
+  "https://direct.mit.edu/",
+  "https://doi.org/10.7551/mitpress/",
+  "https://www.iea.org/",
+  # Placeholders for the Zenodo badge after the first release.
+  "ZENODO_RECORD",
+  "GITHUB_REPO_ID",
+]
+
+# Do not check e-mail addresses.
+include_mail = false
+
+timeout = 20
+max_retries = 2
+format = "compact"
+no_progress = true
+cache = true
+max_cache_age = "7d"
+
+# Accept success codes, and rate limits or temporary outages as non-blocking.
+accept = ["100..=103", "200..=299", "429", "503", "521", "522", "524"]

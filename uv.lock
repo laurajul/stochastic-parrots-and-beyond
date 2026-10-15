@@ -154,6 +154,7 @@ dev = [
     { name = "pyyaml" },
     { name = "ruff" },
     { name = "ty" },
+    { name = "types-pyyaml" },
 ]
 
 [package.metadata]
@@ -164,6 +165,7 @@ dev = [
     { name = "pyyaml", specifier = ">=6.0.2" },
     { name = "ruff", specifier = ">=0.14.0" },
     { name = "ty", specifier = ">=0.0.1a22" },
+    { name = "types-pyyaml", specifier = ">=6.0.12" },
 ]
 
 [[package]]
@@ -189,4 +191,13 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/79/39/09f9274119899ed4e15630a544735c31b32f6bbaeea4c40a788cecf8df3d/ty-0.0.87-py3-none-win32.whl", hash = "sha256:12c85c47d62d3b03c3ef00e1e74a31788aac5de3102d86b687d928d889cfbe83", size = 13137336, upload-time = "2026-10-13T23:06:59.816Z" },
     { url = "https://files.pythonhosted.org/packages/4e/6e/ecfc716c98bb1eeac9d8743221403c5e7f2f0ed69858af881a0e5b775739/ty-0.0.87-py3-none-win_amd64.whl", hash = "sha256:767219b8fedd2f48875c1ea3557f39734642073a2e039c6ab67ce5a50b65ddf0", size = 13660330, upload-time = "2026-10-13T23:07:02.568Z" },
     { url = "https://files.pythonhosted.org/packages/94/89/aa0eb234360cb6c8efc6ac45694000dfe3c3e590a30e87f2f9631190d339/ty-0.0.87-py3-none-win_arm64.whl", hash = "sha256:db4aa3a464c43d155ac8a3387a76173183ce4c141a8de1b6cb956e6a5a5e7d52", size = 13217514, upload-time = "2026-10-13T23:07:06.177Z" },
+]
+
+[[package]]
+name = "types-pyyaml"
+version = "6.0.12.20260906"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/90/6e/abec85b9013db5b934b0280a6dd104904d84f7bcbaab2e2f3def87ac7463/types_pyyaml-6.0.12.20260906.tar.gz", hash = "sha256:f59c1cc05010b833d2d72287bbaa72610106b28d42d89a907313117faba85212", size = 18649, upload-time = "2026-09-06T06:35:35.362Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/15/c0/fc0644b7ddcfb969e95845837143cb5173ddd6e06ee4ba5fc493cd9329b7/types_pyyaml-6.0.12.20260906-py3-none-any.whl", hash = "sha256:bca893ff0d51df5c9053137d5d0e6ccd36e939a196356f1d5c16372422f5137b", size = 21282, upload-time = "2026-09-06T06:35:34.372Z" },
 ]

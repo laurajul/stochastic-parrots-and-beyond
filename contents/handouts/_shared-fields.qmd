@@ -1,0 +1,20 @@
+::: {.worksheet}
+
+| Field                    | Notes |
+| ------------------------ | ----- |
+| Research use             |       |
+| System or vendor         |       |
+| Evidence source          |       |
+| Lifecycle stage          |       |
+| People affected          |       |
+| Risk or benefit          |       |
+| Severity and uncertainty |       |
+| Existing mitigation      |       |
+| Possible alternative     |       |
+| Disclosure requirement   |       |
+| Institutional owner      |       |
+| Next action              |       |
+
+: The twelve shared worksheet fields {tbl-colwidths="[28,72]"}
+
+:::

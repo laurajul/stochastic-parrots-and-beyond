@@ -1,0 +1,81 @@
+name: Responsible GenAI Use Statement
+description: Submit your Use Statement for the follow-up task of the course. This issue is public.
+title: '[Use Statement] '
+labels: ['use-statement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form submits the follow-up task of the course _Stochastic Parrots and Beyond_.
+
+        **This issue is public as soon as you submit it.** Everyone can see your GitHub account name and your text. If you prefer a private submission, send your statement by email to the course administration (GRACE). Your edition page gives the address.
+
+        - Do not write your real name, unless you want it to be public.
+        - Do not write the name of your peer.
+        - Do not include confidential, personal, or unpublished research data.
+        - For the credit, email the link of this issue to the course administration (GRACE).
+  - type: input
+    id: statement-title
+    attributes:
+      label: Title of your statement
+    validations:
+      required: true
+  - type: input
+    id: research-field
+    attributes:
+      label: Research field
+    validations:
+      required: true
+  - type: input
+    id: edition
+    attributes:
+      label: Course edition
+      description: The short name of your edition, as your edition page shows it.
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement
+      description: >-
+        Paste your statement with the seven headings, the follow-up action, and the bibliography.
+        Write 1,200 to 1,500 words, without the bibliography and the peer note.
+    validations:
+      required: true
+  - type: textarea
+    id: peer-note
+    attributes:
+      label: Peer note
+      description: >-
+        Discuss your draft with at least one peer who knows your field before you submit.
+        Do not write the name of the peer.
+      value: |
+        - Field and role of the peer:
+        - Date of the discussion:
+        - Main feedback:
+        - What you changed:
+    validations:
+      required: true
+  - type: dropdown
+    id: publication
+    attributes:
+      label: Publication on the course site
+      description: >-
+        The instructors publish a statement on the course site only when its author agrees.
+        This issue stays public in every case.
+      options:
+        - 'No'
+        - 'Yes, with my GitHub account name'
+        - 'Yes, anonymously'
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Declaration
+      options:
+        - label: I understand that this issue is public.
+          required: true
+        - label: The statement contains no confidential, personal, or unpublished research data.
+          required: true

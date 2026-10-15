@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">The LAION-5B pathway, from web pages to generated images</title>
+  <desc id="desc">Six steps in two rows, connected by arrows. Step 1, web pages in Common Crawl: website owners and the crawler decide; commercial sites dominate. Step 2, image links with ALT text: ALT text is often written for search engines. Step 3, CLIP similarity filter with a threshold of 0.26 to 0.28: what the image shows plays no role. Step 4, LAION-5B with billions of links and captions: audits found abusive material and slurs. Step 5, aesthetic subsets: the taste of a small group of raters. Step 6, image models such as Stable Diffusion, trained or fine-tuned on these subsets: outputs repeat stereotypes. Based on Buschek and Thorp 2024, Birhane et al. 2021, Thiel 2023, Bianchi et al. 2023, and LAION 2024. Original diagram, CC BY 4.0.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33322f"/></marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="840" height="420" fill="#ffffff"/>
+  <text x="16.0" y="26.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#0b0b0b" text-anchor="start">The LAION-5B pathway</text>
+  <rect x="30.0" y="50.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="30.0" y="50.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="30.0" y="70.0" width="240" height="10" fill="#33322f"/>
+  <text x="42.0" y="71.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">1  Web pages</text>
+  <text x="42.0" y="102.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Common Crawl, a monthly</text>
+  <text x="42.0" y="118.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">crawl of the web</text>
+  <line x1="42" y1="136" x2="258" y2="136" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="42.0" y="156.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: site owners, crawler</text>
+  <text x="42.0" y="171.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: commercial sites dominate</text>
+  <rect x="300.0" y="50.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="300.0" y="50.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="300.0" y="70.0" width="240" height="10" fill="#33322f"/>
+  <text x="312.0" y="71.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">2  Links + ALT text</text>
+  <text x="312.0" y="102.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Image tags with an ALT</text>
+  <text x="312.0" y="118.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">attribute</text>
+  <line x1="312" y1="136" x2="528" y2="136" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="312.0" y="156.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: who writes ALT text</text>
+  <text x="312.0" y="171.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: text for search engines</text>
+  <rect x="570.0" y="50.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="570.0" y="50.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="570.0" y="70.0" width="240" height="10" fill="#33322f"/>
+  <text x="582.0" y="71.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">3  CLIP filter</text>
+  <text x="582.0" y="102.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Keep a pair above a</text>
+  <text x="582.0" y="118.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">similarity of 0.26–0.28</text>
+  <line x1="582" y1="136" x2="798" y2="136" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="582.0" y="156.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: a statistical model</text>
+  <text x="582.0" y="171.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: content plays no role</text>
+  <rect x="570.0" y="240.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="570.0" y="240.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="570.0" y="260.0" width="240" height="10" fill="#33322f"/>
+  <text x="582.0" y="261.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">4  LAION-5B</text>
+  <text x="582.0" y="292.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Billions of links and</text>
+  <text x="582.0" y="308.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">captions, no images</text>
+  <line x1="582" y1="326" x2="798" y2="326" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="582.0" y="346.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: dataset developers</text>
+  <text x="582.0" y="361.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: abusive material, slurs</text>
+  <rect x="300.0" y="240.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="300.0" y="240.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="300.0" y="260.0" width="240" height="10" fill="#33322f"/>
+  <text x="312.0" y="261.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">5  Aesthetic subsets</text>
+  <text x="312.0" y="292.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">A model scores visual</text>
+  <text x="312.0" y="308.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">appeal</text>
+  <line x1="312" y1="326" x2="528" y2="326" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="312.0" y="346.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: a small group of raters</text>
+  <text x="312.0" y="361.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: one taste becomes 'quality'</text>
+  <rect x="30.0" y="240.0" width="240.0" height="150.0" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.5"/>
+  <rect x="30.0" y="240.0" width="240" height="30" rx="6" fill="#33322f"/>
+  <rect x="30.0" y="260.0" width="240" height="10" fill="#33322f"/>
+  <text x="42.0" y="261.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start">6  Image models</text>
+  <text x="42.0" y="292.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Trained or fine-tuned on</text>
+  <text x="42.0" y="308.2" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#0b0b0b" text-anchor="start">these subsets</text>
+  <line x1="42" y1="326" x2="258" y2="326" stroke="#dcdbd6" stroke-width="1"/>
+  <text x="42.0" y="346.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Decides: model developers</text>
+  <text x="42.0" y="361.6" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">Risk: stereotypes in outputs</text>
+  <line x1="270.0" y1="125.0" x2="298.0" y2="125.0" stroke="#33322f" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="540.0" y1="125.0" x2="568.0" y2="125.0" stroke="#33322f" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="690.0" y1="200.0" x2="690.0" y2="238.0" stroke="#33322f" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="570.0" y1="315.0" x2="542.0" y2="315.0" stroke="#33322f" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="300.0" y1="315.0" x2="272.0" y2="315.0" stroke="#33322f" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="16.0" y="410.0" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#52514e" text-anchor="start">Original diagram based on Buschek and Thorp (2024), Birhane et al. (2021), Thiel (2023), Bianchi et al. (2023), LAION (2024). CC BY 4.0.</text>
+</svg>

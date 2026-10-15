@@ -1,0 +1,146 @@
+---
+title: Assignments
+subtitle: 'Preparation, work on the course day, and the follow-up task'
+---
+
+## What is confirmed
+
+| Item                                                         | Status                                                               |
+| ------------------------------------------------------------ | -------------------------------------------------------------------- |
+| Required reading: Bender et al. (2021)                       | Confirmed                                                            |
+| Workload and credits                                         | Confirmed per edition. See the [edition pages](editions/hs2026.qmd). |
+| Full attendance on the course day                            | Confirmed for HS 2026. See the [HS 2026 page](editions/hs2026.qmd).  |
+| The plan for the eight hours of preparation                  | Confirmed                                                            |
+| The Use Statement, the peer discussion, and the formal check | Confirmed                                                            |
+| Submission by email or GitHub issue                          | Confirmed                                                            |
+| Deadline                                                     | <span class="status-label">To be confirmed</span>                    |
+
+: Status of each rule {.striped}
+
+## Before the course day
+
+### Tasks
+
+1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
+2. Write a research-use description of one page or less.
+3. Bring a laptop and your research-use description.
+
+Further reading is optional. The [literature](literature.qmd) page lists readings and cases for each lens.
+
+### The research-use description
+
+Describe one actual or planned use of generative AI in your research. Answer these questions:
+
+- What is the task, and which system or vendor do you use or plan to use?
+- Why might you use generative AI for this task?
+- What do you not know about the system: its training data, its costs, its terms of use?
+- Who else is affected by this use: colleagues, research participants, the public?
+
+::: {.callout-important title="Do not include protected data"}
+Describe the use, not the data. Do not include confidential, personal, or unpublished research data. A synthetic example is acceptable.
+:::
+
+### A plan for eight hours
+
+::: {.callout-note title="A guide, not a requirement"}
+The split below is a guide. It is not a new university requirement.
+:::
+
+| Activity                                                                                   | Time        |
+| ------------------------------------------------------------------------------------------ | ----------- |
+| Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field. | 5 hours     |
+| Write the research-use description.                                                        | 3 hours     |
+| **Total**                                                                                  | **8 hours** |
+
+: Preparation plan {.striped}
+
+## On the course day
+
+You contribute four outputs. The group keeps them on paper or on a shared wall.
+
+| Output                             | Where                                                    |
+| ---------------------------------- | -------------------------------------------------------- |
+| Four lens worksheets, one per lens | The worksheet of each lens. See the four lens pages.     |
+| A group Panarchy chart             | [Panarchy](panarchy.qmd)                                 |
+| An Ecocycle diagnosis              | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation) |
+| One practical action               | The [action plan](handouts/action-plan.qmd)              |
+
+: Outputs on the course day {.striped}
+
+The instructors collect no personal data from these outputs. Take a photo of the group charts if you want to keep them. Do not post photos of other participants.
+
+## After the course day: the Responsible GenAI Use Statement
+
+### The task
+
+Write a Responsible GenAI Use Statement of **1,200 to 1,500 words**. Write it alone, about your own research context. The statement can justify a use or a non-use of generative AI.
+
+Use these headings:
+
+1. Intended use or justified non-use.
+2. System and data provenance.
+3. Lifecycle risks and people affected.
+4. Mitigations and less harmful alternatives.
+5. Evaluation and limitations.
+6. Disclosure, citation, and governance.
+7. Defensible final decision.
+
+Add a bibliography. End with one specific follow-up action: what you will do, by when, and who must agree.
+
+The [Use Statement template](handouts/use-statement-template.qmd) contains the headings and guiding questions. It is available as Markdown, Word, and PDF.
+
+### Discuss your statement with a domain expert
+
+The instructors are not experts in your research field. Your peers are. Before you submit, send your draft to at least one peer who knows your field: a colleague, a supervisor, or another researcher. Discuss the draft with them. Then revise it.
+
+Add a short peer note after the bibliography:
+
+- the field and the role of the peer, for example "postdoc in medieval history". Do not write the name of the peer.
+- the date of the discussion.
+- the main feedback.
+- what you changed.
+
+The questions below can guide the discussion. They are not graded.
+
+| Question              | Ask your peer whether the statement ...                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adequately scoped use | describes one concrete use or non-use in the author's research, with the system and the task.                                                           |
+| Relevant evidence     | names at least two risks, each with a source or with evidence from the course materials, and explains why the evidence applies to this system and task. |
+| Feasible mitigation   | proposes at least one mitigation or less harmful alternative that the author can carry out, and that addresses the cause of a named risk.               |
+| Transparent practice  | states how the author will disclose, cite, and document the use, and which rules apply.                                                                 |
+| Reasoned conclusion   | reaches a decision that follows from the analysis, names a check whose result would change the decision, and states its limits.                         |
+
+: Questions for the peer discussion {.striped}
+
+### Formal check: pass or fail
+
+The instructors check the form only. They do not judge the content, because they are not experts in your field. Your peer discussion covers the content.
+
+The statement passes when it meets all seven criteria.
+
+| Criterion        | The statement passes when it ...                                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Length           | has 1,200 to 1,500 words, without the bibliography and the peer note.                                               |
+| Structure        | uses the seven headings, each with your own text.                                                                   |
+| Sources          | has a bibliography that lists every source that you cite.                                                           |
+| Follow-up action | ends with one action: what you will do, by when, and who must agree.                                                |
+| Peer note        | names the field and the role of at least one domain-expert peer, the date, the main feedback, and what you changed. |
+| Publication      | declares whether the instructors may publish it on the course site.                                                 |
+| Data protection  | contains no confidential, personal, or unpublished research data.                                                   |
+
+: Formal check {.striped}
+
+### Submission
+
+Submit your statement in one of two ways:
+
+- **By email.** Send the statement to the course administration (GRACE). Your edition page gives the address.
+- **Through a GitHub issue.** Use the [Use Statement form](https://github.com/maehr/stochastic-parrots-and-beyond/issues/new?template=use-statement.yml). A GitHub issue is public as soon as you submit it. Everyone can see your GitHub account name and your text. For the credit, email the link of your issue to the course administration (GRACE).
+
+Publication on the course site is opt-in. The instructors publish a statement only when its author agrees. Declare your choice in the "Publication" section of the template, or in the issue form. Without a declaration, the statement stays unpublished.
+
+The deadline is not confirmed yet. The edition page will give it.
+
+## Credits
+
+The workload and the credit of each edition are on its edition page. The Graduate Center (GRACE) confirms the credit. It depends on attendance and on the completion of the applicable tasks. Credits normally become visible late in the administration cycle of the semester, not directly after the submission.

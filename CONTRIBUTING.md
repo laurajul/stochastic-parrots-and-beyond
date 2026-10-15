@@ -26,11 +26,11 @@ This repository is public. It holds generic teaching resources only.
 - Do not put this information into an issue, a pull request, or a commit message.
 - Use synthetic examples. Use a real example only with the informed permission of the person.
 
-## Licence of Contributions
+## License of Contributions
 
-A contribution takes the licence of the file that it changes.
+A contribution takes the license of the file that it changes.
 
-| Content                                     | Licence                                 |
+| Content                                     | License                                 |
 | ------------------------------------------- | --------------------------------------- |
 | Original course text, figures, and handouts | [CC BY 4.0](LICENSE-CCBY.md)            |
 | Material adapted from Liberating Structures | [CC BY-SA 4.0](LICENSE-CCBYSA.md)       |

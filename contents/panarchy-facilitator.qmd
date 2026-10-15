@@ -1,0 +1,252 @@
+---
+title: Facilitator guide
+subtitle: 'Panarchy (120 minutes) and the adapted Ecocycle (30 minutes), minute by minute'
+description: >-
+  Spoken prompts, minute marks, products, and room setup for the Panarchy and
+  Ecocycle afternoon. For teachers and facilitators.
+license: 'CC BY-SA'
+suppress-bibliography: false
+link-citations: true
+---
+
+This guide is for the person who hosts the afternoon. Participants use the [Panarchy page](panarchy.qmd). The step durations follow the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) [@ls-panarchy]. The step labels are adapted to the course.
+
+## Before the session
+
+### Materials
+
+- One large Panarchy chart on the wall: print the [blank chart](handouts/panarchy-chart.qmd) in A0 or A1, or draw it on flip-chart paper.
+- One A4 or A3 chart for each participant.
+- Sticky notes in two colors: one color for influences, one for opportunities and barriers.
+- Thick pens, so that notes are readable from two metres.
+- Dot stickers for the vote: three for each participant.
+- The [Ecocycle sheet](handouts/ecocycle.qmd) for each group, and one large Ecocycle on the wall.
+- The [sticky notes and action plan](handouts/action-plan.qmd) for each participant.
+
+### Room
+
+- An open wall for the shared chart, reachable for everyone.
+- Groups of four chairs around small tables.
+- Seats near the wall for participants who cannot stand for long.
+
+### Roles
+
+- **Host:** keeps time, gives the prompts, protects the structure.
+- **Participants:** contribute alone, in pairs, in fours, and in plenary.
+
+Hold the time strictly. A firm structure gives quiet participants the same space as loud ones.
+
+### The challenge
+
+Agree on the challenge in the block before lunch. The default is:
+
+> What changes across interconnected levels would make generative AI use in academic research more responsible?
+
+## Panarchy: 120 minutes and the afternoon break
+
+The column "Clock" follows the [timetable](syllabus.qmd#timetable). The column "Minute" works for any start time. The 30-minute afternoon break falls between step 7 and step 9.
+
+| Step | Minute  | Clock       | Duration | Adapted label (original label)                                         | Configuration | Product                                                           |
+| ---: | ------- | ----------- | -------: | ---------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- |
+|    1 | 0–5     | 13:20–13:25 |        5 | Frame the challenge (Intro)                                            | Plenary       | Shared understanding of the challenge                             |
+|    2 | 5–10    | 13:25–13:30 |        5 | Identify influences (Identify factors)                                 | Alone         | Personal list of factors                                          |
+|    3 | 10–20   | 13:30–13:40 |       10 | Translate into levels (Translate factors to levels)                    | Pairs         | Factors sorted into nested levels                                 |
+|    4 | 20–30   | 13:40–13:50 |       10 | Compare levels (Compare levels)                                        | Quartets      | Consolidated level labels                                         |
+|    5 | 30–40   | 13:50–14:00 |       10 | Build group chart (Integrate levels)                                   | Plenary       | One shared Panarchy chart                                         |
+|    6 | 40–55   | 14:00–14:15 |       15 | Diagnose attention and dynamics (Generate insights)                    | Quartets      | Marks for neglected levels and uneven resources                   |
+|    7 | 55–65   | 14:15–14:25 |       10 | Share diagnoses (Share insights)                                       | Plenary       | Annotated shared chart                                            |
+|    8 | 65–95   | 14:25–14:55 |       30 | Afternoon break                                                        | —             | Rest                                                              |
+|    9 | 95–110  | 14:55–15:10 |       15 | Find opportunities and barriers (Identify opportunities and obstacles) | New quartets  | Notes on cross-level leverage and blockage                        |
+|   10 | 110–120 | 15:10–15:20 |       10 | Share possibilities (Share opportunities and obstacles)                | Plenary       | Opportunities and barriers on the chart                           |
+|   11 | 120–130 | 15:20–15:30 |       10 | Prioritize (Prioritize opportunities and obstacles)                    | Everyone      | Three high-leverage priorities                                    |
+|   12 | 130–145 | 15:30–15:45 |       15 | Commit to action (Identify action steps)                               | 1-2-4-All     | Near-term actions and cross-level alliances                       |
+|   13 | 145–150 | 15:45–15:50 |        5 | Arrange follow-up (Next steps)                                         | Trios         | A review point                                                    |
+|      |         |             |  **150** |                                                                        |               | **A shared chart, three priorities, action owners, review point** |
+
+: Panarchy: steps, minute marks, and products {.striped}
+
+## The steps with spoken prompts
+
+### 1. Frame the challenge · minutes 0–5
+
+Say:
+
+> "This afternoon we zoom in and out. We look at the levels of our world like nested dolls: from your own project up to regulation and society. Our question is: what changes across these levels would make generative AI use in research more responsible?"
+
+> "Small levels change fast. Large levels change slowly. They influence each other in both directions."
+
+Show the [fictional example](handouts/panarchy-example.qmd) for half a minute. Hand out the charts. Say that the example is invented and that the group finds its own levels.
+
+### 2. Identify influences · minutes 5–10
+
+Say:
+
+> "Alone, without talking: write down factors that shape how generative AI is used in your research. Think of people, rules, tools, money, habits. One factor per note. Start with the smallest and move to the largest."
+
+Use the four lens outputs from the morning as a source. Do not suggest levels yet.
+
+### 3. Translate into levels · minutes 10–20
+
+Say:
+
+> "In pairs: put your factors on one chart. Which factors belong to the same level? Give each level a name. You can use more or fewer than five levels."
+
+Walk around. If a pair copies the illustrative levels, ask: "Which level is missing for your field?"
+
+### 4. Compare levels · minutes 20–30
+
+Say:
+
+> "Two pairs form a group of four. Compare your charts. Agree on one set of level names. Keep the factors that only one pair found."
+
+### 5. Build group chart · minutes 30–40
+
+Ask one person from each group of four to come to the wall. Say:
+
+> "Together, build one chart on the wall. Agree on the level names. Place the factors. Everyone else: watch and suggest."
+
+The product is the shared chart. Check that every level has a name.
+
+### 6. Diagnose attention and dynamics · minutes 40–55
+
+Say:
+
+> "In your groups of four: look at the shared chart. Which level gets the most attention in your field? Which level gets almost none? Where are the resources — money, time, power — and where are they missing? Where does a fast level wait for a slow one?"
+
+Ask the groups to write each diagnosis on a note.
+
+### 7. Share diagnoses · minutes 55–65
+
+Say:
+
+> "Each group: add your two strongest diagnoses to the chart and explain them in one sentence each."
+
+Annotate the chart. Read out patterns, for example a level with no notes.
+
+### 8. Afternoon break · minutes 65–95
+
+Say: "Thirty minutes. Step away from the wall and from your devices. We meet again at the chart."
+
+### 9. Find opportunities and barriers · minutes 95–110
+
+Form new groups of four. Mix people from different groups. Say:
+
+> "Where could a change at one level unlock change at another level? Where does one level block another? Write opportunities on one color, barriers on the other color. Name the levels for each note."
+
+Ask the groups to label each link with its kind: funding, rules, data, procurement, or technical dependence. A level higher on the chart does not always hold more power.
+
+### 10. Share possibilities · minutes 110–120
+
+Say:
+
+> "Three or four people: add your group's opportunities and barriers to the chart. Put each note between the levels that it connects."
+
+### 11. Prioritize · minutes 120–130
+
+Before the vote, ask: "Does any option raise an objection about consent, rights, or a burden on one group?" Write each objection on the chart next to the option. The vote does not settle an objection.
+
+Give each participant three dot stickers. Say:
+
+> "Vote for the three opportunities or barriers with the most leverage: a change that is feasible and moves more than one level."
+
+Count the dots. Name the three priorities aloud.
+
+### 12. Commit to action · minutes 130–145
+
+Use **1-2-4-All** for the three priorities. Say:
+
+> "One minute alone: what can you do in the next month on one of the three priorities? Who at another level do you need?"
+>
+> "Two minutes in pairs: share and sharpen your actions."
+>
+> "Four minutes in fours: find actions that fit together. Who forms an alliance across levels?"
+>
+> "Then all: each group shares its strongest action."
+
+Each participant notes one action on the [action plan](handouts/action-plan.qmd), with an owner. Ask who decides at that level, not only who volunteers. The remaining minutes go to the plenary round.
+
+### 13. Arrange follow-up · minutes 145–150
+
+Form groups of three. Say:
+
+> "Decide how and when you revisit this chart. Who keeps the photo? When do you check your actions?"
+
+Record a review date for each trio. The product of the session is a shared chart, three priorities, action owners, and a review point.
+
+## Ecocycle: a 30-minute adaptation
+
+::: {.callout-important title="Not the full method"}
+The full Ecocycle Planning takes about 90 minutes [@ls-ecocycle]. This is a shortened course adaptation. The Panarchy page of Liberating Structures suggests adding 30 to 50 minutes for a focused Ecocycle diagnosis [@ls-panarchy]. Do not call this segment a full Ecocycle workshop. The phases are a heuristic: a stable rule is not always a rigidity trap, and an ending is not always renewal.
+:::
+
+| Minute | Clock       | Duration | Step                                                   | Product                            |
+| ------ | ----------- | -------: | ------------------------------------------------------ | ---------------------------------- |
+| 0–5    | 15:50–15:55 |        5 | Explain birth, maturity, creative destruction, renewal | Shared understanding of the phases |
+| 5–10   | 15:55–16:00 |        5 | Map the priority initiatives                           | Initiatives placed on the Ecocycle |
+| 10–20  | 16:00–16:10 |       10 | Identify scarcity traps and rigidity traps             | Trapped initiatives marked         |
+| 20–25  | 16:10–16:15 |        5 | Propose movements between phases                       | A move for each trapped initiative |
+| 25–30  | 16:15–16:20 |        5 | Record concrete next steps                             | Next steps on the action plan      |
+|        |             |   **30** |                                                        |                                    |
+
+: The adapted Ecocycle {.striped}
+
+### 1. Explain the phases · minutes 0–5
+
+Say:
+
+> "Every initiative has a life: it is born, it matures, it ends, and something new forms. Birth is a new experiment. Maturity is an established practice. Creative destruction is letting go. Renewal is the time to reflect and explore."
+
+> "Two traps stop the movement. The rigidity trap: we hold on to a practice that no longer works. The scarcity trap: we never invest enough in a new idea for it to grow."
+
+### 2. Map the priority initiatives · minutes 5–10
+
+Say:
+
+> "Take the three priorities and the actions from the Panarchy chart. Where is each initiative on the Ecocycle today? Place a note."
+
+Examples from this course: a new disclosure template is in birth. A university license for one chatbot is in maturity.
+
+### 3. Identify the traps · minutes 10–20
+
+Say:
+
+> "Which initiatives are stuck? Which mature practice should end but does not? Which new idea never gets resources? Mark each trap."
+
+### 4. Propose movements · minutes 20–25
+
+Say:
+
+> "For each trapped initiative: what must start, stop, or get support so that it moves to the next phase?"
+
+### 5. Record next steps · minutes 25–30
+
+Say:
+
+> "Write your next step on the action plan: the priority, the level, the barrier, the intervention, the owner, the evidence, the first action, and the review date."
+
+## Adapt the session
+
+- **Fewer than eight participants.** Use pairs instead of quartets in steps 4, 6, and 9. Keep the durations.
+- **Sixteen participants.** Use four quartets. In step 5, invite one person per quartet to the wall.
+- **Mixed levels in the room.** If participants come from one department only, ask them to speak for levels that are not in the room, and mark these notes. Treat these notes as questions to check with these people, not as their answers.
+- **Online.** The structure works online with breakout rooms, but this course needs no online whiteboard. Each participant can draw their own chart on paper and hold it up to the camera.
+- **Accessibility.** Read every note aloud when you place it. Offer large-print charts. Let participants dictate notes to a partner.
+
+## Privacy
+
+The shared chart holds ideas, not personal data. Do not write names of people who are not in the room. Do not collect the action plans: they belong to the participants. Do not publish photos of participants.
+
+## Attribution and license
+
+::: {.callout-note title="Liberating Structures"}
+The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Henri Lipmanowicz and Keith McCandless created the original repertoire [@lipmanowicz2014]. Keith McCandless and Nancy White wrote the Fieldbook [@mccandless2026]. This guide adapts the step labels and keeps the original durations. It uses no Liberating Structures icons.
+:::
+
+This guide is licensed under [CC BY-SA 4.0](../LICENSE-CCBYSA.md). If you adapt it, share your adaptation under the same license.
+
+## References
+
+::: {#refs}
+:::

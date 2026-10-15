@@ -8,11 +8,18 @@
   "url": "https://github.com/maehr/stochastic-parrots-and-beyond/issues",
   "license": "AGPL-3.0",
   "scripts": {
-    "check": "prettier --check .",
-    "format": "prettier --write .",
+    "check": "prettier --check . && uv run ruff check && uv run ruff format --check && uv run ty check && uv run pytest",
+    "format": "prettier --write . && uv run ruff format",
     "prepare": "prek install --hook-type pre-commit --hook-type commit-msg",
+    "preview": "uv run quarto preview",
+    "test": "uv run pytest",
+    "site:build": "uv run quarto render --to html && uv run quarto render contents/slides --to revealjs",
+    "handouts:build": "uv run python scripts/build_handouts.py",
+    "site:archive": "uv run python scripts/release_site_archive.py",
+    "release:prepare": "npm run site:build && npm run site:archive -- --stage",
     "changelog": "npm exec git-cliff -- --config cliff.toml",
-    "changelog:unreleased": "npm exec git-cliff -- --config cliff.toml --unreleased --strip all"
+    "changelog:unreleased": "npm exec git-cliff -- --config cliff.toml --unreleased --strip all",
+    "lychee-check": "lychee --config .lycheerc.toml './*.md' './*.qmd' './contents/**/*.qmd' './documentation/**/*.qmd'"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",

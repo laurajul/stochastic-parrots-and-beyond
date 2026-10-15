@@ -1,0 +1,3 @@
+# The maintainer reviews every change to CI and to the deploy path.
+/.github/workflows/ @maehr
+/.github/CODEOWNERS @maehr

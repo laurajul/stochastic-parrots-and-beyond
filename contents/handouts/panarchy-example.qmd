@@ -1,0 +1,39 @@
+---
+title: 'Panarchy chart: a fictional example'
+subtitle: 'Stochastic Parrots and Beyond · adapted from Liberating Structures'
+description: >-
+  A completed Panarchy chart for a fictional department. The content is invented for teaching.
+license: 'CC BY-SA'
+format:
+  html: default
+  typst:
+    include-in-header:
+      - _handout.typ
+      - text: '#set page(flipped: true)'
+---
+
+::: {.callout-important title="Fictional example"}
+The department, the notes, and the priorities are invented for teaching. Do not copy the levels: your group discovers its own.
+:::
+
+## What the example shows
+
+The chart on page 2 shows a completed Panarchy chart after the vote.
+
+- **Priority 1, department level:** nobody owns the guidance on AI use. A fast level waits for a slow one.
+- **Priority 2, university level:** the licensed chatbot has no documentation of its training data, so disclosures stay vague.
+- **Priority 3, vendor level:** license terms restrict what users can document.
+- **Upward:** a disclosure template from the department can become university policy.
+- **Downward:** a legal duty to document training data supports stricter procurement.
+
+::: {.callout-note title="Liberating Structures"}
+The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The drawing is original. No Liberating Structures icons are used.
+:::
+
+[[PDF](../../assets/handouts/panarchy-example.pdf) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+
+```{=typst}
+#pagebreak()
+```
+
+![](../../assets/handouts/panarchy-chart-example.svg){fig-alt="Completed fictional Panarchy chart with five levels, from bottom to top: my research project, research group or department, university, model vendors and industry, regulation and society. Notes in each level name influences, for example no disclosure template, no owner for AI guidance, a licensed chatbot without data documentation, licenses that restrict documentation, and the EU AI Act duty to publish a training data summary. Three notes carry the numbers 1 to 3 as priorities. One arrow shows a department template that becomes university policy. Another arrow shows that a duty to document supports procurement." width="86%"}

@@ -1,0 +1,159 @@
+---
+title: 'Lens 2: Representation and Pygmalion'
+subtitle: 'Whose perspectives become normal and whose are displaced?'
+description: >-
+  How text-to-image datasets encode categories, aesthetics, and stereotypes,
+  and how humanizing AI can dehumanize women.
+---
+
+::: {.callout-note title="At a glance"}
+
+- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Output:** a representation and harm pathway.
+- **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
+- **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).
+- **Anchor sources:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Birhane, Prabhu, and Kahembwe [-@birhane2021]; Buschek and Thorp [-@buschek2024], a Knowing Machines investigation.
+
+:::
+
+::: {.callout-caution title="Content note"}
+This lens discusses stereotypes, sexualized imagery, and child sexual abuse material in training datasets. The page and the slides describe how such material enters a dataset. They never show it, and the activity never asks you to search for it.
+:::
+
+## Question
+
+_Whose perspectives become normal and whose are displaced?_
+
+An image generator answers a prompt with what its training data made typical. The data, the filters, and the scores of "quality" decide what counts as typical. This lens follows the path from web pages to generated images and asks who decided at each step.
+
+## Core concepts
+
+### 1. Datasets encode categories and aesthetics
+
+LAION-5B is a dataset of image links with captions. Its developers took image links from Common Crawl, a monthly crawl of the web. They kept an image only if its ALT text — the text that describes an image for screen readers — matched the image closely enough, according to the CLIP model [@buschek2024]. The threshold was a similarity score of 0.26 to 0.28, depending on the language. Buschek and Thorp show that a change of 0.01 would have removed 937,489,831 pairs, and they conclude: "What the images contain plays no role at all in deciding what stays and what goes" [-@buschek2024]. CLIP does compare each image with its text. Their point is that a similarity score tests neither consent, nor representation, nor fitness for use.
+
+ALT text is often written for search engines, not for people. For Buschek and Thorp, the dataset therefore contains "less about how humans see the world than it does about how search engines see the world" [-@buschek2024].
+
+### 2. "Quality" is a judgement by particular people
+
+LAION also released an aesthetic subset. A model scored the images for visual appeal. That model learned from ratings by a small group: users of AI art communities and reviewers on a photography website. Of the 41 top reviewers who shared their location, 95% were in the US, Canada, or Europe [@buschek2024]. Image generators fine-tuned on such a subset learn their idea of a "good" image from these raters.
+
+### 3. Stereotypes appear without being asked for
+
+Bianchi et al. tested Stable Diffusion with ordinary prompts that name traits, occupations, or objects [-@bianchi2023]. The images reinforced whiteness as an ideal, amplified racial and gender disparities in occupations, and treated American norms as the default. The stereotypes appeared even when the prompt named no identity. Neither counter-stereotypical prompts nor the guardrails of the provider prevented them [@bianchi2023].
+
+### 4. Harmful content enters through scale
+
+Birhane, Prabhu, and Kahembwe audited LAION-400M, a predecessor of LAION-5B. They found explicit image and text pairs of rape and pornography, malign stereotypes, and racist and ethnic slurs [@birhane2021]. Scale and automatic filters did not remove them.
+
+### 5. Pygmalion displacement
+
+Erscoi, Kleinherenbrink, and Guest use the myth of Pygmalion as a lens [-@erscoi2023]. Pygmalion, repulsed by women, carved a statue that came to life. The authors trace a repeated pattern: women are replaced by inanimate objects, from automata to algorithms. They call this pattern **Pygmalion displacement** and find it, unacknowledged, in Turing's imitation game [@erscoi2023]. The pattern helps to ask why assistants and companions are so often designed as feminine, and whose work and presence they displace.
+
+### 6. Personalization and non-consensual imagery
+
+Open image models can be fine-tuned on a few images of one person. Hawkins, Mittelstadt, and Russell found almost 35,000 publicly downloadable "deepfake" model variants of identifiable people, downloaded almost 15 million times since November 2022 [@hawkins2025]. Of these variants, 96% targeted women, and many signalled the intent to generate non-consensual intimate imagery. Such a variant needs as few as 20 images and 15 minutes on consumer hardware [@hawkins2025].
+
+## Evidence and limits
+
+::: {.callout-note title="What the evidence shows"}
+
+- The structure of LAION-5B is documented: its sources, its filter, its aesthetic subsets [@buschek2024; @laion2024].
+- Audits found harmful content and stereotypes in the dataset and in the outputs of models [@birhane2021; @bianchi2023; @thiel2023].
+- The rise of non-consensual model variants is measured on two public platforms [@hawkins2025].
+
+:::
+
+::: {.callout-caution title="Limits of the evidence"}
+
+- An audit of one dataset or one model version does not describe every model. Commercial providers rarely publish their training data, so outside audits are hard.
+- A biased output does not prove one specific cause. Training data, fine-tuning, prompts, and filters interact.
+- Counts of model variants describe what is offered for download, not how often each variant is used.
+- Pygmalion displacement is an interpretive lens. It explains patterns. It is not a measurement.
+
+:::
+
+## Case: the LAION-5B pathway {#case-laion}
+
+::: {.callout-note title="Documented case"}
+Every step in this case comes from published investigations and from LAION's own announcement.
+:::
+
+![The LAION-5B pathway, from web pages to generated images. At each step, a decision selects some images and excludes others. Original diagram, based on Buschek and Thorp (2024), Thiel (2023), and LAION (2024).](../../assets/cases/02-laion-pathway.svg){fig-alt="Flow diagram with six steps from left to right: web pages in Common Crawl; image links with ALT text; CLIP similarity filter with a threshold of 0.26 to 0.28; LAION-5B with billions of links and captions; an aesthetic score subset; image models such as Stable Diffusion that are trained or fine-tuned on these subsets. Under each step, a note names who decides and what can go wrong."}
+
+1. **Web pages.** Common Crawl collects billions of web pages. Shopping sites and image platforms are heavily represented [@buschek2024].
+2. **Links and ALT text.** The pipeline keeps images whose HTML tag has an ALT text. Many ALT texts are written for search engines [@buschek2024].
+3. **Statistical filter.** CLIP compares each image with its ALT text. A pair above the threshold stays in the dataset [@buschek2024].
+4. **The dataset.** LAION-5B contains links and metadata, not the images. LAION never distributed image content [@laion2024]. Midjourney and Stable Diffusion are trained in part on LAION-5B [@buschek2024].
+5. **The audit.** In December 2023, the Stanford Internet Observatory reported links to suspected child sexual abuse material in LAION-5B [@thiel2023]. LAION removed the dataset from the public web on 19 December 2023 [@laion2024].
+6. **The repair.** On 30 August 2024, LAION released Re-LAION-5B. It removed 2,236 links that matched lists of the Internet Watch Foundation, the Canadian Centre for Child Protection, and the Stanford Internet Observatory [@laion2024].
+
+**Why this case.** The dataset is open, so outsiders could audit it. The audit led to a repair of the dataset. Models that were already trained on the original version did not change.
+
+## Activity
+
+**Analyze a representation pathway.** Work in groups of three or four, for 15 minutes, on paper or on a laptop. Do not search for or open harmful images.
+
+1. Choose the pathway. First choice: the system from one research-use description in your group. Use the ready-made LAION-5B case only when no description fits. (3 minutes)
+2. On the [worksheet](../handouts/lens-2-harm-pathway.qmd), mark for each step: who decides, what is selected, what is excluded, and which harm can enter. (8 minutes)
+3. Mark the step where you see the largest risk for your research context, and the people it affects. (2 minutes)
+4. Name one mitigation that a researcher can control. It must fit the harm: a consent problem needs a consent remedy, not a fix for bias. (2 minutes)
+
+::: {.panel-tabset}
+
+### Your group's example
+
+This is the first choice. A use from your own research makes the analysis concrete.
+
+- Choose the research-use description with the most open questions.
+- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
+- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
+- An image generator fits best. A language model also has a pathway from web data to output.
+- Do not search for or open harmful images.
+
+### Ready-made case
+
+Use the [LAION-5B pathway](#case-laion) when no description in your group fits, or when the group prefers not to discuss its own use. Every step of this pathway is documented.
+
+### Hypothetical example
+
+An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favors a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.
+
+:::
+
+## Output
+
+A **representation and harm pathway** on one sheet for each group. It shows each step with its decision-makers, selections, exclusions, and possible harms. It marks the riskiest step, the people affected, and one mitigation.
+
+## Reading
+
+- **Required:** Bender et al. [-@bender2021], section 4: training data.
+- **Recommended:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Buschek and Thorp [-@buschek2024]; Birhane, Prabhu, and Kahembwe [-@birhane2021] (see the content note); Buolamwini [-@buolamwini2023], chapter 1, "Daughter of Art and Science", and chapter 11, "Gender Shades".
+- **For the case:** Thiel [-@thiel2023]; LAION [-@laion2024]; Bianchi et al. [-@bianchi2023].
+
+## Slides
+
+Open the [Lens 2 slide deck](../slides/02-representation.qmd). Press `S` for the presenter notes.
+
+::: {.callout-note title="For teachers" collapse="true"}
+**Timing (35 minutes).** Input on the core concepts, 10 minutes. The LAION case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+
+**Never show abusive material.** Do not show examples from the audited datasets, not even blurred. Describe the findings in words, and cite the source. Do not run live image generation that targets identities or real people.
+
+**Prompts.**
+
+- "Who rated the images that taught this model what 'good' looks like?"
+- "Which group in your field would not recognize itself in the 'typical' output?"
+- "Which step of the pathway could a researcher influence, and which not?"
+
+**Pygmalion displacement.** Ask the group to name assistants, chatbots, or robots and their designed gender. Then ask which human work these systems claim to replace.
+
+**Difficult moments.** The topic can affect participants personally. Announce the content note at the start. Allow participants to step out. Keep the discussion on structures and decisions, not on individual images.
+
+**Fallback.** Start with the group's own example. If no description fits, use the LAION case. Groups that finish early can compare the LAION pathway with a text dataset from Lens 1.
+:::
+
+## References
+
+::: {#refs}
+:::

@@ -1,0 +1,81 @@
+# Single source for the facts of each edition.
+#
+# Rules (see AGENTS.md and documentation/reuse.qmd):
+# - `null` renders as "To be confirmed". Never copy a value from one edition
+#   to another edition. Each value needs its own public source.
+# - `status` is one of: planned, confirmed, delivered. `delivered` renders the
+#   edition page as an archive. Keep the page and its URL.
+# - `featured_edition` selects the edition that the home page shows first.
+#   Switch it on purpose, after the course day or when a new edition is confirmed.
+# - Times are local time in Basel. Timestamps carry their UTC offset.
+# - Source for hs2026: the official University of Basel course listing
+#   (official_url), read on 2026-10-14.
+
+featured_edition: hs2026
+
+editions:
+  hs2026:
+    label: 'Autumn semester 2026'
+    short_label: 'HS 2026'
+    status: confirmed
+    date: '2026-11-04'
+    start: '09:00'
+    end: '17:00'
+    venue: 'Universitätsbibliothek Basel, GRACE room 306, 3rd floor'
+    address: 'Schönbeinstrasse 18–20, 4056 Basel'
+    map_url: 'https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbeinstrasse+18-20%2C+4056+Basel'
+    organizer: 'Graduate Center (GRACE), University of Basel, Transferable Skills'
+    contact: 'grace@unibas.ch'
+    instructors: 'Laura Wagner and Moritz Mähr'
+    ects: 1
+    ai_skills_module: 3
+    workload_hours: { preparation: 8, attendance: 8, follow_up: 14 }
+    capacity: { minimum: 6, maximum: 16 }
+    eligible_group: 'University of Basel doctoral candidates and postdocs'
+    fee: 'Free of charge for eligible participants'
+    registration_opens: '2026-08-05T09:00:00+02:00'
+    registration_deadline: '2026-10-07T12:00:00+02:00'
+    registration_status: closed
+    official_url: 'https://fortbildung.unibas.ch/courses/hauptfachbereich/dissertation--phd/stochastic-parrots-and-beyond-normative-dimensions-of-generative-ai-303499'
+    regulations_url: 'https://www.unibas.ch/en/University/Administration-Services/Vice-President-s-Office-for-Education/Academic-Programs/Graduate-Center/Transferable-Skills.html'
+    no_show_fee_chf: 30
+    assessment_deadline: null
+    detailed_program_status: approved
+    evaluation_url: 'https://evasys.unibas.ch/evasys/online.php?p=47E7M'
+    credits_visible: 'around the end of January 2027'
+    notes: []
+
+  fs2027:
+    label: 'Spring semester 2027'
+    short_label: 'FS 2027'
+    status: planned
+    date: null
+    start: null
+    end: null
+    venue: null
+    address: null
+    map_url: null
+    organizer: null
+    contact: null
+    instructors: null
+    ects: null
+    ai_skills_module: null
+    workload_hours: null
+    capacity: null
+    eligible_group: null
+    fee: null
+    registration_opens: null
+    registration_deadline: null
+    registration_status: null
+    official_url: null
+    regulations_url: null
+    no_show_fee_chf: null
+    assessment_deadline: null
+    detailed_program_status: tbc
+    evaluation_url: null
+    credits_visible: 'around the end of July 2027'
+    # Planned, not confirmed. Each note states its own uncertainty.
+    notes:
+      - 'The planned organizer is the Graduate Center (GRACE) of the University of Basel. A new course listing is pending.'
+      - 'The planned instructors are Laura Wagner and Moritz Mähr, subject to confirmation.'
+      - 'The working title stays the same until the new listing confirms it.'

@@ -1,0 +1,127 @@
+---
+title: 'Lens 3: Lifecycle and Labor'
+subtitle: 'Materiality and Extraction'
+author: Laura Wagner and Moritz Mähr
+license: 'CC BY'
+format:
+  revealjs:
+    slide-number: true
+    hash-type: number
+    transition: none
+    background-transition: none
+    center: false
+    css: slides.css
+    include-after-body: ../../_includes/a11y-slides.html
+    footer: 'Stochastic Parrots and Beyond · Lens 3 · CC BY 4.0'
+---
+
+## Learning question
+
+> Who does the work, carries the risk, or has no recourse?
+
+[Content note: the case describes workers who read texts about violence and sexual abuse. We quote none of the texts.]{.source}
+
+::: notes
+Ask: "Which work in your own research does not appear in the publication?" Use the answers to introduce invisible labor.
+:::
+
+## 1. Six stages of the lifecycle
+
+![](../../assets/cases/03-lifecycle.svg){fig-alt="Six boxes in a row: design, data, training, deployment, evaluation, governance. Under each box, the people who work at this stage and the people who carry the risk. A return arrow from governance to design."}
+
+[Original diagram. CC BY 4.0. Harm can enter at every stage (Suresh and Guttag 2021).]{.source}
+
+::: notes
+Read the stages. Say that the order is a convention: evaluation happens before and after deployment, and governance applies at every stage. Ask for one person who works at each stage. Most groups find the data and evaluation stages hardest to fill.
+:::
+
+## 2. Labor behind "automation" {.smaller}
+
+- **Ghost work:** task-based, on-demand work that keeps services running and stays invisible (Gray and Suri 2019).
+- **Fauxtomation:** presenting human work as automated. It "aims to disguise the real character of the work in question" (Taylor 2018).
+- **Feedback work:** for InstructGPT, about 40 contractors wrote example answers and ranked outputs (Ouyang et al. 2022).
+- **Instructions shape data:** instructions and metrics reproduce the worldview of the requesters (Miceli and Posada 2022).
+
+::: notes
+Point out that the last item comes from a developer's own paper: human feedback is part of the method, not a side issue.
+:::
+
+## 3. Extraction and consent
+
+- Training data come from writers, artists, photographers, and translators.
+- Their consent was rarely asked.
+- Crawford treats data collection at this scale as extraction, next to minerals and labor (Crawford 2021, chs. 2–3).
+
+::: notes
+Link to Lens 4: copyright policy is one of the duties of the EU AI Act.
+:::
+
+## 4. Recourse is uneven
+
+> Undocumented training data "perpetuates harm without recourse."
+
+[Bender et al. (2021), 615.]{.source}
+
+- A person harmed by an output can rarely find out which data or decision caused it.
+- A worker harmed by the work is often employed by a supplier, not by the provider.
+
+::: notes
+Transition to the case: "Here is a case where the safety of users depended on the work of others."
+:::
+
+## Case: safety labeling in Kenya {.smaller}
+
+[Documented case]{.label}
+
+| Item           | Reported fact                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------- |
+| Task           | Label passages about violence, hate speech, and sexual abuse, for a ChatGPT safety detector |
+| Supplier       | Sama, outsourcing firm, team in Nairobi                                                     |
+| Take-home wage | About USD 1.32 to 2 per hour                                                                |
+| Workload       | 150 to 250 passages per nine-hour shift, according to workers. Sama said 70.                |
+| Impact         | All four employees interviewed "described being mentally scarred by the work"               |
+| End            | Sama ended the work in February 2022, eight months early                                    |
+
+[Perrigo (2023), TIME.]{.source}
+
+::: notes
+Mention that OpenAI and Sama dispute some details, for example the workload and the contract value. The lesson page gives both sides.
+:::
+
+## Activity · 15 minutes
+
+**Build a lifecycle risk matrix.** Groups of three or four, on paper or on a laptop.
+
+1. Choose a research-use card from your group. Use ChatGPT only if no card fits. (3 min)
+2. For each of the six stages: who works, who carries the risk, who has recourse? (7 min)
+3. Mark the stage of highest risk and the stage where you have most influence. (2 min)
+4. Write one intervention for your stage. (3 min)
+
+[Worksheet: Lens 3, lifecycle risk matrix]{.source}
+
+::: notes
+Hand out the Lens 3 worksheet. The column "who has recourse" often stays empty. Keep it empty and visible. Panarchy takes it up.
+:::
+
+## Expected output
+
+A **lifecycle risk matrix** for each group:
+
+- for each stage: who works, who carries the risk, who has recourse,
+- the stage of highest risk and the stage of most influence,
+- one intervention.
+
+## Sources {.smaller}
+
+- Perrigo (2023): [OpenAI Used Kenyan Workers on Less Than $2 Per Hour](https://time.com/6247678/openai-chatgpt-kenya-workers/), TIME.
+- Taylor (2018): [The Automation Charade](https://logicmag.io/failure/the-automation-charade/), Logic(s).
+- Suresh and Guttag (2021): [Sources of Harm throughout the ML Life Cycle](https://doi.org/10.1145/3465416.3483305).
+- Crawford (2021): [Atlas of AI](https://yalebooks.yale.edu/book/9780300252392/atlas-of-ai/), chapters 2 and 3.
+
+## Takeaway
+
+> "Automatic" often means "someone else's work". Find the people at each stage, and ask who can object.
+
+::: notes
+Transition to Lens 4: "Why do these patterns persist? The next lens follows money, infrastructure, and rules."
+:::
