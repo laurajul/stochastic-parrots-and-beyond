@@ -1,5 +1,5 @@
 ---
-title: 'Lens 2: Representation and Pygmalion'
+title: 'Lens 2: Representation and Displacement'
 subtitle: 'Whose perspectives become normal?'
 author: Laura Wagner and Moritz Mähr
 license: 'CC BY'

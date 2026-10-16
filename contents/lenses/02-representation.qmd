@@ -1,5 +1,5 @@
 ---
-title: 'Lens 2: Representation and Pygmalion'
+title: 'Lens 2: Representation and Displacement'
 subtitle: 'Whose perspectives become normal and whose are displaced?'
 description: >-
   How text-to-image datasets encode categories, aesthetics, and stereotypes,

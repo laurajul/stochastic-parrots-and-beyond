@@ -62,14 +62,14 @@ For the wall, print the Panarchy chart in A1 or A0, or draw it on flip-chart pap
 
 The decks are Reveal.js presentations. Use the arrow keys to move. Press `S` for the presenter notes, `F` for full screen, and `?` for all keyboard shortcuts. The decks contain no dates or venues, so they serve every edition.
 
-| Deck                                                                 | Topic                                                    | License      |
-| -------------------------------------------------------------------- | -------------------------------------------------------- | ------------ |
-| [Orientation](slides/00-intro.qmd)                                   | The question of the day, four lenses, research-use cards | CC BY 4.0    |
-| [Lens 1: Scale and environment](slides/01-scale.qmd)                 | Footprint and provenance, the BLOOM case                 | CC BY 4.0    |
-| [Lens 2: Representation and Pygmalion](slides/02-representation.qmd) | Datasets and stereotypes, the LAION-5B case              | CC BY 4.0    |
-| [Lens 3: Lifecycle and labor](slides/03-lifecycle-labor.qmd)         | Hidden labor, the Kenyan labeling case                   | CC BY 4.0    |
-| [Lens 4: Political economy](slides/04-political-economy.qmd)         | Power, "open" claims, the EU AI Act                      | CC BY 4.0    |
-| [Panarchy and Ecocycle](slides/05-panarchy.qmd)                      | The afternoon session                                    | CC BY-SA 4.0 |
+| Deck                                                                    | Topic                                                    | License      |
+| ----------------------------------------------------------------------- | -------------------------------------------------------- | ------------ |
+| [Orientation](slides/00-intro.qmd)                                      | The question of the day, four lenses, research-use cards | CC BY 4.0    |
+| [Lens 1: Scale and environment](slides/01-scale.qmd)                    | Footprint and provenance, the BLOOM case                 | CC BY 4.0    |
+| [Lens 2: Representation and Displacement](slides/02-representation.qmd) | Datasets and stereotypes, the LAION-5B case              | CC BY 4.0    |
+| [Lens 3: Lifecycle and labor](slides/03-lifecycle-labor.qmd)            | Hidden labor, the Kenyan labeling case                   | CC BY 4.0    |
+| [Lens 4: Political economy](slides/04-political-economy.qmd)            | Power, "open" claims, the EU AI Act                      | CC BY 4.0    |
+| [Panarchy and Ecocycle](slides/05-panarchy.qmd)                         | The afternoon session                                    | CC BY-SA 4.0 |
 
 : Slide decks {.striped}
 

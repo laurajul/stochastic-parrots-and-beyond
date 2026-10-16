@@ -46,7 +46,7 @@ Do not bring confidential or personal research data to the exercises. No exercis
 | Lens                                                                         | Guiding question                                                                   | Output                          |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------- |
 | [1. Stochastic Parrots: Scale and Environment](contents/lenses/01-scale.qmd) | Which environmental and data choices are hidden by a model's apparent performance? | Material-and-provenance map     |
-| [2. Representation and Pygmalion](contents/lenses/02-representation.qmd)     | Whose perspectives become normal and whose are displaced?                          | Representation and harm pathway |
+| [2. Representation and Displacement](contents/lenses/02-representation.qmd)  | Whose perspectives become normal and whose are displaced?                          | Representation and harm pathway |
 | [3. Lifecycle and Labor](contents/lenses/03-lifecycle-labor.qmd)             | Who does the work, carries the risk, or has no recourse?                           | Lifecycle risk matrix           |
 | [4. Political Economy](contents/lenses/04-political-economy.qmd)             | Which incentives preserve an unsafe or inequitable practice?                       | Stakeholder and incentive map   |
 

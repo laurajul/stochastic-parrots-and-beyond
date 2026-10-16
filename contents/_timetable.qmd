@@ -2,7 +2,7 @@
 | ----------- | ---------------------------------------------------------------------------------------- |
 | 09:00–09:20 | Welcome, objectives, research-use examples                                               |
 | 09:20–09:55 | [Lens 1: Scale and environment](/contents/lenses/01-scale.qmd)                           |
-| 09:55–10:30 | [Lens 2: Representation and Pygmalion](/contents/lenses/02-representation.qmd)           |
+| 09:55–10:30 | [Lens 2: Representation and Displacement](/contents/lenses/02-representation.qmd)        |
 | 10:30–11:00 | Break                                                                                    |
 | 11:00–11:35 | [Lens 3: Lifecycle and labor](/contents/lenses/03-lifecycle-labor.qmd)                   |
 | 11:35–12:10 | [Lens 4: Political economy](/contents/lenses/04-political-economy.qmd)                   |
