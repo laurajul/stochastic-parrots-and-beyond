@@ -77,16 +77,18 @@ Do not run a live demonstration. Describe the findings, and refer to the paper.
 Ask the group to name assistants and their designed voice or gender. Then ask which human work they claim to replace.
 :::
 
-## 5. Personalization and non-consent
+## 5. Personalization and normalization {.smaller}
 
-- Almost 35,000 downloadable "deepfake" model variants of identifiable people, downloaded almost 15 million times.
-- 96% targeted women. Many signalled the intent to create non-consensual intimate imagery.
-- As few as 20 images and 15 minutes on consumer hardware.
+- CivitAI, 2022 to 2024: 40.6 million images and 231,252 models.
+- Sexualized images rose from 41% to 80% of all images.
+- Neutral prompt "woman": mostly nude. Neutral prompt "man": often professional attire.
+- 15% of adapters (33,804) were flagged as models of identifiable people.
+- A design pattern with a history: tailored synthetic women replace real ones.
 
-[Hawkins, Mittelstadt, and Russell (2025), FAccT.]{.source}
+[Wagner and Cetinić (2026), Big Data & Society.]{.source}
 
 ::: notes
-Keep the discussion on structures: platforms, licenses, moderation. Do not name targeted persons.
+One platform, an exploratory study. Gender and age come from a classifier. Keep the discussion on structures: platform rewards, tagging tools, licenses, moderation. Do not name targeted persons. Link back to Pygmalion displacement.
 :::
 
 ## Case: the LAION-5B pathway
@@ -141,6 +143,7 @@ A **representation and harm pathway** for each group:
 - Buschek and Thorp (2024): [Models All the Way Down](https://knowingmachines.org/models-all-the-way).
 - Birhane, Prabhu, and Kahembwe (2021): [Multimodal Datasets](https://arxiv.org/abs/2110.01963). Content note.
 - LAION (2024): [Releasing Re-LAION-5B](https://laion.ai/blog/relaion-5b/).
+- Wagner and Cetinić (2026): [Perpetuating misogyny with generative AI](https://doi.org/10.1177/20539517261467361). Content note.
 
 ## Takeaway
 
