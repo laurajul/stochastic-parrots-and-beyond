@@ -124,6 +124,16 @@ Content note: nudity is pixelated. Do not linger on single images. The prompts a
 Hawkins et al. (2025) counted the most popular variants and found a more extreme gender gap. This study counts all models, so the gap is smaller but still large. The professions are labels from language models and can be wrong. Private persons can be targeted too, but this method cannot find them. Keep the discussion on structures: platform rewards, tagging tools, licenses, moderation. Never name targeted persons.
 :::
 
+## A page of models of real people {.smaller}
+
+![](../../assets/cases/02-civitai-persons-of-interest.png){fig-alt="Grid of four rows of portrait thumbnails of young women from a model-sharing platform's celebrity category. All faces are blurred and all names are covered."}
+
+[Screenshot by Laura Wagner of the CivitAI "celebrity" category, May 2025. Faces blurred, names covered.]{.source}
+
+::: notes
+Each tile is a downloadable model made to reproduce one real person. The faces are blurred and the names are covered. Do not try to identify anyone, and do not name anyone in the room. Shortly after this screenshot, CivitAI removed such models. The authors report that about 5,000 of them moved to another platform, so they did not disappear (Wagner and Cetinić, 2026). Ask: "Who decided that this category should exist, and who was asked?"
+:::
+
 ## Activity · 15 minutes
 
 **Analyze a representation pathway.** Groups of three or four, on paper or on a laptop. Do not search for harmful images.
