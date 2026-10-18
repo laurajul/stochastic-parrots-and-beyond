@@ -84,3 +84,8 @@ The case figures are original drawings under CC BY 4.0. Each SVG file holds a ti
 - [The LAION-5B pathway](../assets/cases/02-laion-pathway.svg)
 - [Six stages of the lifecycle](../assets/cases/03-lifecycle.svg)
 - [Stakeholder and incentive map](../assets/cases/04-stakeholder-map.svg)
+
+## Case material
+
+- [A random sample from LAION](laion-sample.qmd): entries loaded live from their original sources, with captions and similarity scores, for Lens 2. License: CC BY 4.0 for the page. The rights in the images stay with their creators.
+- Build script: `scripts/build_laion_sample.py`. The raw sample and all images stay outside Git.

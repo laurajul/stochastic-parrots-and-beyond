@@ -79,6 +79,8 @@ Open image models can be fine-tuned on a few images of one person. Hawkins, Mitt
 Every step in this case comes from published investigations and from LAION's own announcement.
 :::
 
+To see what an entry looks like, open the [random LAION sample](../laion-sample.qmd): entries with captions and scores, loaded live from their sources.
+
 ![The LAION-5B pathway, from web pages to generated images. At each step, a decision selects some images and excludes others. Original diagram, based on Buschek and Thorp (2024), Thiel (2023), and LAION (2024).](../../assets/cases/02-laion-pathway.svg){fig-alt="Flow diagram with six steps from left to right: web pages in Common Crawl; image links with ALT text; CLIP similarity filter with a threshold of 0.26 to 0.28; LAION-5B with billions of links and captions; an aesthetic score subset; image models such as Stable Diffusion that are trained or fine-tuned on these subsets. Under each step, a note names who decides and what can go wrong."}
 
 1. **Web pages.** Common Crawl collects billions of web pages. Shopping sites and image platforms are heavily represented [@buschek2024].
