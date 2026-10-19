@@ -89,6 +89,50 @@ Ask the group to name assistants and their designed voice or gender. Then ask wh
 Walk through the steps from left to right. At each step, ask: "Who decided here?"
 :::
 
+## What passes the filter
+
+[Documented sample]{.label}
+
+::: {.laion-strip}
+{{< include ../../assets/cases/laion-sample/strip.html >}}
+:::
+
+[Random sample from a LAION-400M file (release PROPOSED). Live images. Rights stay with the creators. [More on the sample](../laion-sample.qmd).]{.source}
+
+::: notes
+Check before class that the images load. Give the room one minute of silence. Ask: "Which caption describes the image? Which does not? Who is missing from this sample?" The captions are the ALT texts, cut to one line here. The score says "similar". It says nothing about consent. If an image does not load, read the caption aloud: the caption is the point. Scores in the full sample run from 0.300 to 0.437. The license field is "?" or empty in 131 of 131 entries. The sample comes from LAION-400M, the predecessor of LAION-5B, with a threshold of 0.30. Press the arrow key to reveal the label. Two images carry the LAION label NSFW. We checked all six flagged images of the sample. None is explicit. Ask: "Who checks the labels at the scale of billions?" Six of 131 sampled images are flagged. That is too few to claim a pattern. Do not open the full page on the projector. Use it in the activity.
+:::
+
+## One entry, in full
+
+[Documented sample]{.label}
+
+::: {.laion-entry}
+{{< include ../../assets/cases/laion-sample/entry-example.html >}}
+
+:::
+
+[The LAION metadata of one sampled entry, cut to five fields. The dataset holds no image, only this record. Rights stay with the creator. [Full sample](../laion-sample.qmd).]{.source}
+
+::: notes
+Read the fields aloud: URL, label, score, license, caption. The record also holds a key and the original size. This label says UNLIKELY. The license field says "?". The score says "similar enough". The caption is the only description the image has, and it is a product name with a code. Ask: "What would you need to know before you use this image in research?" The next slide shows a record with the label NSFW.
+:::
+
+## One entry with a label
+
+[Documented sample]{.label}
+
+::: {.laion-entry}
+{{< include ../../assets/cases/laion-sample/entry-flagged.html >}}
+
+:::
+
+[The LAION metadata of one flagged entry, cut to five fields. Rights stay with the creator. [Full sample](../laion-sample.qmd).]{.source}
+
+::: notes
+Read the fields aloud: URL, label, score, license, caption. The label says NSFW for a stock photo of a woman at a laptop. Compare it with the record before. The caption is the only description the image has. Ask: "Who decided that this image is not safe for work, and how would you find out?"
+:::
+
 ## Audit and repair {.smaller}
 
 - 2021: an audit of LAION-400M finds explicit images of rape and pornography, malign stereotypes, and slurs (Birhane, Prabhu, and Kahembwe).

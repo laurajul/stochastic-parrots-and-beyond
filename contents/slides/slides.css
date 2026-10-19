@@ -57,3 +57,38 @@ html:root {
     transition: none !important;
   }
 }
+
+.laion-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6em;
+}
+.laion-strip figure {
+  margin: 0;
+  line-height: 1.2;
+}
+.laion-strip img {
+  width: 100%;
+  height: 5.5em;
+  object-fit: contain;
+  background: #eee;
+  margin: 0;
+}
+
+.laion-entry {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+  align-items: start;
+}
+.laion-entry img {
+  width: 100%;
+  margin: 0;
+}
+.reveal .laion-entry pre {
+  margin: 0;
+  width: 100%;
+  font-size: 0.65em;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}

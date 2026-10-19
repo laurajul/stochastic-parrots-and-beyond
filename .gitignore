@@ -460,3 +460,5 @@ $RECYCLE.BIN/
 
 # Local reference papers; not part of the course material
 _reference/
+# Raw LAION sample; the public metadata is in assets/cases/laion-sample/
+assets/cases/laion_example/

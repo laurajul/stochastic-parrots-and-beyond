@@ -1,0 +1,180 @@
+{
+  "summary": {
+    "entries": 131,
+    "similarity_min": 0.3,
+    "similarity_max": 0.437,
+    "similarity_median": 0.327,
+    "license_unknown": 131,
+    "flagged_nsfw_or_unsure": 6
+  },
+  "entries": [
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0049/0504/1991/products/CD0414-063_4_2048x2048.png?v=1579197100",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.3204178214073181,
+      "LICENSE": "?",
+      "caption": "Just Do It Crewneck Grey",
+      "key": 324,
+      "original_width": 1333,
+      "original_height": 2000
+    },
+    {
+      "url": "https://d2ob0iztsaxy5v.cloudfront.net/product/271423/2714237260_main.jpg",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.3467024862766266,
+      "LICENSE": "?",
+      "caption": "Nike Black & White Air Max 97 Unisex Youth#",
+      "key": 1328,
+      "original_width": 350,
+      "original_height": 350
+    },
+    {
+      "url": "https://imgv2-1-f.scribdassets.com/img/document/236002293/149x198/ef54d08f07/1407302532?v=1",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.31121835112571716,
+      "LICENSE": "?",
+      "caption": "Manual de Acreditación - ACAP - 10 2008 (1)",
+      "key": 2326,
+      "original_width": 149,
+      "original_height": 198
+    },
+    {
+      "url": "https://cdn-shop.adafruit.com/970x728/1051-00.jpg",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.324759840965271,
+      "LICENSE": "?",
+      "caption": "\"Adafruit Small 1.2\"\" 8x8 LED Matrix w/I2C Backpack - Yellow-Green\"",
+      "key": 3256,
+      "original_width": 970,
+      "original_height": 728
+    },
+    {
+      "url": "https://readerornotreviews.files.wordpress.com/2016/03/51mfeb5iel-_sx331_bo1204203200_.jpg?w=200&",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.36725378036499023,
+      "LICENSE": "?",
+      "caption": "All The Light We Cannot See by Anthony Doerr",
+      "key": 1322,
+      "original_width": 200,
+      "original_height": 299
+    },
+    {
+      "url": "https://static2.bigstockphoto.com/thumbs/8/0/4/large2/40852195.jpg",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.30017298460006714,
+      "LICENSE": "?",
+      "caption": "Global Warming - Melting Glaciers",
+      "key": 3220,
+      "original_width": 450,
+      "original_height": 320
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1186/2348/products/Yodandco-wrap004_800x.jpg?v=1569022579",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.3072645366191864,
+      "LICENSE": "?",
+      "caption": "Ripple Red/Blue Organiser Envelope",
+      "key": 3250,
+      "original_width": 800,
+      "original_height": 800
+    },
+    {
+      "url": "https://www.beadaddict.co.uk/image/cache/catalog/pendant/pn-389-w-228x228.jpg",
+      "NSFW": "UNLIKELY",
+      "similarity": 0.3291367292404175,
+      "LICENSE": "?",
+      "caption": "1 Sterling Silver and Blue Topaz Heart Slider Pendant",
+      "key": 3246,
+      "original_width": 228,
+      "original_height": 228
+    },
+    {
+      "url": "https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg",
+      "NSFW": "NSFW",
+      "similarity": 0.3693360686302185,
+      "LICENSE": "?",
+      "caption": "Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept",
+      "key": 3212,
+      "original_width": 390,
+      "original_height": 280
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472",
+      "NSFW": "NSFW",
+      "similarity": 0.3234572410583496,
+      "LICENSE": "?",
+      "caption": "Bail Making Pliers",
+      "key": 6320,
+      "original_width": 480,
+      "original_height": 480
+    }
+  ],
+  "flagged": [
+    {
+      "url": "https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg",
+      "NSFW": "NSFW",
+      "similarity": 0.3693360686302185,
+      "LICENSE": "?",
+      "caption": "Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept",
+      "key": 3212,
+      "original_width": 390,
+      "original_height": 280,
+      "image": "live"
+    },
+    {
+      "NSFW": "NSFW",
+      "similarity": 0.3130311965942383,
+      "LICENSE": "?",
+      "caption": "06-21-2014 Body Beast Photo Op",
+      "key": 3217,
+      "original_width": 400,
+      "original_height": 267,
+      "withheld": "Photo of two adults at a fitness event, with faces visible. The people are private individuals, not models. The course shows no photo of such people.",
+      "image": "withheld"
+    },
+    {
+      "url": "https://i2.wp.com/www.upboardguide.com/wp-content/uploads/2020/09/Understanding-Quadrilaterals-Formulas-for-Class-8-Q9.png?resize=812%2C412&ssl=1",
+      "NSFW": "UNSURE",
+      "similarity": 0.3269035816192627,
+      "LICENSE": "?",
+      "caption": "Understanding Quadrilaterals Formulas for Class 8 Q9",
+      "key": 3285,
+      "original_width": 812,
+      "original_height": 412,
+      "image": "live"
+    },
+    {
+      "NSFW": "UNSURE",
+      "similarity": 0.3053298592567444,
+      "LICENSE": "?",
+      "caption": "37 Fs.: Multiple Regression – Modell 1",
+      "key": 4325,
+      "original_width": 960,
+      "original_height": 720,
+      "withheld": "The source no longer loads. The record shows no URL.",
+      "image": "gone"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472",
+      "NSFW": "NSFW",
+      "similarity": 0.3234572410583496,
+      "LICENSE": "?",
+      "caption": "Bail Making Pliers",
+      "key": 6320,
+      "original_width": 480,
+      "original_height": 480,
+      "image": "live"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/yiyXHxBcIb01AyLRIVeJwoofLEh-4JpcL23ES7wN0haVxQlthSBIWtxxZN6pVNLo2A=h310",
+      "NSFW": "UNSURE",
+      "similarity": 0.3247362971305847,
+      "LICENSE": "?",
+      "caption": "WIM - Women In Mind- screenshot thumbnail",
+      "key": 7632,
+      "original_width": 174,
+      "original_height": 310,
+      "image": "live"
+    }
+  ]
+}
