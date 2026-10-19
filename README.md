@@ -16,7 +16,7 @@ Researchers use generative AI more and more. Its environmental costs, training d
 Participants examine text and image generators through four analytical lenses:
 
 1. Stochastic Parrots: scale and environment.
-2. Representation and Pygmalion.
+2. Representation and Displacement.
 3. Lifecycle and labor: materiality and extraction.
 4. Political economy: power and markets.
 

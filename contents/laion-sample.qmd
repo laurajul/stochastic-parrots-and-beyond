@@ -1,0 +1,90 @@
+---
+title: A random sample from LAION
+subtitle: 'What the similarity filter lets through'
+description: >-
+  Entries from a random sample of the first 20,000 rows of a LAION-400M
+  metadata file, loaded live from their original sources.
+license: 'CC BY'
+---
+
+This page shows what a LAION entry looks like. Use it with [Lens 2](lenses/02-representation.qmd#case-laion) and its [slide deck](slides/02-representation.qmd).
+
+[Documented sample]{.label} The instructors drew 131 entries at random from the first 20,000 rows of a LAION metadata file. The page shows 8 of them, and all 6 that the LAION label flags. The sample is for the classroom. It is not a statistical estimate of the whole dataset.
+
+[Proposed]{.label} The file is a LAION-400M file, the predecessor of LAION-5B. Two facts point to this release. The lowest similarity score is 0.300, and LAION-400M used a threshold of 0.30, while LAION-5B used 0.26 to 0.28. The records also carry the `NSFW` and `LICENSE` fields of LAION-400M. The instructors must still confirm the release against the source file.
+
+## What the whole sample shows
+
+- **Score.** Every similarity score lies between 0.300 and 0.437. The median is 0.327. A score tests text-image similarity. It does not test consent, fitness for use, or who is missing.
+- **License.** The LAION `LICENSE` field is empty or `?` for 131 of 131 entries. The field does not tell you that an image is free to use.
+- **Labels.** The LAION label marks 6 of 131 images as NSFW or UNSURE. [The last section](#flagged) shows all of them.
+
+## How the images load
+
+This repository stores no image. The button below loads each image from its original source, so the image is only displayed where its owner published it. Your browser then contacts the source servers. They can see your IP address. The page sends no referrer. An image can vanish or change at any time. A grey box marks each image that is not loaded. The metadata next to each image stays visible. The `url` field names the source file.
+
+Each row shows an image next to its full LAION record, as the dataset stores it: the source URL, the NSFW label, the similarity score, the license field, the full caption, the key, and the original size. The caption appears here as it appears in the wild, with its typos, product codes and keyword strings. Look at each row and ask:
+
+- **Match.** Does the caption describe what you see? A caption can be a product name, a file name, or an instruction.
+- **Source.** Who published the image, and for what purpose?
+- **Absence.** Who and what is not in this sample?
+
+The rights in each image stay with its creator. The course license does not cover the images. The maintainers remove an entry on request.
+
+<button type="button" id="laion-load" class="btn btn-primary">Load these images from their sources</button>
+
+::: {.laion-table-wrap}
+{{< include ../assets/cases/laion-sample/gallery.html >}}
+:::
+
+## The images that the label flagged {#flagged}
+
+[Documented sample]{.label} The LAION label marks 6 of 131 sampled images as NSFW or UNSURE. Three carry the label NSFW, and three carry the label UNSURE. The instructors looked at all six images. None is explicit. The page shows four of them. One source no longer loads, and one image is withheld to protect private people.
+
+- Two images show a woman: a stock photo of a businesswoman at a laptop, and a photo of two adults at a fitness event.
+- One is an app screenshot that contains the words "women in mind".
+- Three show no person: a table of geometry formulas, a statistics slide, and a pair of pliers.
+
+Six images are a small sample. They do not show that the label targets women, or that the error rate is high. They show that the label can fail on harmless images, and that nobody can inspect the labels at the scale of billions. A claim about a pattern needs a systematic audit.
+
+The same rules as above apply. Use the button below to load these images.
+
+**One image is withheld.** The photo of the fitness event shows two private people with their faces visible. The photo comes from a private event gallery, not from a stock agency. We show its record, with the caption and the label, but no image and no link to it. A stock photograph preview is different: the agency published the image to sell it, and its people usually posed for that purpose. We think that this difference justifies the choice. It is a decision of the instructors, not a legal opinion.
+
+**One source no longer loads.** The record of the statistics slide shows no URL, because the link is dead.
+
+<button type="button" id="laion-load-flagged" class="btn btn-primary">Load the flagged images from their sources</button>
+
+::: {.laion-table-wrap}
+{{< include ../assets/cases/laion-sample/flagged.html >}}
+:::
+
+<style>
+.laion-table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+.laion-table td { border: 1px solid #ddd; vertical-align: top; padding: 0.6rem; }
+.laion-table td:first-child { width: 180px; }
+.laion-table img { max-width: 160px; height: auto; display: block; }
+.laion-table .slot { width: 160px; min-height: 120px; display: flex; align-items: center; justify-content: center; text-align: center; background: #eee; color: #333; font-size: 0.8rem; }
+.laion-table .slot.gone { aspect-ratio: 1; }
+.laion-table .slot img { display: none; }
+.laion-table .slot.loaded { min-height: 0; background: none; }
+.laion-table .slot.loaded img { display: block; }
+.laion-table .slot.loaded .ph { display: none; }
+.laion-table pre { margin: 0; font-size: 0.75rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+</style>
+<script>
+["laion-load", "laion-load-flagged"].forEach(function (id) {
+  document.getElementById(id).addEventListener("click", function () {
+    var grid = this.nextElementSibling;
+    grid.querySelectorAll("img[data-src]").forEach(function (img) {
+      var slot = img.parentElement;
+      img.addEventListener("load", function () { slot.classList.add("loaded"); });
+      img.addEventListener("error", function () {
+        slot.querySelector(".ph").textContent = "Image could not be loaded";
+      });
+      img.src = img.dataset.src;
+    });
+    this.disabled = true;
+  });
+});
+</script>

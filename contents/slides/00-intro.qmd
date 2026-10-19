@@ -41,7 +41,7 @@ Ask: "Who has used a generative AI system for research this month?" Do not ask f
 ## Four lenses
 
 1. **Scale and environment.** What does a model cost, and where do its data come from?
-2. **Representation and Pygmalion.** Whose perspectives become normal?
+2. **Representation and Displacement.** Whose perspectives become normal?
 3. **Lifecycle and labor.** Who does the work, and who carries the risk?
 4. **Political economy.** Which incentives keep a practice in place?
 

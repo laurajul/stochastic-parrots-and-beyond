@@ -27,7 +27,7 @@ Further reading is optional. The [literature](literature.qmd) page lists reading
 The morning builds a shared vocabulary. Each lens takes about 35 minutes: a short input, a documented case, and a group activity of 15 minutes. Each group works first on an example from its own research-use descriptions.
 
 1. [Lens 1: Stochastic Parrots — Scale and Environment](lenses/01-scale.qmd). Output: a material-and-provenance map.
-2. [Lens 2: Representation and Pygmalion](lenses/02-representation.qmd). Output: a representation and harm pathway.
+2. [Lens 2: Representation and Displacement](lenses/02-representation.qmd). Output: a representation and harm pathway.
 3. [Lens 3: Lifecycle and Labor](lenses/03-lifecycle-labor.qmd). Output: a lifecycle risk matrix.
 4. [Lens 4: Political Economy](lenses/04-political-economy.qmd). Output: a stakeholder and incentive map.
 
