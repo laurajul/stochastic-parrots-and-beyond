@@ -2,14 +2,16 @@
 title: A random sample from LAION
 subtitle: 'What the similarity filter lets through'
 description: >-
-  Entries from a random sample of the first 20,000 rows of a LAION
+  Entries from a random sample of the first 20,000 rows of a LAION-400M
   metadata file, loaded live from their original sources.
 license: 'CC BY'
 ---
 
 This page shows what a LAION entry looks like. Use it with [Lens 2](lenses/02-representation.qmd#case-laion) and its [slide deck](slides/02-representation.qmd).
 
-[Documented sample]{.label} The instructors drew 131 entries at random from the first 20,000 rows of a LAION metadata file. The release of that file is TBC. The page shows 8 of them, and all 6 that the LAION label flags. The sample is for the classroom. It is not a statistical estimate of the whole dataset.
+[Documented sample]{.label} The instructors drew 131 entries at random from the first 20,000 rows of a LAION metadata file. The page shows 8 of them, and all 6 that the LAION label flags. The sample is for the classroom. It is not a statistical estimate of the whole dataset.
+
+[Proposed]{.label} The file is a LAION-400M file, the predecessor of LAION-5B. Two facts point to this release. The lowest similarity score is 0.300, and LAION-400M used a threshold of 0.30, while LAION-5B used 0.26 to 0.28. The records also carry the `NSFW` and `LICENSE` fields of LAION-400M. The instructors must still confirm the release against the source file.
 
 ## What the whole sample shows
 
@@ -19,7 +21,7 @@ This page shows what a LAION entry looks like. Use it with [Lens 2](lenses/02-re
 
 ## How the images load
 
-This repository stores no image. The button below loads each image from its original source, so the image is only displayed where its owner published it. Your browser then contacts the source servers. They can see your IP address. The page sends no referrer. An image can vanish or change at any time. The metadata next to each image stays visible. The `url` field names the source file.
+This repository stores no image. The button below loads each image from its original source, so the image is only displayed where its owner published it. Your browser then contacts the source servers. They can see your IP address. The page sends no referrer. An image can vanish or change at any time. A grey box marks each image that is not loaded. The metadata next to each image stays visible. The `url` field names the source file.
 
 Each row shows an image next to its full LAION record, as the dataset stores it: the source URL, the NSFW label, the similarity score, the license field, the full caption, the key, and the original size. The caption appears here as it appears in the wild, with its typos, product codes and keyword strings. Look at each row and ask:
 
@@ -32,117 +34,12 @@ The rights in each image stay with its creator. The course license does not cove
 <button type="button" id="laion-load" class="btn btn-primary">Load these images from their sources</button>
 
 ::: {.laion-table-wrap}
-<table class="laion-table">
-<tr>
-<td><img data-src="https://cdn.shopify.com/s/files/1/0049/0504/1991/products/CD0414-063_4_2048x2048.png?v=1579197100" alt="Just Do It Crewneck Grey" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://cdn.shopify.com/s/files/1/0049/0504/1991/products/CD0414-063_4_2048x2048.png?v=1579197100",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.3204178214073181,
-  "LICENSE": "?",
-  "caption": "Just Do It Crewneck Grey",
-  "key": 324,
-  "original_width": 1333,
-  "original_height": 2000
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://d2ob0iztsaxy5v.cloudfront.net/product/271423/2714237260_main.jpg" alt="Nike Black &amp; White Air Max 97 Unisex Youth#" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://d2ob0iztsaxy5v.cloudfront.net/product/271423/2714237260_main.jpg",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.3467024862766266,
-  "LICENSE": "?",
-  "caption": "Nike Black &amp; White Air Max 97 Unisex Youth#",
-  "key": 1328,
-  "original_width": 350,
-  "original_height": 350
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://imgv2-1-f.scribdassets.com/img/document/236002293/149x198/ef54d08f07/1407302532?v=1" alt="Manual de Acreditación - ACAP - 10 2008 (1)" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://imgv2-1-f.scribdassets.com/img/document/236002293/149x198/ef54d08f07/1407302532?v=1",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.31121835112571716,
-  "LICENSE": "?",
-  "caption": "Manual de Acreditación - ACAP - 10 2008 (1)",
-  "key": 2326,
-  "original_width": 149,
-  "original_height": 198
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://cdn-shop.adafruit.com/970x728/1051-00.jpg" alt="&quot;Adafruit Small 1.2&quot;&quot; 8x8 LED Matrix w/I2C Backpack - Yellow-Green&quot;" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://cdn-shop.adafruit.com/970x728/1051-00.jpg",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.324759840965271,
-  "LICENSE": "?",
-  "caption": "\"Adafruit Small 1.2\"\" 8x8 LED Matrix w/I2C Backpack - Yellow-Green\"",
-  "key": 3256,
-  "original_width": 970,
-  "original_height": 728
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://readerornotreviews.files.wordpress.com/2016/03/51mfeb5iel-_sx331_bo1204203200_.jpg?w=200&amp;" alt="All The Light We Cannot See by Anthony Doerr" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://readerornotreviews.files.wordpress.com/2016/03/51mfeb5iel-_sx331_bo1204203200_.jpg?w=200&amp;",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.36725378036499023,
-  "LICENSE": "?",
-  "caption": "All The Light We Cannot See by Anthony Doerr",
-  "key": 1322,
-  "original_width": 200,
-  "original_height": 299
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://static2.bigstockphoto.com/thumbs/8/0/4/large2/40852195.jpg" alt="Global Warming - Melting Glaciers" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://static2.bigstockphoto.com/thumbs/8/0/4/large2/40852195.jpg",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.30017298460006714,
-  "LICENSE": "?",
-  "caption": "Global Warming - Melting Glaciers",
-  "key": 3220,
-  "original_width": 450,
-  "original_height": 320
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://cdn.shopify.com/s/files/1/1186/2348/products/Yodandco-wrap004_800x.jpg?v=1569022579" alt="Ripple Red/Blue Organiser Envelope" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://cdn.shopify.com/s/files/1/1186/2348/products/Yodandco-wrap004_800x.jpg?v=1569022579",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.3072645366191864,
-  "LICENSE": "?",
-  "caption": "Ripple Red/Blue Organiser Envelope",
-  "key": 3250,
-  "original_width": 800,
-  "original_height": 800
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://www.beadaddict.co.uk/image/cache/catalog/pendant/pn-389-w-228x228.jpg" alt="1 Sterling Silver and Blue Topaz Heart Slider Pendant" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://www.beadaddict.co.uk/image/cache/catalog/pendant/pn-389-w-228x228.jpg",
-  "NSFW": "UNLIKELY",
-  "similarity": 0.3291367292404175,
-  "LICENSE": "?",
-  "caption": "1 Sterling Silver and Blue Topaz Heart Slider Pendant",
-  "key": 3246,
-  "original_width": 228,
-  "original_height": 228
-}</pre></td>
-</tr>
-</table>
+{{< include ../assets/cases/laion-sample/gallery.html >}}
 :::
 
 ## The images that the label flagged {#flagged}
 
-[Documented sample]{.label} The LAION label marks 6 of 131 sampled images as NSFW or UNSURE. Look at them. None is explicit. The labeler was wrong in each case.
+[Documented sample]{.label} The LAION label marks 6 of 131 sampled images as NSFW or UNSURE. Three carry the label NSFW, and three carry the label UNSURE. The instructors looked at all six images. None is explicit. The page shows four of them. One source no longer loads, and one image is withheld to protect private people.
 
 - Two images show a woman: a stock photo of a businesswoman at a laptop, and a photo of two adults at a fitness event.
 - One is an app screenshot that contains the words "women in mind".
@@ -154,89 +51,12 @@ The same rules as above apply. Use the button below to load these images.
 
 **One image is withheld.** The photo of the fitness event shows two private people with their faces visible. The photo comes from a private event gallery, not from a stock agency. We show its record, with the caption and the label, but no image and no link to it. A stock photograph preview is different: the agency published the image to sell it, and its people usually posed for that purpose. We think that this difference justifies the choice. It is a decision of the instructors, not a legal opinion.
 
+**One source no longer loads.** The record of the statistics slide shows no URL, because the link is dead.
+
 <button type="button" id="laion-load-flagged" class="btn btn-primary">Load the flagged images from their sources</button>
 
 ::: {.laion-table-wrap}
-<table class="laion-table">
-<tr>
-<td><img data-src="https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg" alt="Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg",
-  "NSFW": "NSFW",
-  "similarity": 0.3693360686302185,
-  "LICENSE": "?",
-  "caption": "Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept",
-  "key": 3212,
-  "original_width": 390,
-  "original_height": 280
-}</pre></td>
-</tr>
-<tr>
-<td><div class="gone" role="img" aria-label="Image withheld">Image withheld: private people</div></td>
-<td><pre>{
-  "NSFW": "NSFW",
-  "similarity": 0.3130311965942383,
-  "LICENSE": "?",
-  "caption": "06-21-2014 Body Beast Photo Op",
-  "key": 3217,
-  "original_width": 400,
-  "original_height": 267,
-  "withheld": "Photo of two adults at a fitness event, with faces visible. The people are private individuals, not models. The course shows no photo of such people."
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://i2.wp.com/www.upboardguide.com/wp-content/uploads/2020/09/Understanding-Quadrilaterals-Formulas-for-Class-8-Q9.png?resize=812%2C412&amp;ssl=1" alt="Understanding Quadrilaterals Formulas for Class 8 Q9" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://i2.wp.com/www.upboardguide.com/wp-content/uploads/2020/09/Understanding-Quadrilaterals-Formulas-for-Class-8-Q9.png?resize=812%2C412&amp;ssl=1",
-  "NSFW": "UNSURE",
-  "similarity": 0.3269035816192627,
-  "LICENSE": "?",
-  "caption": "Understanding Quadrilaterals Formulas for Class 8 Q9",
-  "key": 3285,
-  "original_width": 812,
-  "original_height": 412
-}</pre></td>
-</tr>
-<tr>
-<td><div class="gone" role="img" aria-label="Image not loading">Source no longer loads</div></td>
-<td><pre>{
-  "url": "http://images.slideplayer.org/1/668123/slides/slide_37.jpg",
-  "NSFW": "UNSURE",
-  "similarity": 0.3053298592567444,
-  "LICENSE": "?",
-  "caption": "37 Fs.: Multiple Regression – Modell 1",
-  "key": 4325,
-  "original_width": 960,
-  "original_height": 720
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472" alt="Bail Making Pliers" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472",
-  "NSFW": "NSFW",
-  "similarity": 0.3234572410583496,
-  "LICENSE": "?",
-  "caption": "Bail Making Pliers",
-  "key": 6320,
-  "original_width": 480,
-  "original_height": 480
-}</pre></td>
-</tr>
-<tr>
-<td><img data-src="https://lh3.googleusercontent.com/yiyXHxBcIb01AyLRIVeJwoofLEh-4JpcL23ES7wN0haVxQlthSBIWtxxZN6pVNLo2A=h310" alt="WIM - Women In Mind- screenshot thumbnail" referrerpolicy="no-referrer"></td>
-<td><pre>{
-  "url": "https://lh3.googleusercontent.com/yiyXHxBcIb01AyLRIVeJwoofLEh-4JpcL23ES7wN0haVxQlthSBIWtxxZN6pVNLo2A=h310",
-  "NSFW": "UNSURE",
-  "similarity": 0.3247362971305847,
-  "LICENSE": "?",
-  "caption": "WIM - Women In Mind- screenshot thumbnail",
-  "key": 7632,
-  "original_width": 174,
-  "original_height": 310
-}</pre></td>
-</tr>
-</table>
+{{< include ../assets/cases/laion-sample/flagged.html >}}
 :::
 
 <style>
@@ -244,7 +64,12 @@ The same rules as above apply. Use the button below to load these images.
 .laion-table td { border: 1px solid #ddd; vertical-align: top; padding: 0.6rem; }
 .laion-table td:first-child { width: 180px; }
 .laion-table img { max-width: 160px; height: auto; display: block; }
-.laion-table .gone { width: 160px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; text-align: center; background: #eee; color: #333; font-size: 0.8rem; }
+.laion-table .slot { width: 160px; min-height: 120px; display: flex; align-items: center; justify-content: center; text-align: center; background: #eee; color: #333; font-size: 0.8rem; }
+.laion-table .slot.gone { aspect-ratio: 1; }
+.laion-table .slot img { display: none; }
+.laion-table .slot.loaded { min-height: 0; background: none; }
+.laion-table .slot.loaded img { display: block; }
+.laion-table .slot.loaded .ph { display: none; }
 .laion-table pre { margin: 0; font-size: 0.75rem; white-space: pre-wrap; overflow-wrap: anywhere; }
 </style>
 <script>
@@ -252,6 +77,11 @@ The same rules as above apply. Use the button below to load these images.
   document.getElementById(id).addEventListener("click", function () {
     var grid = this.nextElementSibling;
     grid.querySelectorAll("img[data-src]").forEach(function (img) {
+      var slot = img.parentElement;
+      img.addEventListener("load", function () { slot.classList.add("loaded"); });
+      img.addEventListener("error", function () {
+        slot.querySelector(".ph").textContent = "Image could not be loaded";
+      });
       img.src = img.dataset.src;
     });
     this.disabled = true;

@@ -119,7 +119,7 @@
       "key": 3212,
       "original_width": 390,
       "original_height": 280,
-      "loads": true
+      "image": "live"
     },
     {
       "NSFW": "NSFW",
@@ -130,7 +130,7 @@
       "original_width": 400,
       "original_height": 267,
       "withheld": "Photo of two adults at a fitness event, with faces visible. The people are private individuals, not models. The course shows no photo of such people.",
-      "loads": false
+      "image": "withheld"
     },
     {
       "url": "https://i2.wp.com/www.upboardguide.com/wp-content/uploads/2020/09/Understanding-Quadrilaterals-Formulas-for-Class-8-Q9.png?resize=812%2C412&ssl=1",
@@ -141,10 +141,9 @@
       "key": 3285,
       "original_width": 812,
       "original_height": 412,
-      "loads": true
+      "image": "live"
     },
     {
-      "url": "http://images.slideplayer.org/1/668123/slides/slide_37.jpg",
       "NSFW": "UNSURE",
       "similarity": 0.3053298592567444,
       "LICENSE": "?",
@@ -152,7 +151,8 @@
       "key": 4325,
       "original_width": 960,
       "original_height": 720,
-      "loads": false
+      "withheld": "The source no longer loads. The record shows no URL.",
+      "image": "gone"
     },
     {
       "url": "https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472",
@@ -163,7 +163,7 @@
       "key": 6320,
       "original_width": 480,
       "original_height": 480,
-      "loads": true
+      "image": "live"
     },
     {
       "url": "https://lh3.googleusercontent.com/yiyXHxBcIb01AyLRIVeJwoofLEh-4JpcL23ES7wN0haVxQlthSBIWtxxZN6pVNLo2A=h310",
@@ -174,7 +174,7 @@
       "key": 7632,
       "original_width": 174,
       "original_height": 310,
-      "loads": true
+      "image": "live"
     }
   ]
 }

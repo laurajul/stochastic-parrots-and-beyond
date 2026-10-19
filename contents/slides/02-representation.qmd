@@ -101,82 +101,48 @@ Keep the discussion on structures: platforms, licenses, moderation. Do not name 
 Walk through the steps from left to right. At each step, ask: "Who decided here?"
 :::
 
-## What passes the filter {.smaller}
+## What passes the filter
 
 [Documented sample]{.label}
 
 ::: {.laion-strip}
-<figure>
-<img data-src="https://cdn.shopify.com/s/files/1/0049/0504/1991/products/CD0414-063_4_2048x2048.png?v=1579197100" alt="Just Do It Crewneck Grey" referrerpolicy="no-referrer">
-<figcaption>Just Do It Crewneck Grey<br><a href="https://cdn.shopify.com/s/files/1/0049/0504/1991/products/CD0414-063_4_2048x2048.png?v=1579197100">cdn.shopify.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://d2ob0iztsaxy5v.cloudfront.net/product/271423/2714237260_main.jpg" alt="Nike Black &amp; White Air Max 97 Unisex Youth#" referrerpolicy="no-referrer">
-<figcaption>Nike Black &amp; White Air Max 97 Unisex Youth#<br><a href="https://d2ob0iztsaxy5v.cloudfront.net/product/271423/2714237260_main.jpg">d2ob0iztsaxy5v.cloudfront.net</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://imgv2-1-f.scribdassets.com/img/document/236002293/149x198/ef54d08f07/1407302532?v=1" alt="Manual de Acreditación - ACAP - 10 2008 (1)" referrerpolicy="no-referrer">
-<figcaption>Manual de Acreditación - ACAP - 10 2008 (1)<br><a href="https://imgv2-1-f.scribdassets.com/img/document/236002293/149x198/ef54d08f07/1407302532?v=1">imgv2-1-f.scribdassets.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://cdn-shop.adafruit.com/970x728/1051-00.jpg" alt="&quot;Adafruit Small 1.2&quot;&quot; 8x8 LED Matrix w/I2C Backpack - Yellow-Green&quot;" referrerpolicy="no-referrer">
-<figcaption>&quot;Adafruit Small 1.2&quot;&quot; 8x8 LED Matrix w/I2C Backpack - Yellow-Green&quot;<br><a href="https://cdn-shop.adafruit.com/970x728/1051-00.jpg">cdn-shop.adafruit.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://readerornotreviews.files.wordpress.com/2016/03/51mfeb5iel-_sx331_bo1204203200_.jpg?w=200&amp;" alt="All The Light We Cannot See by Anthony Doerr" referrerpolicy="no-referrer">
-<figcaption>All The Light We Cannot See by Anthony Doerr<br><a href="https://readerornotreviews.files.wordpress.com/2016/03/51mfeb5iel-_sx331_bo1204203200_.jpg?w=200&amp;">readerornotreviews.files.wordpress.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://static2.bigstockphoto.com/thumbs/8/0/4/large2/40852195.jpg" alt="Global Warming - Melting Glaciers" referrerpolicy="no-referrer">
-<figcaption>Global Warming - Melting Glaciers<br><a href="https://static2.bigstockphoto.com/thumbs/8/0/4/large2/40852195.jpg">static2.bigstockphoto.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://cdn.shopify.com/s/files/1/1186/2348/products/Yodandco-wrap004_800x.jpg?v=1569022579" alt="Ripple Red/Blue Organiser Envelope" referrerpolicy="no-referrer">
-<figcaption>Ripple Red/Blue Organiser Envelope<br><a href="https://cdn.shopify.com/s/files/1/1186/2348/products/Yodandco-wrap004_800x.jpg?v=1569022579">cdn.shopify.com</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://www.beadaddict.co.uk/image/cache/catalog/pendant/pn-389-w-228x228.jpg" alt="1 Sterling Silver and Blue Topaz Heart Slider Pendant" referrerpolicy="no-referrer">
-<figcaption>1 Sterling Silver and Blue Topaz Heart Slider Pendant<br><a href="https://www.beadaddict.co.uk/image/cache/catalog/pendant/pn-389-w-228x228.jpg">www.beadaddict.co.uk</a></figcaption>
-</figure>
-<figure>
-<img data-src="https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg" alt="Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept" referrerpolicy="no-referrer">
-<figcaption>Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept<br><a href="https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg">image.shutterstock.com</a><br><span class="fragment"><strong>LAION label: NSFW</strong></span></figcaption>
-</figure>
-<figure>
-<img data-src="https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472" alt="Bail Making Pliers" referrerpolicy="no-referrer">
-<figcaption>Bail Making Pliers<br><a href="https://cdn.shopify.com/s/files/1/0252/1445/1805/products/bail_Making_Pliers_480x480.jpg?v=1564889472">cdn.shopify.com</a><br><span class="fragment"><strong>LAION label: NSFW</strong></span></figcaption>
-</figure>
+{{< include ../../assets/cases/laion-sample/strip.html >}}
 :::
 
-[Random sample from the first 20,000 rows of a LAION file (release TBC). The images load live from their sources. The captions are the ALT texts. Scores in the full sample: 0.300 to 0.437. License field: "?" or empty in 131 of 131 entries. Rights stay with the creators. [More on the sample](../laion-sample.qmd).]{.source}
+[Random sample from a LAION-400M file (release PROPOSED). Live images. Rights stay with the creators. [More on the sample](../laion-sample.qmd).]{.source}
 
 ::: notes
-Check before class that the images load. Give the room one minute of silence. Ask: "Which caption describes the image? Which does not? Who is missing from this sample?" The score says "similar". It says nothing about consent. If an image does not load, read the caption aloud: the caption is the point. Press the arrow key to reveal the label. Two images carry the LAION label NSFW, and both are harmless. Ask: "Who checks the labels at the scale of billions?" Six of 131 sampled images are flagged, all wrongly. That is too few to claim a pattern. Do not open the full page on the projector. Use it in the activity.
+Check before class that the images load. Give the room one minute of silence. Ask: "Which caption describes the image? Which does not? Who is missing from this sample?" The captions are the ALT texts, cut to one line here. The score says "similar". It says nothing about consent. If an image does not load, read the caption aloud: the caption is the point. Scores in the full sample run from 0.300 to 0.437. The license field is "?" or empty in 131 of 131 entries. The sample comes from LAION-400M, the predecessor of LAION-5B, with a threshold of 0.30. Press the arrow key to reveal the label. Two images carry the LAION label NSFW. We checked all six flagged images of the sample. None is explicit. Ask: "Who checks the labels at the scale of billions?" Six of 131 sampled images are flagged. That is too few to claim a pattern. Do not open the full page on the projector. Use it in the activity.
 :::
 
-## One entry, in full {.smaller}
+## One entry, in full
 
 [Documented sample]{.label}
 
 ::: {.laion-entry}
-<img data-src="https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg" alt="Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept" referrerpolicy="no-referrer">
-<pre>{
-  "url": "https://image.shutterstock.com/image-photo/excited-happy-businesswoman-raised-arms-260nw-317489327.jpg",
-  "NSFW": "NSFW",
-  "similarity": 0.3693360686302185,
-  "LICENSE": "?",
-  "caption": "Excited happy businesswoman with raised arms sitting at the table with laptop celebrating her success. Funny image of winner or surprised office worker. Green eco office concept",
-  "key": 3212,
-  "original_width": 390,
-  "original_height": 280
-}</pre>
+{{< include ../../assets/cases/laion-sample/entry-example.html >}}
 
 :::
 
-[The record is the LAION metadata of one sampled entry. The dataset holds no image, only this record. Rights stay with the creator. [Full sample](../laion-sample.qmd).]{.source}
+[The LAION metadata of one sampled entry, cut to five fields. The dataset holds no image, only this record. Rights stay with the creator. [Full sample](../laion-sample.qmd).]{.source}
 
 ::: notes
-Read the fields aloud: URL, label, score, license, caption. The license field says "?". The label says NSFW for a stock photo of a woman at a laptop. The caption is the only description the image has.
+Read the fields aloud: URL, label, score, license, caption. The record also holds a key and the original size. This label says UNLIKELY. The license field says "?". The score says "similar enough". The caption is the only description the image has, and it is a product name with a code. Ask: "What would you need to know before you use this image in research?" The next slide shows a record with the label NSFW.
+:::
+
+## One entry with a label
+
+[Documented sample]{.label}
+
+::: {.laion-entry}
+{{< include ../../assets/cases/laion-sample/entry-flagged.html >}}
+
+:::
+
+[The LAION metadata of one flagged entry, cut to five fields. Rights stay with the creator. [Full sample](../laion-sample.qmd).]{.source}
+
+::: notes
+Read the fields aloud: URL, label, score, license, caption. The label says NSFW for a stock photo of a woman at a laptop. Compare it with the record before. The caption is the only description the image has. Ask: "Who decided that this image is not safe for work, and how would you find out?"
 :::
 
 ## Audit and repair {.smaller}

@@ -88,4 +88,4 @@ The case figures are original drawings under CC BY 4.0. Each SVG file holds a ti
 ## Case material
 
 - [A random sample from LAION](laion-sample.qmd): entries loaded live from their original sources, with captions and similarity scores, for Lens 2. License: CC BY 4.0 for the page. The rights in the images stay with their creators.
-- Build script: `scripts/build_laion_sample.py`. The raw sample and all images stay outside Git.
+- Build script: `scripts/build_laion_sample.py`. It writes `sample.json` from the raw sample, and the HTML fragments of the page and the slides from `sample.json`. The raw sample and all images stay outside Git.
